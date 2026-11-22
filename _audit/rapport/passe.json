@@ -1,0 +1,16 @@
+{
+ "id": "20261121-022802-standard-cible-partiel",
+ "date": "2026-11-21T02:28:53.760Z",
+ "niveau": "standard",
+ "pages": "/toiture-hiver,/en/toiture-hiver",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "1",
+ "echecs": 0,
+ "aRegarder": 5,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-saison="hiver">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Page introuvable : PMG Maintenance</title>
+<meta name="description" content="Cette page n&#39;existe pas ou plus.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://pmg-maintenance-maquette.vercel.app/404">
+<style>:root{--fond:#f3f6f9;--texte:#0c1a2a;--voile-fond:#0c1a2a;--ouverture-fond:#0c1a2a;--menu-fond:#0c1a2a}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+try {
+var ps = new URLSearchParams(location.search).get('saison'), mo = new Date().getMonth() + 1;
+var sa = /^(automne|hiver|printemps)$/.test(ps || '') ? ps : (mo >= 11 || mo <= 3) ? 'hiver' : mo >= 9 ? 'automne' : 'printemps';
+d.setAttribute('data-saison', sa);
+} catch (e) {}
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/archivo-titres.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0c1a2a">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PMG Maintenance">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Page introuvable : PMG Maintenance">
+<meta property="og:description" content="Cette page n&#39;existe pas ou plus.">
+<meta property="og:url" content="https://pmg-maintenance-maquette.vercel.app/404">
+<meta property="og:image" content="https://pmg-maintenance-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="PMG Maintenance : une maison enneigée au bord du toit, à l&#39;heure bleue">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"PMG Maintenance","description":"Entretien extérieur de bâtiment : déneigement de toiture, déglaçage à la vapeur, installation de lumières de Noël, nettoyage de gouttières, lavage à basse pression et lavage de vitres, Ottawa-Gatineau.","telephone":"+1-819-661-9294","email":"info@pmgmaintenance.com","foundingDate":"2015","address":{"@type":"PostalAddress","streetAddress":"16, chemin Gaspard","addressLocality":"L'Ange-Gardien","addressRegion":"QC","postalCode":"J8L 0G7","addressCountry":"CA"},"areaServed":["Gatineau","Ottawa","Outaouais","Est ontarien"],"paymentAccepted":"Cheque, Cash, Interac e-Transfer, PayPal, Visa, Mastercard, American Express, Discover"}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C 240 20 480 20 720 70 S 1200 130 1440 40 V 120 H 0 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 C 240 100 480 100 720 50 S 1200 -10 1440 80 V 0 H 0 Z"/></svg><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="56" height="56"><span data-voile-libelle>Page introuvable</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-clair.svg" alt="" width="64" height="64" data-ouverture-objet>
+  <p class="ouverture-nom">PMG Maintenance</p>
+  <div class="toit toit--ampoules ouverture-toit" aria-hidden="true">
+  <svg class="toit-trait" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false"><path d="M0 82 L34 82 L50 14 L66 82 L100 82" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+  <span class="c9" style="--x:3.45%;--y:82%;--i:0;--c:#ffc46b"></span><span class="c9" style="--x:10.34%;--y:82%;--i:1;--c:#ff3b30"></span><span class="c9" style="--x:17.23%;--y:82%;--i:2;--c:#2fd06a"></span><span class="c9" style="--x:24.12%;--y:82%;--i:3;--c:#4d8dff"></span><span class="c9" style="--x:31.02%;--y:82%;--i:4;--c:#eef4ff"></span><span class="c9" style="--x:37.53%;--y:66.98%;--i:5;--c:#ffc46b"></span><span class="c9" style="--x:43.77%;--y:40.49%;--i:6;--c:#ff3b30"></span><span class="c9" style="--x:50%;--y:14%;--i:7;--c:#2fd06a"></span><span class="c9" style="--x:56.23%;--y:40.49%;--i:8;--c:#4d8dff"></span><span class="c9" style="--x:62.47%;--y:66.98%;--i:9;--c:#eef4ff"></span><span class="c9" style="--x:68.98%;--y:82%;--i:10;--c:#ffc46b"></span><span class="c9" style="--x:75.88%;--y:82%;--i:11;--c:#ff3b30"></span><span class="c9" style="--x:82.77%;--y:82%;--i:12;--c:#2fd06a"></span><span class="c9" style="--x:89.66%;--y:82%;--i:13;--c:#4d8dff"></span><span class="c9" style="--x:96.55%;--y:82%;--i:14;--c:#eef4ff"></span>
+</div>
+  <p class="ouverture-ligne">Entretien extérieur de bâtiment</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-label="PMG Maintenance, accueil">
+      <img src="/assets/images/logo.svg" alt="" width="36" height="36"><span class="entete-nom">PMG <span>Maintenance</span></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/toiture-hiver" data-libelle="Toiture l&#39;hiver">Toiture l&#39;hiver</a></li><li><a href="/lumieres-de-noel" data-libelle="Lumières de Noël">Lumières de Noël</a></li><li><a href="/lavage-exterieur" data-libelle="Lavage extérieur">Lavage extérieur</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#estimation" data-libelle="Contact">Estimation gratuite</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/toiture-hiver" class="menu-lien" data-libelle="Toiture l&#39;hiver">Toiture l&#39;hiver</a></li><li style="--i:2"><a href="/lumieres-de-noel" class="menu-lien" data-libelle="Lumières de Noël">Lumières de Noël</a></li><li style="--i:3"><a href="/lavage-exterieur" class="menu-lien" data-libelle="Lavage extérieur">Lavage extérieur</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+18196619294">Appeler 819-661-9294</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="page-tete page-tete--404 section--nuit" id="debut">
+  <div class="conteneur page-tete-grille">
+    <div>
+      <h1 data-anime="lignes" data-grille="typo">Cette page est restée <em>sous la neige.</em></h1>
+      <p data-anime>Elle n&#39;existe pas ou plus. Le reste du site est bien dégagé.</p>
+      <p data-anime><a href="/" class="bouton" data-libelle="Accueil" data-action-principale>Revenir à l&#39;accueil</a></p>
+      <p class="hero-info" data-info-cle data-anime>819-661-9294 · info@pmgmaintenance.com</p>
+    </div>
+    <figure class="media page-tete-media" data-iris-centre style="--cadrage:50% 50%;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA4KCw0LCQ4NDA0QDw4RFiQXFhQUFiwgIRokNC43NjMuMjI6QVNGOj1OPjIySGJJTlZYXV5dOEVmbWVabFNbXVn/2wBDAQ8QEBYTFioXFypZOzI7WVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVn/wAARCAASABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDMR7QqWZncD+FFyTWnYjzLdmbTs27HHT5vrWWkxlQWVkAoxkt0P1rqdNkS0sooJpg0nf8AAVtVqzk9WZwpxSMK50tQDJbEvH3U/eWirMmvW8tzLGkZIbhGwBg0VtHEyStJGbopvRnGqzI2VYqcdjitfRmZ4rtmJYhDgk57UUVzdTYo2/8ArBRRRWxB/9k=);background-size:cover;background-position:50% 50%">
+  <picture>
+    <img src="/assets/images/glacons-soleil-800.webp" srcset="/assets/images/glacons-soleil-640.webp 640w, /assets/images/glacons-soleil-800.webp 800w" sizes="(max-width: 760px) 100vw, 45vw" alt="Glaçons au bord d&#39;un toit enneigé, ciel bleu" width="800" height="600" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+  </div>
+  <div class="toit toit--glacons page-toit" aria-hidden="true" data-effet="barrage-vapeur">
+  <svg class="toit-trait" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false"><path d="M0 82 L34 82 L50 14 L66 82 L100 82" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+  <span class="glacon" style="--x:1.5%;--y:82%;--l:62%;--i:0"></span><span class="glacon" style="--x:4.1%;--y:82%;--l:38%;--i:1"></span><span class="glacon" style="--x:6.7%;--y:82%;--l:80%;--i:2"></span><span class="glacon" style="--x:9.3%;--y:82%;--l:48%;--i:3"></span><span class="glacon" style="--x:11.9%;--y:82%;--l:30%;--i:4"></span><span class="glacon" style="--x:14.5%;--y:82%;--l:70%;--i:5"></span><span class="glacon" style="--x:17.1%;--y:82%;--l:44%;--i:6"></span><span class="glacon" style="--x:19.7%;--y:82%;--l:90%;--i:7"></span><span class="glacon" style="--x:22.3%;--y:82%;--l:36%;--i:8"></span><span class="glacon" style="--x:24.9%;--y:82%;--l:58%;--i:9"></span><span class="glacon" style="--x:27.5%;--y:82%;--l:28%;--i:10"></span><span class="glacon" style="--x:30.1%;--y:82%;--l:74%;--i:11"></span><span class="glacon" style="--x:32.7%;--y:82%;--l:50%;--i:12"></span><span class="glacon" style="--x:67.5%;--y:82%;--l:40%;--i:13"></span><span class="glacon" style="--x:70.1%;--y:82%;--l:84%;--i:14"></span><span class="glacon" style="--x:72.7%;--y:82%;--l:34%;--i:15"></span><span class="glacon" style="--x:75.3%;--y:82%;--l:62%;--i:16"></span><span class="glacon" style="--x:77.9%;--y:82%;--l:38%;--i:17"></span><span class="glacon" style="--x:80.5%;--y:82%;--l:80%;--i:18"></span><span class="glacon" style="--x:83.1%;--y:82%;--l:48%;--i:19"></span><span class="glacon" style="--x:85.7%;--y:82%;--l:30%;--i:20"></span><span class="glacon" style="--x:88.3%;--y:82%;--l:70%;--i:21"></span><span class="glacon" style="--x:90.9%;--y:82%;--l:44%;--i:22"></span><span class="glacon" style="--x:93.5%;--y:82%;--l:90%;--i:23"></span><span class="glacon" style="--x:96.1%;--y:82%;--l:36%;--i:24"></span><span class="glacon" style="--x:98.7%;--y:82%;--l:58%;--i:25"></span>
+</div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-nom"><img src="/assets/images/logo-clair.svg" alt="" width="40" height="40"> PMG Maintenance</p>
+      <p>Entretien extérieur de bâtiment, Ottawa-Gatineau, depuis 2015.</p>
+      <p>16, chemin Gaspard, L&#39;Ange-Gardien (QC) J8L 0G7</p>
+    </div>
+    <div>
+      <p class="pied-titre">Nous joindre</p>
+      <ul>
+        <li><span class="pied-libelle">Téléphone</span> <a href="tel:+18196619294">819-661-9294</a></li>
+        <li><span class="pied-libelle">Sans frais</span> <a href="tel:+18776619294">1 877 661-9294</a></li>
+        <li><span class="pied-libelle">Textos</span> <a href="sms:+18196619294">819-661-9294</a></li>
+        <li><span class="pied-libelle">Courriel</span> <span class="selectionnable">info@pmgmaintenance.com</span></li>
+      </ul>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/toiture-hiver" data-libelle="Toiture l&#39;hiver">Toiture l&#39;hiver</a></li><li><a href="/lumieres-de-noel" data-libelle="Lumières de Noël">Lumières de Noël</a></li><li><a href="/lavage-exterieur" data-libelle="Lavage extérieur">Lavage extérieur</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas" id="pied-legal">
+    <p>Mentions légales · à compléter</p>
+    <p>Politique de confidentialité · à compléter</p>
+    <p>Maquette de présentation : les formulaires sont simulés, rien n&#39;est envoyé.</p>
+    <p><a href="#haut" data-sans-transition>Retour en haut</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+18196619294">Appeler</a>
+  <a class="bouton bouton--contour" href="sms:+18196619294">Texter</a>
+  <a class="bouton" href="/contact#estimation" data-libelle="Contact">Estimation</a>
+</div>
+</body>
+</html>

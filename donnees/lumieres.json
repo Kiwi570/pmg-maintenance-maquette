@@ -1,0 +1,127 @@
+{
+ "etapes": [
+  {
+   "titre": {
+    "fr": "Conception",
+    "en": "Design"
+   },
+   "texte": {
+    "fr": "On choisit avec vous le tracé et les couleurs.",
+    "en": "We plan the layout and colours with you."
+   }
+  },
+  {
+   "titre": {
+    "fr": "Fabrication sur mesure",
+    "en": "Custom-made"
+   },
+   "texte": {
+    "fr": "Les fils sont coupés à la longueur de votre maison, sans surplus.",
+    "en": "Wire is cut to fit your home, with no excess."
+   }
+  },
+  {
+   "titre": {
+    "fr": "Installation",
+    "en": "Installation"
+   },
+   "texte": {
+    "fr": "Pose par une équipe formée au travail en hauteur.",
+    "en": "Installed by a crew trained for working at heights."
+   }
+  },
+  {
+   "titre": {
+    "fr": "Retrait et entreposage",
+    "en": "Removal and storage"
+   },
+   "texte": {
+    "fr": "Au printemps, on retire tout et on entrepose jusqu'à la saison suivante.",
+    "en": "In spring, we take everything down and store it until next season."
+   }
+  }
+ ],
+ "galerie": [
+  {
+   "image": "noel-blanc-chaud",
+   "type": "residentiel",
+   "cadrage": "50% 50%",
+   "alt": {
+    "fr": "Maison illuminée d'ampoules blanc chaud le long de la ligne de toit",
+    "en": "Home lit with warm white bulbs along the roofline"
+   }
+  },
+  {
+   "image": "noel-multicolore",
+   "type": "residentiel",
+   "cadrage": "50% 45%",
+   "alt": {
+    "fr": "Maison de deux étages aux arches illuminées de couleurs",
+    "en": "Two-storey home with arches lit in colour"
+   }
+  },
+  {
+   "image": "noel-immeuble",
+   "type": "commercial",
+   "cadrage": "50% 40%",
+   "alt": {
+    "fr": "Immeuble résidentiel décoré pour les Fêtes",
+    "en": "Apartment building decorated for the holidays"
+   }
+  },
+  {
+   "image": "noel-pignon",
+   "type": "residentiel",
+   "cadrage": "50% 40%",
+   "alt": {
+    "fr": "Pignon et fenêtres soulignés d'ampoules multicolores",
+    "en": "Gable and windows outlined with multicolour bulbs"
+   }
+  },
+  {
+   "image": "noel-commercial",
+   "type": "commercial",
+   "cadrage": "45% 55%",
+   "alt": {
+    "fr": "Bâtiment commercial et grand arbre illuminés",
+    "en": "Commercial building and tall tree lit up"
+   }
+  },
+  {
+   "image": "noel-plain-pied",
+   "type": "residentiel",
+   "cadrage": "50% 50%",
+   "alt": {
+    "fr": "Maison de plain-pied illuminée de couleurs",
+    "en": "Bungalow lit in colour"
+   }
+  },
+  {
+   "image": "noel-restaurant",
+   "type": "commercial",
+   "cadrage": "50% 50%",
+   "alt": {
+    "fr": "Façade de restaurant soulignée d'ampoules",
+    "en": "Restaurant facade outlined with bulbs"
+   }
+  },
+  {
+   "image": "noel-bungalow",
+   "type": "residentiel",
+   "cadrage": "50% 50%",
+   "alt": {
+    "fr": "Bungalow illuminé en rouge, vert et blanc",
+    "en": "Bungalow lit in red, green and white"
+   }
+  },
+  {
+   "image": "noel-heure-bleue",
+   "type": "residentiel",
+   "cadrage": "60% 50%",
+   "alt": {
+    "fr": "Maison de brique à l'heure bleue, arbres et ligne de toit illuminés",
+    "en": "Brick house at blue hour, trees and roofline lit up"
+   }
+  }
+ ]
+}

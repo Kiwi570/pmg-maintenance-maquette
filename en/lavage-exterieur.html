@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en" data-v="1" data-saison="hiver">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Soft washing, gutters and windows: PMG Maintenance</title>
+<meta name="description" content="Low-pressure exterior washing with biodegradable products, gutter cleaning and window cleaning for homes and businesses in Ottawa-Gatineau.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://pmg-maintenance-maquette.vercel.app/en/lavage-exterieur">
+<link rel="alternate" hreflang="fr" href="https://pmg-maintenance-maquette.vercel.app/lavage-exterieur">
+<link rel="alternate" hreflang="en" href="https://pmg-maintenance-maquette.vercel.app/en/lavage-exterieur">
+<link rel="alternate" hreflang="x-default" href="https://pmg-maintenance-maquette.vercel.app/lavage-exterieur">
+<style>:root{--fond:#f3f6f9;--texte:#0c1a2a;--voile-fond:#0c1a2a;--ouverture-fond:#0c1a2a;--menu-fond:#0c1a2a}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+try {
+var ps = new URLSearchParams(location.search).get('saison'), mo = new Date().getMonth() + 1;
+var sa = /^(automne|hiver|printemps)$/.test(ps || '') ? ps : (mo >= 11 || mo <= 3) ? 'hiver' : mo >= 9 ? 'automne' : 'printemps';
+d.setAttribute('data-saison', sa);
+} catch (e) {}
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/archivo-titres.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0c1a2a">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PMG Maintenance">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Soft washing, gutters and windows: PMG Maintenance">
+<meta property="og:description" content="Low-pressure exterior washing with biodegradable products, gutter cleaning and window cleaning for homes and businesses in Ottawa-Gatineau.">
+<meta property="og:url" content="https://pmg-maintenance-maquette.vercel.app/en/lavage-exterieur">
+<meta property="og:image" content="https://pmg-maintenance-maquette.vercel.app/assets/partage/lavage-exterieur-en.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Freshly washed siding and a clear gutter">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"PMG Maintenance","description":"Entretien extérieur de bâtiment : déneigement de toiture, déglaçage à la vapeur, installation de lumières de Noël, nettoyage de gouttières, lavage à basse pression et lavage de vitres, Ottawa-Gatineau.","telephone":"+1-819-661-9294","email":"info@pmgmaintenance.com","foundingDate":"2015","address":{"@type":"PostalAddress","streetAddress":"16, chemin Gaspard","addressLocality":"L'Ange-Gardien","addressRegion":"QC","postalCode":"J8L 0G7","addressCountry":"CA"},"areaServed":["Gatineau","Ottawa","Outaouais","Est ontarien"],"paymentAccepted":"Cheque, Cash, Interac e-Transfer, PayPal, Visa, Mastercard, American Express, Discover"}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C 240 20 480 20 720 70 S 1200 130 1440 40 V 120 H 0 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 C 240 100 480 100 720 50 S 1200 -10 1440 80 V 0 H 0 Z"/></svg><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="56" height="56"><span data-voile-libelle>Exterior washing</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-clair.svg" alt="" width="64" height="64" data-ouverture-objet>
+  <p class="ouverture-nom">PMG Maintenance</p>
+  <div class="toit toit--ampoules ouverture-toit" aria-hidden="true">
+  <svg class="toit-trait" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false"><path d="M0 82 L34 82 L50 14 L66 82 L100 82" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+  <span class="c9" style="--x:3.45%;--y:82%;--i:0;--c:#ffc46b"></span><span class="c9" style="--x:10.34%;--y:82%;--i:1;--c:#ff3b30"></span><span class="c9" style="--x:17.23%;--y:82%;--i:2;--c:#2fd06a"></span><span class="c9" style="--x:24.12%;--y:82%;--i:3;--c:#4d8dff"></span><span class="c9" style="--x:31.02%;--y:82%;--i:4;--c:#eef4ff"></span><span class="c9" style="--x:37.53%;--y:66.98%;--i:5;--c:#ffc46b"></span><span class="c9" style="--x:43.77%;--y:40.49%;--i:6;--c:#ff3b30"></span><span class="c9" style="--x:50%;--y:14%;--i:7;--c:#2fd06a"></span><span class="c9" style="--x:56.23%;--y:40.49%;--i:8;--c:#4d8dff"></span><span class="c9" style="--x:62.47%;--y:66.98%;--i:9;--c:#eef4ff"></span><span class="c9" style="--x:68.98%;--y:82%;--i:10;--c:#ffc46b"></span><span class="c9" style="--x:75.88%;--y:82%;--i:11;--c:#ff3b30"></span><span class="c9" style="--x:82.77%;--y:82%;--i:12;--c:#2fd06a"></span><span class="c9" style="--x:89.66%;--y:82%;--i:13;--c:#4d8dff"></span><span class="c9" style="--x:96.55%;--y:82%;--i:14;--c:#eef4ff"></span>
+</div>
+  <p class="ouverture-ligne">Exterior building maintenance</p>
+</div>
+<a class="evitement" href="#contenu">Skip to content</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/en" data-libelle="Home" aria-label="PMG Maintenance, home">
+      <img src="/assets/images/logo.svg" alt="" width="36" height="36"><span class="entete-nom">PMG <span>Maintenance</span></span>
+    </a>
+    <nav data-nav aria-label="Main navigation">
+      <ul><li><a href="/en/toiture-hiver" data-libelle="Winter roofs">Winter roofs</a></li><li><a href="/en/lumieres-de-noel" data-libelle="Christmas lights">Christmas lights</a></li><li><a href="/en/lavage-exterieur" data-libelle="Exterior washing" aria-current="page">Exterior washing</a></li><li><a href="/en/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="entete-langue" href="/lavage-exterieur" hreflang="fr" lang="fr" data-langue="fr" aria-label="Version française">fr</a>
+      <a class="bouton" href="/en/contact#estimation" data-libelle="Contact">Free estimate</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Close"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Close</a></p>
+  <ul><li style="--i:0"><a href="/en" class="menu-lien" data-libelle="Home">Home</a></li><li style="--i:1"><a href="/en/toiture-hiver" class="menu-lien" data-libelle="Winter roofs">Winter roofs</a></li><li style="--i:2"><a href="/en/lumieres-de-noel" class="menu-lien" data-libelle="Christmas lights">Christmas lights</a></li><li style="--i:3"><a href="/en/lavage-exterieur" class="menu-lien" data-libelle="Exterior washing" aria-current="page">Exterior washing</a></li><li style="--i:4"><a href="/en/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+18196619294">Call 819-661-9294</a></p>
+  <p><a class="entete-langue" href="/lavage-exterieur" hreflang="fr" lang="fr" data-langue="fr">Version française</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="page-tete page-tete--lavage" id="debut">
+  <div class="conteneur lavage-tete">
+    <p class="surtitre" data-anime="gsap">Exterior washing, gutters and windows</p>
+    <h1 data-grille="typo"><span class="ligne-masque"><span class="page-ligne">Clean,</span></span><span class="ligne-masque"><span class="page-ligne"><em>without high pressure.</em></span></span></h1>
+    <div class="lavage-tete-bas">
+      <p class="page-intro masque-ecran-tres-bas" data-anime="gsap">Soft washing cleans siding, soffits, roofs and concrete with the pressure of a garden hose and non-toxic, biodegradable products.</p>
+      <div class="hero-actions" data-anime="gsap">
+        <a href="/en/contact?service=lavage#estimation" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Free estimate</a>
+      </div>
+      <p class="hero-info" data-info-cle data-anime="gsap"><span class="pastille-saison" aria-hidden="true"></span>Residential, commercial and institutional.</p>
+    </div>
+  </div>
+  <figure class="media lavage-bandeau" data-iris-centre data-fx="parallaxe" data-fx-force="8" style="--cadrage:55% 42%;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA4KCw0LCQ4NDA0QDw4RFiQXFhQUFiwgIRokNC43NjMuMjI6QVNGOj1OPjIySGJJTlZYXV5dOEVmbWVabFNbXVn/2wBDAQ8QEBYTFioXFypZOzI7WVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVn/wAARCAASABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC6ds8j7CMp94CmwXtqOGOxhwQ1VY5rlbJGFs5D878fepPMm2ul1bKgb5vmGDit3iZPYxjh4rc3tPuba4JEcqvzjFFcjLe/ZmR4JTF1wFoodbuCpdjrbYD+yLMY/hFZPiEncvJ6D+YoorlR0HNuPlY9xu5ooopsS2P/2Q==);background-size:cover;background-position:55% 42%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/equipe-hauteur-mobile-640.webp 640w, /assets/images/equipe-hauteur-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/equipe-hauteur-1280.webp" srcset="/assets/images/equipe-hauteur-640.webp 640w, /assets/images/equipe-hauteur-1280.webp 1280w, /assets/images/equipe-hauteur-1800.webp 1800w" sizes="100vw" alt="Two technicians on ladders at the gable of a brick house" width="1280" height="960" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+</section>
+<section class="section basse-pression" id="basse-pression">
+  <div class="conteneur bp-grille">
+    <div>
+      <h2 data-anime="lignes">Why <em>low pressure?</em></h2>
+      <ol class="points" data-anime="cascade">
+        <li><span class="etape-num" aria-hidden="true">1</span><p>Less risk for your surfaces and less water than high-pressure washing.</p></li>
+        <li><span class="etape-num" aria-hidden="true">2</span><p>Black and green stains are mostly mould, algae and bacteria, more visible on the north side and in the shade.</p></li>
+        <li><span class="etape-num" aria-hidden="true">3</span><p>Equipment that lets us work at heights safely.</p></li>
+      </ol>
+      <div class="encadre" data-anime>
+        <h3>The complete exterior wash</h3>
+        <ul class="liste-coches"><li>Gutter clean-out</li><li>Gutters, downspouts, fascia, soffits, siding and doors</li><li>Exterior windows, frames and screens</li></ul>
+      </div>
+    </div>
+    <div class="bp-photos">
+      <figure class="media bp-1" data-anime="rideau" style="--cadrage:50% 60%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/entree-asphalte-1168.webp" srcset="/assets/images/entree-asphalte-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 40vw" alt="Asphalt driveway mid-wash: the clean strip stands out" width="1168" height="657" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media bp-2" data-fx="vitesse" style="--cadrage:30% 50%;aspect-ratio:1 / 1">
+  <picture>
+    <img src="/assets/images/lavage-facade-1168.webp" srcset="/assets/images/lavage-facade-1168.webp 1168w" sizes="(max-width: 760px) 60vw, 22vw" alt="Soft washing a stone facade" width="1168" height="876" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+  </div>
+</section>
+<section class="section section--glace surfaces" id="surfaces">
+  <div class="conteneur surfaces-grille">
+    <div>
+      <h2 data-anime="lignes">What we <em>wash.</em></h2>
+      <p data-anime>Pick a type of surface.</p>
+      <div class="filtres" role="group" aria-label="Filter surfaces" data-filtres=".surfaces-liste > li">
+        <button type="button" data-filtre="revetements" aria-pressed="true">Siding</button><button type="button" data-filtre="toiture" aria-pressed="false">Roofs and trim</button><button type="button" data-filtre="sols" aria-pressed="false">Ground and concrete</button><button type="button" data-filtre="commercial" aria-pressed="false">Commercial</button>
+      </div>
+      <ul class="surfaces-liste" data-anime="cascade"><li data-type="revetements">Vinyl</li><li data-type="revetements">Aluminum</li><li data-type="revetements">Brick</li><li data-type="revetements">Stone</li><li data-type="revetements">Wood and CanExel</li><li data-type="revetements">Fibreglass</li><li data-type="revetements">Composite</li><li data-type="revetements">PVC</li><li data-type="toiture" hidden>Soffits</li><li data-type="toiture" hidden>Fascia</li><li data-type="toiture" hidden>Gutters</li><li data-type="toiture" hidden>Tile roofs</li><li data-type="toiture" hidden>Metal roofs</li><li data-type="toiture" hidden>Rust stains</li><li data-type="sols" hidden>Concrete</li><li data-type="sols" hidden>Slabs</li><li data-type="sols" hidden>Interlocking pavers</li><li data-type="sols" hidden>Asphalt</li><li data-type="sols" hidden>Cement</li><li data-type="commercial" hidden>Commercial signs</li><li data-type="commercial" hidden>Monuments</li><li data-type="commercial" hidden>Parking lots</li></ul>
+    </div>
+    <div class="aa" data-aa>
+  <div class="aa-onglets" role="tablist" aria-label="Filter surfaces"><button type="button" role="tab" id="aa-lavage-onglet-revetement" aria-controls="aa-lavage-revetement" aria-selected="true" tabindex="0" data-aa-onglet="revetement">Vinyl siding</button><button type="button" role="tab" id="aa-lavage-onglet-cedre" aria-controls="aa-lavage-cedre" aria-selected="false" tabindex="-1" data-aa-onglet="cedre">Cedar shakes</button><button type="button" role="tab" id="aa-lavage-onglet-rouille" aria-controls="aa-lavage-rouille" aria-selected="false" tabindex="-1" data-aa-onglet="rouille">Rust stains</button><button type="button" role="tab" id="aa-lavage-onglet-porte" aria-controls="aa-lavage-porte" aria-selected="false" tabindex="-1" data-aa-onglet="porte">Basement door</button><button type="button" role="tab" id="aa-lavage-onglet-toiture" aria-controls="aa-lavage-toiture" aria-selected="false" tabindex="-1" data-aa-onglet="toiture">Roof</button></div>
+  <div class="aa-paire" id="aa-lavage-revetement" role="tabpanel" aria-labelledby="aa-lavage-onglet-revetement" data-aa-paire="revetement" style="--ratio:16 / 10" data-effet="avant-apres">
+    <figure class="media aa-avant" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/aa-facade-avant-1168.webp" srcset="/assets/images/aa-facade-avant-1024.webp 1024w, /assets/images/aa-facade-avant-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 44vw" alt="Before : Vinyl siding" width="1168" height="730" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="aa-apres-cadre"><figure class="media aa-apres" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/aa-facade-apres-1168.webp" srcset="/assets/images/aa-facade-apres-1024.webp 1024w, /assets/images/aa-facade-apres-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 44vw" alt="After : Vinyl siding" width="1168" height="730" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+    <span class="aa-etiquette aa-etiquette--avant" aria-hidden="true">Before</span>
+    <span class="aa-etiquette aa-etiquette--apres" aria-hidden="true">After</span>
+    <span class="aa-poignee" aria-hidden="true"></span>
+    <input class="aa-reglet" type="range" min="0" max="100" value="50" aria-label="Drag to compare : Vinyl siding" data-aa-reglet>
+  </div><div class="aa-paire" id="aa-lavage-cedre" role="tabpanel" aria-labelledby="aa-lavage-onglet-cedre" data-aa-paire="cedre" hidden style="--ratio:3 / 4" data-effet="avant-apres">
+    <figure class="media aa-avant" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/aa-pignon-avant-1168.webp" srcset="/assets/images/aa-pignon-avant-1024.webp 1024w, /assets/images/aa-pignon-avant-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 44vw" alt="Before : Cedar shakes" width="1168" height="1557" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="aa-apres-cadre"><figure class="media aa-apres" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/aa-pignon-apres-1168.webp" srcset="/assets/images/aa-pignon-apres-1024.webp 1024w, /assets/images/aa-pignon-apres-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 44vw" alt="After : Cedar shakes" width="1168" height="1557" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+    <span class="aa-etiquette aa-etiquette--avant" aria-hidden="true">Before</span>
+    <span class="aa-etiquette aa-etiquette--apres" aria-hidden="true">After</span>
+    <span class="aa-poignee" aria-hidden="true"></span>
+    <input class="aa-reglet" type="range" min="0" max="100" value="50" aria-label="Drag to compare : Cedar shakes" data-aa-reglet>
+  </div><div class="aa-paire" id="aa-lavage-rouille" role="tabpanel" aria-labelledby="aa-lavage-onglet-rouille" data-aa-paire="rouille" hidden style="--ratio:3 / 4" data-effet="avant-apres">
+    <figure class="media aa-avant" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/aa-rouille-avant-1024.webp" srcset="/assets/images/aa-rouille-avant-1024.webp 1024w" sizes="(max-width: 760px) 92vw, 44vw" alt="Before : Rust stains" width="1024" height="1365" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="aa-apres-cadre"><figure class="media aa-apres" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/aa-rouille-apres-947.webp" srcset="/assets/images/aa-rouille-apres-947.webp 947w" sizes="(max-width: 760px) 92vw, 44vw" alt="After : Rust stains" width="947" height="1262" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+    <span class="aa-etiquette aa-etiquette--avant" aria-hidden="true">Before</span>
+    <span class="aa-etiquette aa-etiquette--apres" aria-hidden="true">After</span>
+    <span class="aa-poignee" aria-hidden="true"></span>
+    <input class="aa-reglet" type="range" min="0" max="100" value="50" aria-label="Drag to compare : Rust stains" data-aa-reglet>
+  </div><div class="aa-paire" id="aa-lavage-porte" role="tabpanel" aria-labelledby="aa-lavage-onglet-porte" data-aa-paire="porte" hidden style="--ratio:3 / 4" data-effet="avant-apres">
+    <figure class="media aa-avant" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/aa-porte-avant-1168.webp" srcset="/assets/images/aa-porte-avant-1024.webp 1024w, /assets/images/aa-porte-avant-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 44vw" alt="Before : Basement door" width="1168" height="1557" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="aa-apres-cadre"><figure class="media aa-apres" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/aa-porte-apres-1168.webp" srcset="/assets/images/aa-porte-apres-1024.webp 1024w, /assets/images/aa-porte-apres-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 44vw" alt="After : Basement door" width="1168" height="1557" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+    <span class="aa-etiquette aa-etiquette--avant" aria-hidden="true">Before</span>
+    <span class="aa-etiquette aa-etiquette--apres" aria-hidden="true">After</span>
+    <span class="aa-poignee" aria-hidden="true"></span>
+    <input class="aa-reglet" type="range" min="0" max="100" value="50" aria-label="Drag to compare : Basement door" data-aa-reglet>
+  </div><div class="aa-paire" id="aa-lavage-toiture" role="tabpanel" aria-labelledby="aa-lavage-onglet-toiture" data-aa-paire="toiture" hidden style="--ratio:3 / 4" data-effet="avant-apres">
+    <figure class="media aa-avant" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/aa-toit-avant-1168.webp" srcset="/assets/images/aa-toit-avant-1024.webp 1024w, /assets/images/aa-toit-avant-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 44vw" alt="Before : Roof" width="1168" height="1557" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="aa-apres-cadre"><figure class="media aa-apres" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/aa-toit-apres-1168.webp" srcset="/assets/images/aa-toit-apres-1024.webp 1024w, /assets/images/aa-toit-apres-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 44vw" alt="After : Roof" width="1168" height="1556" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+    <span class="aa-etiquette aa-etiquette--avant" aria-hidden="true">Before</span>
+    <span class="aa-etiquette aa-etiquette--apres" aria-hidden="true">After</span>
+    <span class="aa-poignee" aria-hidden="true"></span>
+    <input class="aa-reglet" type="range" min="0" max="100" value="50" aria-label="Drag to compare : Roof" data-aa-reglet>
+  </div>
+  <p class="aa-consigne">Drag to compare</p>
+</div>
+  </div>
+</section>
+<section class="section gouttieres" id="gouttieres">
+  <div class="toit toit--eau gouttieres-toit" aria-hidden="true" data-effet="gouttiere-eau" data-visuel data-grille="fil">
+  <svg class="toit-trait" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false"><path d="M0 82 L34 82 L50 14 L66 82 L100 82" pathLength="1" vector-effect="non-scaling-stroke"/><path class="toit-eau" d="M0 82 L34 82 M66 82 L100 82" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+  <span class="goutte" style="--x:99%;--y:82%"></span>
+</div>
+  <div class="conteneur gouttieres-grille">
+    <div>
+      <h2 data-anime="lignes">Gutters <em>that do their job.</em></h2>
+      <p data-anime>Full of debris, they overflow, sag, freeze and let water seep into the roof, walls and foundation.</p>
+      <p class="vapeur-jamais-titre" data-anime>Every cleaning, we check three things</p>
+      <ul class="verifs" data-anime="cascade">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17 19 7"/></svg>Water flows freely</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17 19 7"/></svg>Downspouts are clear</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5 10 17 19 7"/></svg>No standing water</li>
+      </ul>
+      <p data-anime>Once a year, in the fall, is usually enough. A second cleaning in spring or summer helps if pines or maples are nearby.</p>
+      <p class="encadre" data-anime>Gutter guards? None truly replace cleaning: debris sticks on top, and shingle granules build up even without trees.</p>
+    </div>
+    <div class="gouttieres-photos">
+      <figure class="media gp-1" data-anime="rideau" style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/gouttiere-feuilles-1168.webp" srcset="/assets/images/gouttiere-feuilles-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 36vw" alt="Gutter full of dead leaves before cleaning" width="1168" height="1557" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media gp-2" data-fx="vitesse" style="--cadrage:50% 50%;aspect-ratio:3 / 4">
+  <picture>
+    <img src="/assets/images/gouttiere-debris-800.webp" srcset="/assets/images/gouttiere-debris-640.webp 640w, /assets/images/gouttiere-debris-800.webp 800w" sizes="(max-width: 760px) 50vw, 18vw" alt="Debris built up in a gutter" width="800" height="1066" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+  </div>
+</section>
+<section class="section section--glace vitres" id="vitres">
+  <div class="conteneur vitres-grille">
+    <div class="vitres-photos" data-anime="cascade">
+      <figure class="media vp-1" style="--cadrage:60% 45%;aspect-ratio:4 / 5;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA4KCw0LCQ4NDA0QDw4RFiQXFhQUFiwgIRokNC43NjMuMjI6QVNGOj1OPjIySGJJTlZYXV5dOEVmbWVabFNbXVn/2wBDAQ8QEBYTFioXFypZOzI7WVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVn/wAARCAAYABMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCrJruqyABr/p/sCqVxquqBiVu87hg/KKpCViwHfOBUEtyFf5j81JpPWwhx1LUAcfaP/HRRVFpMsSDxRUeyh2QWN0aS6jfv6dcmmro0cqh2OSR60UVgqsuU1UVuPXR7YAAj9TRRRT9pIvkR/9k=);background-size:cover;background-position:60% 45%">
+  <picture>
+    <img src="/assets/images/vitres-perche-1500.webp" srcset="/assets/images/vitres-perche-640.webp 640w, /assets/images/vitres-perche-1024.webp 1024w, /assets/images/vitres-perche-1500.webp 1500w" sizes="(max-width: 760px) 46vw, 22vw" alt="Pole window cleaning on a house with black siding" width="1500" height="1875" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media vp-2" style="--cadrage:50% 40%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/vitres-immeuble-1168.webp" srcset="/assets/images/vitres-immeuble-1168.webp 1168w" sizes="(max-width: 760px) 46vw, 22vw" alt="Window cleaning on a four-storey building" width="1168" height="1460" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div>
+      <h2 data-anime="lignes">Windows <em>that let the light in.</em></h2>
+      <p data-anime>Residential, commercial and institutional windows, plus post-construction and post-renovation cleaning. Once or twice a year, for a brighter home or a storefront that invites people in.</p>
+      <figure class="media vitres-chantier" data-fx="zoom" style="--cadrage:50% 50%;aspect-ratio:16 / 9">
+  <picture>
+    <img src="/assets/images/vitres-apres-construction-800.webp" srcset="/assets/images/vitres-apres-construction-640.webp 640w, /assets/images/vitres-apres-construction-800.webp 800w" sizes="(max-width: 760px) 92vw, 30vw" alt="Large windows of a new home after construction" width="800" height="450" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+  </div>
+</section>
+<section class="section section--nuit fin" id="fin">
+  <div class="toit toit--ampoules fin-toit" aria-hidden="true" data-effet="ligne-de-toit" data-visuel data-grille="fil" data-scintille data-boucle-css>
+  <svg class="toit-trait" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false"><path d="M0 82 L34 82 L50 14 L66 82 L100 82" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+  <span class="c9" style="--x:1.4%;--y:82%;--i:0;--c:#ffc46b"></span><span class="c9" style="--x:4.19%;--y:82%;--i:1;--c:#eef4ff"></span><span class="c9" style="--x:6.99%;--y:82%;--i:2;--c:#4d8dff"></span><span class="c9" style="--x:9.78%;--y:82%;--i:3;--c:#ffc46b"></span><span class="c9" style="--x:12.57%;--y:82%;--i:4;--c:#eef4ff"></span><span class="c9" style="--x:15.37%;--y:82%;--i:5;--c:#4d8dff"></span><span class="c9" style="--x:18.16%;--y:82%;--i:6;--c:#ffc46b"></span><span class="c9" style="--x:20.96%;--y:82%;--i:7;--c:#eef4ff"></span><span class="c9" style="--x:23.75%;--y:82%;--i:8;--c:#4d8dff"></span><span class="c9" style="--x:26.55%;--y:82%;--i:9;--c:#ffc46b"></span><span class="c9" style="--x:29.34%;--y:82%;--i:10;--c:#eef4ff"></span><span class="c9" style="--x:32.13%;--y:82%;--i:11;--c:#4d8dff"></span><span class="c9" style="--x:34.84%;--y:78.43%;--i:12;--c:#ffc46b"></span><span class="c9" style="--x:37.37%;--y:67.69%;--i:13;--c:#eef4ff"></span><span class="c9" style="--x:39.89%;--y:56.95%;--i:14;--c:#4d8dff"></span><span class="c9" style="--x:42.42%;--y:46.22%;--i:15;--c:#ffc46b"></span><span class="c9" style="--x:44.95%;--y:35.48%;--i:16;--c:#eef4ff"></span><span class="c9" style="--x:47.47%;--y:24.74%;--i:17;--c:#4d8dff"></span><span class="c9" style="--x:50%;--y:14%;--i:18;--c:#ffc46b"></span><span class="c9" style="--x:52.53%;--y:24.74%;--i:19;--c:#eef4ff"></span><span class="c9" style="--x:55.05%;--y:35.48%;--i:20;--c:#4d8dff"></span><span class="c9" style="--x:57.58%;--y:46.22%;--i:21;--c:#ffc46b"></span><span class="c9" style="--x:60.11%;--y:56.95%;--i:22;--c:#eef4ff"></span><span class="c9" style="--x:62.63%;--y:67.69%;--i:23;--c:#4d8dff"></span><span class="c9" style="--x:65.16%;--y:78.43%;--i:24;--c:#ffc46b"></span><span class="c9" style="--x:67.87%;--y:82%;--i:25;--c:#eef4ff"></span><span class="c9" style="--x:70.66%;--y:82%;--i:26;--c:#4d8dff"></span><span class="c9" style="--x:73.45%;--y:82%;--i:27;--c:#ffc46b"></span><span class="c9" style="--x:76.25%;--y:82%;--i:28;--c:#eef4ff"></span><span class="c9" style="--x:79.04%;--y:82%;--i:29;--c:#4d8dff"></span><span class="c9" style="--x:81.84%;--y:82%;--i:30;--c:#ffc46b"></span><span class="c9" style="--x:84.63%;--y:82%;--i:31;--c:#eef4ff"></span><span class="c9" style="--x:87.43%;--y:82%;--i:32;--c:#4d8dff"></span><span class="c9" style="--x:90.22%;--y:82%;--i:33;--c:#ffc46b"></span><span class="c9" style="--x:93.01%;--y:82%;--i:34;--c:#eef4ff"></span><span class="c9" style="--x:95.81%;--y:82%;--i:35;--c:#4d8dff"></span><span class="c9" style="--x:98.6%;--y:82%;--i:36;--c:#ffc46b"></span>
+</div>
+  <div class="conteneur fin-grille">
+    <div>
+      <h2 data-anime="lignes">Two codes, <em>one good neighbour.</em></h2>
+      <p data-anime>Limited-time offers, one code per home or business. Add the code to your estimate request.</p>
+      <p class="fin-actions" data-anime>
+        <a href="/en/contact?service=lavage#estimation" class="bouton" data-libelle="Contact" data-survol="magnetique">Get my estimate</a>
+        <a class="bouton bouton--contour" href="sms:+18196619294">Text 819-661-9294</a>
+      </p>
+    </div>
+    <div class="offres">
+  <article class="offre"><p class="offre-code">2SERVICES</p><p>$25 off when you combine gutter cleaning and window cleaning.</p><a href="/en/contact?code=2SERVICES#estimation" class="offre-lien" data-libelle="Contact">Use this code</a></article>
+  <article class="offre"><p class="offre-code">VOISINS25</p><p>$25 for you and $25 for your neighbour: same service, same day.</p><p class="offre-detail">Gutters and downspouts, windows (25 or more) or a complete exterior wash.</p><a href="/en/contact?code=VOISINS25#estimation" class="offre-lien" data-libelle="Contact">Use this code</a></article>
+  <article class="offre"><p class="offre-code">Referral</p><p>$50 off your next service for every client you refer.</p><p class="offre-detail">The new client enters your name in their request.</p></article>
+</div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-nom"><img src="/assets/images/logo-clair.svg" alt="" width="40" height="40"> PMG Maintenance</p>
+      <p>Exterior building maintenance in Ottawa-Gatineau since 2015.</p>
+      <p>16, chemin Gaspard, L&#39;Ange-Gardien (QC) J8L 0G7</p>
+    </div>
+    <div>
+      <p class="pied-titre">Get in touch</p>
+      <ul>
+        <li><span class="pied-libelle">Phone</span> <a href="tel:+18196619294">819-661-9294</a></li>
+        <li><span class="pied-libelle">Toll-free</span> <a href="tel:+18776619294">1 877 661-9294</a></li>
+        <li><span class="pied-libelle">Texts</span> <a href="sms:+18196619294">819-661-9294</a></li>
+        <li><span class="pied-libelle">Email</span> <span class="selectionnable">info@pmgmaintenance.com</span></li>
+      </ul>
+    </div>
+    <nav aria-label="Site map">
+      <p class="pied-titre">Site map</p>
+      <ul><li><a href="/en" data-libelle="Home">Home</a></li><li><a href="/en/toiture-hiver" data-libelle="Winter roofs">Winter roofs</a></li><li><a href="/en/lumieres-de-noel" data-libelle="Christmas lights">Christmas lights</a></li><li><a href="/en/lavage-exterieur" data-libelle="Exterior washing" aria-current="page">Exterior washing</a></li><li><a href="/en/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas" id="pied-legal">
+    <p>Legal notice · to be completed</p>
+    <p>Privacy policy · to be completed</p>
+    <p>Presentation mock-up: forms are simulated, nothing is sent.</p>
+    <p><a href="#haut" data-sans-transition>Back to top</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+18196619294">Call</a>
+  <a class="bouton bouton--contour" href="sms:+18196619294">Text</a>
+  <a class="bouton" href="/en/contact#estimation" data-libelle="Contact">Estimate</a>
+</div>
+</body>
+</html>

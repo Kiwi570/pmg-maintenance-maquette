@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en" data-v="1" data-saison="hiver">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Christmas light installation: PMG Maintenance</title>
+<meta name="description" content="Commercial-grade C9 LED bulbs in five colours: design, installation, spring removal and storage, in Ottawa-Gatineau.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://pmg-maintenance-maquette.vercel.app/en/lumieres-de-noel">
+<link rel="alternate" hreflang="fr" href="https://pmg-maintenance-maquette.vercel.app/lumieres-de-noel">
+<link rel="alternate" hreflang="en" href="https://pmg-maintenance-maquette.vercel.app/en/lumieres-de-noel">
+<link rel="alternate" hreflang="x-default" href="https://pmg-maintenance-maquette.vercel.app/lumieres-de-noel">
+<style>:root{--fond:#f3f6f9;--texte:#0c1a2a;--voile-fond:#0c1a2a;--ouverture-fond:#0c1a2a;--menu-fond:#0c1a2a}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+try {
+var ps = new URLSearchParams(location.search).get('saison'), mo = new Date().getMonth() + 1;
+var sa = /^(automne|hiver|printemps)$/.test(ps || '') ? ps : (mo >= 11 || mo <= 3) ? 'hiver' : mo >= 9 ? 'automne' : 'printemps';
+d.setAttribute('data-saison', sa);
+} catch (e) {}
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/archivo-titres.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0c1a2a">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PMG Maintenance">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Christmas light installation: PMG Maintenance">
+<meta property="og:description" content="Commercial-grade C9 LED bulbs in five colours: design, installation, spring removal and storage, in Ottawa-Gatineau.">
+<meta property="og:url" content="https://pmg-maintenance-maquette.vercel.app/en/lumieres-de-noel">
+<meta property="og:image" content="https://pmg-maintenance-maquette.vercel.app/assets/partage/lumieres-de-noel-en.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="House facade at dusk with an illuminated roofline">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"PMG Maintenance","description":"Entretien extérieur de bâtiment : déneigement de toiture, déglaçage à la vapeur, installation de lumières de Noël, nettoyage de gouttières, lavage à basse pression et lavage de vitres, Ottawa-Gatineau.","telephone":"+1-819-661-9294","email":"info@pmgmaintenance.com","foundingDate":"2015","address":{"@type":"PostalAddress","streetAddress":"16, chemin Gaspard","addressLocality":"L'Ange-Gardien","addressRegion":"QC","postalCode":"J8L 0G7","addressCountry":"CA"},"areaServed":["Gatineau","Ottawa","Outaouais","Est ontarien"],"paymentAccepted":"Cheque, Cash, Interac e-Transfer, PayPal, Visa, Mastercard, American Express, Discover"}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C 240 20 480 20 720 70 S 1200 130 1440 40 V 120 H 0 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 C 240 100 480 100 720 50 S 1200 -10 1440 80 V 0 H 0 Z"/></svg><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="56" height="56"><span data-voile-libelle>Christmas lights</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-clair.svg" alt="" width="64" height="64" data-ouverture-objet>
+  <p class="ouverture-nom">PMG Maintenance</p>
+  <div class="toit toit--ampoules ouverture-toit" aria-hidden="true">
+  <svg class="toit-trait" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false"><path d="M0 82 L34 82 L50 14 L66 82 L100 82" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+  <span class="c9" style="--x:3.45%;--y:82%;--i:0;--c:#ffc46b"></span><span class="c9" style="--x:10.34%;--y:82%;--i:1;--c:#ff3b30"></span><span class="c9" style="--x:17.23%;--y:82%;--i:2;--c:#2fd06a"></span><span class="c9" style="--x:24.12%;--y:82%;--i:3;--c:#4d8dff"></span><span class="c9" style="--x:31.02%;--y:82%;--i:4;--c:#eef4ff"></span><span class="c9" style="--x:37.53%;--y:66.98%;--i:5;--c:#ffc46b"></span><span class="c9" style="--x:43.77%;--y:40.49%;--i:6;--c:#ff3b30"></span><span class="c9" style="--x:50%;--y:14%;--i:7;--c:#2fd06a"></span><span class="c9" style="--x:56.23%;--y:40.49%;--i:8;--c:#4d8dff"></span><span class="c9" style="--x:62.47%;--y:66.98%;--i:9;--c:#eef4ff"></span><span class="c9" style="--x:68.98%;--y:82%;--i:10;--c:#ffc46b"></span><span class="c9" style="--x:75.88%;--y:82%;--i:11;--c:#ff3b30"></span><span class="c9" style="--x:82.77%;--y:82%;--i:12;--c:#2fd06a"></span><span class="c9" style="--x:89.66%;--y:82%;--i:13;--c:#4d8dff"></span><span class="c9" style="--x:96.55%;--y:82%;--i:14;--c:#eef4ff"></span>
+</div>
+  <p class="ouverture-ligne">Exterior building maintenance</p>
+</div>
+<a class="evitement" href="#contenu">Skip to content</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/en" data-libelle="Home" aria-label="PMG Maintenance, home">
+      <img src="/assets/images/logo.svg" alt="" width="36" height="36"><span class="entete-nom">PMG <span>Maintenance</span></span>
+    </a>
+    <nav data-nav aria-label="Main navigation">
+      <ul><li><a href="/en/toiture-hiver" data-libelle="Winter roofs">Winter roofs</a></li><li><a href="/en/lumieres-de-noel" data-libelle="Christmas lights" aria-current="page">Christmas lights</a></li><li><a href="/en/lavage-exterieur" data-libelle="Exterior washing">Exterior washing</a></li><li><a href="/en/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="entete-langue" href="/lumieres-de-noel" hreflang="fr" lang="fr" data-langue="fr" aria-label="Version française">fr</a>
+      <a class="bouton" href="/en/contact#estimation" data-libelle="Contact">Free estimate</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Close"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Close</a></p>
+  <ul><li style="--i:0"><a href="/en" class="menu-lien" data-libelle="Home">Home</a></li><li style="--i:1"><a href="/en/toiture-hiver" class="menu-lien" data-libelle="Winter roofs">Winter roofs</a></li><li style="--i:2"><a href="/en/lumieres-de-noel" class="menu-lien" data-libelle="Christmas lights" aria-current="page">Christmas lights</a></li><li style="--i:3"><a href="/en/lavage-exterieur" class="menu-lien" data-libelle="Exterior washing">Exterior washing</a></li><li style="--i:4"><a href="/en/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+18196619294">Call 819-661-9294</a></p>
+  <p><a class="entete-langue" href="/lumieres-de-noel" hreflang="fr" lang="fr" data-langue="fr">Version française</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="page-tete page-tete--lumieres section--nuit" id="debut">
+  <div class="conteneur page-tete-grille lumieres-tete">
+    <div>
+      <p class="surtitre" data-anime="gsap">Christmas light installation</p>
+      <h1 data-grille="typo"><span class="ligne-masque"><span class="page-ligne">Your home,</span></span><span class="ligne-masque"><span class="page-ligne"><em>lit for the holidays.</em></span></span></h1>
+      <p class="page-intro masque-ecran-bas" data-anime="gsap">Pick your colours and the facade lights up. Commercial-grade C9 LED bulbs along your roofline, taken down in spring.</p>
+      <div class="hero-actions" data-anime="gsap">
+        <a href="/en/contact?service=lumieres#estimation" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Book my installation</a>
+      </div>
+      <p class="hero-info" data-info-cle data-anime="gsap"><span class="pastille-saison" aria-hidden="true"></span>Limited availability: book early.</p>
+      <div data-anime="gsap"><div class="c9-choix" role="group" aria-labelledby="c9-page-titre" data-c9-choix>
+  <p class="c9-choix-titre" id="c9-page-titre">Design your roofline</p>
+  <div class="c9-boutons"><button type="button" class="c9-bouton" aria-pressed="true" data-c9="#ffc46b" style="--c:#ffc46b"><span class="c9-pastille" aria-hidden="true"></span>Warm white</button><button type="button" class="c9-bouton" aria-pressed="false" data-c9="#eef4ff" style="--c:#eef4ff"><span class="c9-pastille" aria-hidden="true"></span>Pure white</button><button type="button" class="c9-bouton" aria-pressed="true" data-c9="#ff3b30" style="--c:#ff3b30"><span class="c9-pastille" aria-hidden="true"></span>Red</button><button type="button" class="c9-bouton" aria-pressed="true" data-c9="#2fd06a" style="--c:#2fd06a"><span class="c9-pastille" aria-hidden="true"></span>Green</button><button type="button" class="c9-bouton" aria-pressed="false" data-c9="#4d8dff" style="--c:#4d8dff"><span class="c9-pastille" aria-hidden="true"></span>Blue</button></div>
+  <p class="c9-consigne"><span class="si-souris">Click the colours to design your roofline.</span><span class="si-toucher">Tap the colours to design your roofline.</span></p>
+</div></div>
+    </div>
+    <div class="facade" data-iris-centre>
+      <figure class="media facade-media" data-fx="parallaxe" data-fx-force="6" style="--cadrage:60% 50%;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA4KCw0LCQ4NDA0QDw4RFiQXFhQUFiwgIRokNC43NjMuMjI6QVNGOj1OPjIySGJJTlZYXV5dOEVmbWVabFNbXVn/2wBDAQ8QEBYTFioXFypZOzI7WVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVn/wAARCAAOABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDGEJjtVlcgnGSO4qo16D/q1796gt5HZ1WVi0Xdc9RVi7ltVBWG2C9MEnJrV4iS0JVGL1HPcJLbbkzvB5UCiq4lWGYSxoMFNpU0V0c992Zcltj/2Q==);background-size:cover;background-position:60% 50%">
+  <picture>
+    <img src="/assets/images/noel-heure-bleue-1600.webp" srcset="/assets/images/noel-heure-bleue-1024.webp 1024w, /assets/images/noel-heure-bleue-1168.webp 1168w, /assets/images/noel-heure-bleue-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="Brick house at blue hour, trees and roofline lit by PMG" width="1600" height="900" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure><div class="toit toit--ampoules facade-toit" aria-hidden="true" data-c9-cible-page data-effet="ampoules-c9" data-grille="manipuler retour">
+  <svg class="toit-trait" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false"><path d="M0 82 L34 82 L50 14 L66 82 L100 82" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+  <span class="c9" style="--x:1.91%;--y:82%;--i:0;--c:#ffc46b"></span><span class="c9" style="--x:5.74%;--y:82%;--i:1;--c:#ff3b30"></span><span class="c9" style="--x:9.57%;--y:82%;--i:2;--c:#2fd06a"></span><span class="c9" style="--x:13.4%;--y:82%;--i:3;--c:#ffc46b"></span><span class="c9" style="--x:17.23%;--y:82%;--i:4;--c:#ff3b30"></span><span class="c9" style="--x:21.06%;--y:82%;--i:5;--c:#2fd06a"></span><span class="c9" style="--x:24.89%;--y:82%;--i:6;--c:#ffc46b"></span><span class="c9" style="--x:28.72%;--y:82%;--i:7;--c:#ff3b30"></span><span class="c9" style="--x:32.55%;--y:82%;--i:8;--c:#2fd06a"></span><span class="c9" style="--x:36.15%;--y:72.86%;--i:9;--c:#ffc46b"></span><span class="c9" style="--x:39.61%;--y:58.15%;--i:10;--c:#ff3b30"></span><span class="c9" style="--x:43.07%;--y:43.43%;--i:11;--c:#2fd06a"></span><span class="c9" style="--x:46.54%;--y:28.72%;--i:12;--c:#ffc46b"></span><span class="c9" style="--x:50%;--y:14%;--i:13;--c:#ff3b30"></span><span class="c9" style="--x:53.46%;--y:28.72%;--i:14;--c:#2fd06a"></span><span class="c9" style="--x:56.93%;--y:43.43%;--i:15;--c:#ffc46b"></span><span class="c9" style="--x:60.39%;--y:58.15%;--i:16;--c:#ff3b30"></span><span class="c9" style="--x:63.85%;--y:72.86%;--i:17;--c:#2fd06a"></span><span class="c9" style="--x:67.45%;--y:82%;--i:18;--c:#ffc46b"></span><span class="c9" style="--x:71.28%;--y:82%;--i:19;--c:#ff3b30"></span><span class="c9" style="--x:75.11%;--y:82%;--i:20;--c:#2fd06a"></span><span class="c9" style="--x:78.94%;--y:82%;--i:21;--c:#ffc46b"></span><span class="c9" style="--x:82.77%;--y:82%;--i:22;--c:#ff3b30"></span><span class="c9" style="--x:86.6%;--y:82%;--i:23;--c:#2fd06a"></span><span class="c9" style="--x:90.43%;--y:82%;--i:24;--c:#ffc46b"></span><span class="c9" style="--x:94.26%;--y:82%;--i:25;--c:#ff3b30"></span><span class="c9" style="--x:98.09%;--y:82%;--i:26;--c:#2fd06a"></span>
+</div>
+    </div>
+  </div>
+</section>
+<section class="section couleurs" id="couleurs">
+  <div class="conteneur">
+    <div class="saisons-tete">
+      <h2 data-anime="lignes">Five colours, <em>one roofline.</em></h2>
+      <p data-anime>Faceted C9 bulbs: bright, even and energy-efficient. One colour or several; change the combination every year at no extra cost. Other colours and styles are available by special order.</p>
+    </div>
+    <ul class="ampoules-grille" data-anime="cascade"><li class="ampoule-carte" style="--c:#ffc46b">
+      <svg viewBox="0 0 60 110" aria-hidden="true" data-visuel><circle class="ac-halo" cx="30" cy="66" r="30"/><rect x="21" y="4" width="18" height="22" rx="3" class="ac-douille"/><path class="ac-verre" d="M30 24 C 52 34 50 78 30 104 C 10 78 8 34 30 24 Z"/><path class="ac-facette" d="M30 28 L30 100 M18 44 L42 44 M16 64 L44 64 M20 84 L40 84"/></svg>
+      <p>Warm white</p>
+    </li><li class="ampoule-carte" style="--c:#eef4ff">
+      <svg viewBox="0 0 60 110" aria-hidden="true" data-visuel><circle class="ac-halo" cx="30" cy="66" r="30"/><rect x="21" y="4" width="18" height="22" rx="3" class="ac-douille"/><path class="ac-verre" d="M30 24 C 52 34 50 78 30 104 C 10 78 8 34 30 24 Z"/><path class="ac-facette" d="M30 28 L30 100 M18 44 L42 44 M16 64 L44 64 M20 84 L40 84"/></svg>
+      <p>Pure white</p>
+    </li><li class="ampoule-carte" style="--c:#ff3b30">
+      <svg viewBox="0 0 60 110" aria-hidden="true" data-visuel><circle class="ac-halo" cx="30" cy="66" r="30"/><rect x="21" y="4" width="18" height="22" rx="3" class="ac-douille"/><path class="ac-verre" d="M30 24 C 52 34 50 78 30 104 C 10 78 8 34 30 24 Z"/><path class="ac-facette" d="M30 28 L30 100 M18 44 L42 44 M16 64 L44 64 M20 84 L40 84"/></svg>
+      <p>Red</p>
+    </li><li class="ampoule-carte" style="--c:#2fd06a">
+      <svg viewBox="0 0 60 110" aria-hidden="true" data-visuel><circle class="ac-halo" cx="30" cy="66" r="30"/><rect x="21" y="4" width="18" height="22" rx="3" class="ac-douille"/><path class="ac-verre" d="M30 24 C 52 34 50 78 30 104 C 10 78 8 34 30 24 Z"/><path class="ac-facette" d="M30 28 L30 100 M18 44 L42 44 M16 64 L44 64 M20 84 L40 84"/></svg>
+      <p>Green</p>
+    </li><li class="ampoule-carte" style="--c:#4d8dff">
+      <svg viewBox="0 0 60 110" aria-hidden="true" data-visuel><circle class="ac-halo" cx="30" cy="66" r="30"/><rect x="21" y="4" width="18" height="22" rx="3" class="ac-douille"/><path class="ac-verre" d="M30 24 C 52 34 50 78 30 104 C 10 78 8 34 30 24 Z"/><path class="ac-facette" d="M30 28 L30 100 M18 44 L42 44 M16 64 L44 64 M20 84 L40 84"/></svg>
+      <p>Blue</p>
+    </li></ul>
+    <div class="couleurs-bas">
+      <figure class="media couleurs-photo" data-fx="zoom" style="--cadrage:50% 50%;aspect-ratio:1 / 1">
+  <picture>
+    <img src="/assets/images/ampoule-c9-blanc-chaud-800.webp" srcset="/assets/images/ampoule-c9-blanc-chaud-640.webp 640w, /assets/images/ampoule-c9-blanc-chaud-800.webp 800w" sizes="(max-width: 760px) 50vw, 18vw" alt="Faceted C9 bulb, warm white" width="800" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <p class="encadre" data-anime>Change your colour combination every year at no extra cost.</p>
+    </div>
+  </div>
+</section>
+<section class="section section--glace service-lumieres" id="service">
+  <div class="conteneur">
+    <div class="saisons-tete">
+      <h2 data-anime="lignes">From fall <em>to spring.</em></h2>
+      <p data-anime>You buy nothing and climb nothing: the lights and equipment remain the property of PMG Maintenance.</p>
+    </div>
+    <div class="frise">
+      <svg class="frise-trait" viewBox="0 0 100 10" preserveAspectRatio="none" aria-hidden="true" data-visuel><path d="M0 5 H100" vector-effect="non-scaling-stroke"/></svg>
+      <ol class="etapes etapes--frise" data-anime="cascade"><li class="etape"><span class="etape-num" aria-hidden="true">1</span><h3>Design</h3><p>We plan the layout and colours with you.</p></li><li class="etape"><span class="etape-num" aria-hidden="true">2</span><h3>Custom-made</h3><p>Wire is cut to fit your home, with no excess.</p></li><li class="etape"><span class="etape-num" aria-hidden="true">3</span><h3>Installation</h3><p>Installed by a crew trained for working at heights.</p></li><li class="etape"><span class="etape-num" aria-hidden="true">4</span><h3>Removal and storage</h3><p>In spring, we take everything down and store it until next season.</p></li></ol>
+    </div>
+  </div>
+</section>
+<section class="section section--nuit realisations" id="realisations">
+  <div class="conteneur">
+    <div class="saisons-tete">
+      <h2 data-anime="lignes">Homes and businesses, <em>lit up.</em></h2>
+      <div class="filtres" role="group" aria-label="Filter our work" data-filtres=".galerie-noel > li">
+        <button type="button" data-filtre="tout" aria-pressed="true">All</button>
+        <button type="button" data-filtre="residentiel" aria-pressed="false">Residential</button>
+        <button type="button" data-filtre="commercial" aria-pressed="false">Commercial</button>
+      </div>
+    </div>
+    <ul class="galerie-noel" data-anime="cascade"><li data-type="residentiel" class="grand">
+      <figure class="media galerie-media" data-fx="zoom" data-fx-force="10" style="--cadrage:50% 50%;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA4KCw0LCQ4NDA0QDw4RFiQXFhQUFiwgIRokNC43NjMuMjI6QVNGOj1OPjIySGJJTlZYXV5dOEVmbWVabFNbXVn/2wBDAQ8QEBYTFioXFypZOzI7WVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVn/wAARCAASABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDl4bC3ksoYMYuJTu80/dX2oHhm8MpUuhUfxLkimWE8sKo43YB49BUz38/nM73RIIPGam7KsGoaQlrp7In72eM72ZR29KKgivJOUj3ncCCwFFCYWKQY9MnFaFnGhIJRc/SiigC8wAHAAoooqCz/2Q==);background-size:cover;background-position:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/noel-blanc-chaud-mobile-640.webp 640w, /assets/images/noel-blanc-chaud-mobile-1080.webp 1080w" sizes="(max-width: 760px) 92vw, 60vw">
+    <img src="/assets/images/noel-blanc-chaud-1280.webp" srcset="/assets/images/noel-blanc-chaud-640.webp 640w, /assets/images/noel-blanc-chaud-1280.webp 1280w, /assets/images/noel-blanc-chaud-1920.webp 1920w" sizes="(max-width: 760px) 92vw, 60vw" alt="Home lit with warm white bulbs along the roofline" width="1280" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </li><li data-type="residentiel" class="">
+      <figure class="media galerie-media" data-fx="zoom" data-fx-force="10" style="--cadrage:50% 45%">
+  <picture>
+    <img src="/assets/images/noel-multicolore-1600.webp" srcset="/assets/images/noel-multicolore-1024.webp 1024w, /assets/images/noel-multicolore-1168.webp 1168w, /assets/images/noel-multicolore-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 30vw" alt="Two-storey home with arches lit in colour" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </li><li data-type="commercial" class="">
+      <figure class="media galerie-media" data-fx="zoom" data-fx-force="10" style="--cadrage:50% 40%">
+  <picture>
+    <img src="/assets/images/noel-immeuble-1600.webp" srcset="/assets/images/noel-immeuble-1024.webp 1024w, /assets/images/noel-immeuble-1168.webp 1168w, /assets/images/noel-immeuble-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 30vw" alt="Apartment building decorated for the holidays" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </li><li data-type="residentiel" class="">
+      <figure class="media galerie-media" data-fx="zoom" data-fx-force="10" style="--cadrage:50% 40%">
+  <picture>
+    <img src="/assets/images/noel-pignon-1600.webp" srcset="/assets/images/noel-pignon-1024.webp 1024w, /assets/images/noel-pignon-1168.webp 1168w, /assets/images/noel-pignon-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 30vw" alt="Gable and windows outlined with multicolour bulbs" width="1600" height="2133" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </li><li data-type="commercial" class="">
+      <figure class="media galerie-media" data-fx="zoom" data-fx-force="10" style="--cadrage:45% 55%">
+  <picture>
+    <img src="/assets/images/noel-commercial-1600.webp" srcset="/assets/images/noel-commercial-1024.webp 1024w, /assets/images/noel-commercial-1168.webp 1168w, /assets/images/noel-commercial-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 30vw" alt="Commercial building and tall tree lit up" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </li><li data-type="residentiel" class="">
+      <figure class="media galerie-media" data-fx="zoom" data-fx-force="10" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/noel-plain-pied-1600.webp" srcset="/assets/images/noel-plain-pied-1024.webp 1024w, /assets/images/noel-plain-pied-1168.webp 1168w, /assets/images/noel-plain-pied-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 30vw" alt="Bungalow lit in colour" width="1600" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </li><li data-type="commercial" class="">
+      <figure class="media galerie-media" data-fx="zoom" data-fx-force="10" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/noel-restaurant-1168.webp" srcset="/assets/images/noel-restaurant-1024.webp 1024w, /assets/images/noel-restaurant-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 30vw" alt="Restaurant facade outlined with bulbs" width="1168" height="658" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </li><li data-type="residentiel" class="">
+      <figure class="media galerie-media" data-fx="zoom" data-fx-force="10" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/noel-bungalow-1600.webp" srcset="/assets/images/noel-bungalow-1024.webp 1024w, /assets/images/noel-bungalow-1168.webp 1168w, /assets/images/noel-bungalow-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 30vw" alt="Bungalow lit in red, green and white" width="1600" height="1000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </li><li data-type="residentiel" class="">
+      <figure class="media galerie-media" data-fx="zoom" data-fx-force="10" style="--cadrage:60% 50%;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA4KCw0LCQ4NDA0QDw4RFiQXFhQUFiwgIRokNC43NjMuMjI6QVNGOj1OPjIySGJJTlZYXV5dOEVmbWVabFNbXVn/2wBDAQ8QEBYTFioXFypZOzI7WVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVn/wAARCAAOABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDGEJjtVlcgnGSO4qo16D/q1796gt5HZ1WVi0Xdc9RVi7ltVBWG2C9MEnJrV4iS0JVGL1HPcJLbbkzvB5UCiq4lWGYSxoMFNpU0V0c992Zcltj/2Q==);background-size:cover;background-position:60% 50%">
+  <picture>
+    <img src="/assets/images/noel-heure-bleue-1600.webp" srcset="/assets/images/noel-heure-bleue-1024.webp 1024w, /assets/images/noel-heure-bleue-1168.webp 1168w, /assets/images/noel-heure-bleue-1600.webp 1600w" sizes="(max-width: 760px) 92vw, 30vw" alt="Brick house at blue hour, trees and roofline lit up" width="1600" height="900" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </li></ul>
+  </div>
+</section>
+<section class="section garantie" id="garantie">
+  <div class="conteneur garantie-grille">
+    <div>
+      <h2 data-anime="lignes">A bulb goes out? <em>We come back.</em></h2>
+      <p data-anime>During the warranty period, a faulty bulb or an adjustment is fixed at no extra cost, under the terms of the service warranty and weather permitting.</p>
+    </div>
+    <ul class="avis-grille avis-grille--deux" data-anime="cascade"><li class="avis-carte">
+      <svg class="avis-toit" viewBox="0 0 60 24" aria-hidden="true" data-visuel><path d="M2 22 L30 3 L58 22" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <blockquote><p>Pierre and his crew transformed our front lawn into a magical wonderland</p></blockquote>
+      <p class="avis-auteur"><strong>J. Palumbo</strong> · Ottawa</p>
+    </li><li class="avis-carte">
+      <svg class="avis-toit" viewBox="0 0 60 24" aria-hidden="true" data-visuel><path d="M2 22 L30 3 L58 22" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <blockquote><p>They were professional, enthusiastic and did a beautiful job.</p></blockquote>
+      <p class="avis-auteur"><strong>Melanie Chin</strong> · Ottawa</p>
+    </li></ul>
+  </div>
+</section>
+<section class="section section--nuit fin" id="fin">
+  <div class="toit toit--ampoules fin-toit" aria-hidden="true" data-effet="ligne-de-toit" data-visuel data-grille="fil" data-scintille data-boucle-css>
+  <svg class="toit-trait" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false"><path d="M0 82 L34 82 L50 14 L66 82 L100 82" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+  <span class="c9" style="--x:1.4%;--y:82%;--i:0;--c:#ffc46b"></span><span class="c9" style="--x:4.19%;--y:82%;--i:1;--c:#ff3b30"></span><span class="c9" style="--x:6.99%;--y:82%;--i:2;--c:#2fd06a"></span><span class="c9" style="--x:9.78%;--y:82%;--i:3;--c:#4d8dff"></span><span class="c9" style="--x:12.57%;--y:82%;--i:4;--c:#eef4ff"></span><span class="c9" style="--x:15.37%;--y:82%;--i:5;--c:#ffc46b"></span><span class="c9" style="--x:18.16%;--y:82%;--i:6;--c:#ff3b30"></span><span class="c9" style="--x:20.96%;--y:82%;--i:7;--c:#2fd06a"></span><span class="c9" style="--x:23.75%;--y:82%;--i:8;--c:#4d8dff"></span><span class="c9" style="--x:26.55%;--y:82%;--i:9;--c:#eef4ff"></span><span class="c9" style="--x:29.34%;--y:82%;--i:10;--c:#ffc46b"></span><span class="c9" style="--x:32.13%;--y:82%;--i:11;--c:#ff3b30"></span><span class="c9" style="--x:34.84%;--y:78.43%;--i:12;--c:#2fd06a"></span><span class="c9" style="--x:37.37%;--y:67.69%;--i:13;--c:#4d8dff"></span><span class="c9" style="--x:39.89%;--y:56.95%;--i:14;--c:#eef4ff"></span><span class="c9" style="--x:42.42%;--y:46.22%;--i:15;--c:#ffc46b"></span><span class="c9" style="--x:44.95%;--y:35.48%;--i:16;--c:#ff3b30"></span><span class="c9" style="--x:47.47%;--y:24.74%;--i:17;--c:#2fd06a"></span><span class="c9" style="--x:50%;--y:14%;--i:18;--c:#4d8dff"></span><span class="c9" style="--x:52.53%;--y:24.74%;--i:19;--c:#eef4ff"></span><span class="c9" style="--x:55.05%;--y:35.48%;--i:20;--c:#ffc46b"></span><span class="c9" style="--x:57.58%;--y:46.22%;--i:21;--c:#ff3b30"></span><span class="c9" style="--x:60.11%;--y:56.95%;--i:22;--c:#2fd06a"></span><span class="c9" style="--x:62.63%;--y:67.69%;--i:23;--c:#4d8dff"></span><span class="c9" style="--x:65.16%;--y:78.43%;--i:24;--c:#eef4ff"></span><span class="c9" style="--x:67.87%;--y:82%;--i:25;--c:#ffc46b"></span><span class="c9" style="--x:70.66%;--y:82%;--i:26;--c:#ff3b30"></span><span class="c9" style="--x:73.45%;--y:82%;--i:27;--c:#2fd06a"></span><span class="c9" style="--x:76.25%;--y:82%;--i:28;--c:#4d8dff"></span><span class="c9" style="--x:79.04%;--y:82%;--i:29;--c:#eef4ff"></span><span class="c9" style="--x:81.84%;--y:82%;--i:30;--c:#ffc46b"></span><span class="c9" style="--x:84.63%;--y:82%;--i:31;--c:#ff3b30"></span><span class="c9" style="--x:87.43%;--y:82%;--i:32;--c:#2fd06a"></span><span class="c9" style="--x:90.22%;--y:82%;--i:33;--c:#4d8dff"></span><span class="c9" style="--x:93.01%;--y:82%;--i:34;--c:#eef4ff"></span><span class="c9" style="--x:95.81%;--y:82%;--i:35;--c:#ffc46b"></span><span class="c9" style="--x:98.6%;--y:82%;--i:36;--c:#ff3b30"></span>
+</div>
+  <div class="conteneur fin-grille">
+    <div>
+      <h2 data-anime="lignes">This year, <em>leave it to us.</em></h2>
+      <p data-anime>Availability is limited: ask for your free estimate now.</p>
+      <p class="fin-actions" data-anime>
+        <a href="/en/contact?service=lumieres#estimation" class="bouton" data-libelle="Contact" data-survol="magnetique">Book my installation</a>
+        <a class="bouton bouton--contour" href="sms:+18196619294">Text 819-661-9294</a>
+      </p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-nom"><img src="/assets/images/logo-clair.svg" alt="" width="40" height="40"> PMG Maintenance</p>
+      <p>Exterior building maintenance in Ottawa-Gatineau since 2015.</p>
+      <p>16, chemin Gaspard, L&#39;Ange-Gardien (QC) J8L 0G7</p>
+    </div>
+    <div>
+      <p class="pied-titre">Get in touch</p>
+      <ul>
+        <li><span class="pied-libelle">Phone</span> <a href="tel:+18196619294">819-661-9294</a></li>
+        <li><span class="pied-libelle">Toll-free</span> <a href="tel:+18776619294">1 877 661-9294</a></li>
+        <li><span class="pied-libelle">Texts</span> <a href="sms:+18196619294">819-661-9294</a></li>
+        <li><span class="pied-libelle">Email</span> <span class="selectionnable">info@pmgmaintenance.com</span></li>
+      </ul>
+    </div>
+    <nav aria-label="Site map">
+      <p class="pied-titre">Site map</p>
+      <ul><li><a href="/en" data-libelle="Home">Home</a></li><li><a href="/en/toiture-hiver" data-libelle="Winter roofs">Winter roofs</a></li><li><a href="/en/lumieres-de-noel" data-libelle="Christmas lights" aria-current="page">Christmas lights</a></li><li><a href="/en/lavage-exterieur" data-libelle="Exterior washing">Exterior washing</a></li><li><a href="/en/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas" id="pied-legal">
+    <p>Legal notice · to be completed</p>
+    <p>Privacy policy · to be completed</p>
+    <p>Presentation mock-up: forms are simulated, nothing is sent.</p>
+    <p><a href="#haut" data-sans-transition>Back to top</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+18196619294">Call</a>
+  <a class="bouton bouton--contour" href="sms:+18196619294">Text</a>
+  <a class="bouton" href="/en/contact#estimation" data-libelle="Contact">Estimate</a>
+</div>
+</body>
+</html>

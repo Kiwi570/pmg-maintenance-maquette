@@ -1,0 +1,6 @@
+{
+  "siteActuel": "www.pmgmaintenance.com",
+  "pagesTypes": ["/", "/toiture-hiver", "/lumieres-de-noel", "/lavage-exterieur", "/contact"],
+  "effets": ["ligne-de-toit", "neige", "jauge-neige", "barrage-vapeur", "ampoules-c9", "avant-apres", "carte-zone", "gouttiere-eau"],
+  "grille": { "dispenses": {} }
+}

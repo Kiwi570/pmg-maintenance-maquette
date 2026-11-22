@@ -1,0 +1,399 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "English version",
+    "actionEntete": "Estimation gratuite",
+    "appeler": "Appeler",
+    "texter": "Texter",
+    "sommaire": "Sommaire",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de présentation : les formulaires sont simulés, rien n'est envoyé.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Entretien extérieur de bâtiment",
+    "slogan": "Entretien extérieur de bâtiment, Ottawa-Gatineau, depuis 2015.",
+    "mentions": "Mentions légales",
+    "confidentialite": "Politique de confidentialité",
+    "aCompleter": "à compléter",
+    "telephone": "Téléphone",
+    "sansFrais": "Sans frais",
+    "textos": "Textos",
+    "courriel": "Courriel",
+    "adresse": "Adresse",
+    "zone": "Ottawa-Gatineau et environs",
+    "services": "Services",
+    "nousJoindre": "Nous joindre",
+    "logoAlt": "PMG Maintenance, accueil",
+    "glisser": "Glissez pour comparer",
+    "avant": "Avant",
+    "apres": "Après",
+    "toucherCouleurs": "Touchez les couleurs pour composer votre ligne de toit.",
+    "cliquerCouleurs": "Cliquez sur les couleurs pour composer votre ligne de toit.",
+    "decorLigne": "Ligne de toit décorative",
+    "saisons": {
+      "automne": "Automne",
+      "hiver": "Hiver",
+      "printemps": "Printemps et été"
+    },
+    "estimationCourt": "Estimation",
+    "avisDefiler": "Avis de nos clients, faites défiler"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "PMG Maintenance : entretien extérieur de bâtiment à Ottawa-Gatineau",
+      "description": "Déneigement de toiture, déglaçage à la vapeur, lumières de Noël, gouttières, lavage à basse pression et vitres. Estimation gratuite, équipe assurée et formée au travail en hauteur.",
+      "nav": "Accueil",
+      "partageAlt": "PMG Maintenance : une maison enneigée au bord du toit, à l'heure bleue",
+      "accroche": "Tout se joue au bord du toit"
+    },
+    "toiture-hiver": {
+      "titre": "Déneigement et déglaçage de toiture à la vapeur : PMG Maintenance",
+      "description": "Déneigement manuel à la pelle en plastique et déglaçage des barrages de glace à la vapeur, à Ottawa-Gatineau. Soumission écrite, assurance de 5 000 000 $.",
+      "nav": "Toiture l'hiver",
+      "partageAlt": "Bord de toit en hiver, barrage de glace et vapeur",
+      "accroche": "Le toit dégagé, les bardeaux intacts"
+    },
+    "lumieres-de-noel": {
+      "titre": "Installation de lumières de Noël : PMG Maintenance",
+      "description": "Ampoules C9 à DEL de calibre commercial en cinq couleurs : conception, installation, retrait au printemps et entreposage, à Ottawa-Gatineau.",
+      "nav": "Lumières de Noël",
+      "partageAlt": "Façade de maison au crépuscule, ligne de toit illuminée",
+      "accroche": "Votre maison, allumée pour les Fêtes"
+    },
+    "lavage-exterieur": {
+      "titre": "Lavage à basse pression, gouttières et vitres : PMG Maintenance",
+      "description": "Lavage extérieur à basse pression avec des produits biodégradables, nettoyage de gouttières et lavage de vitres, résidentiel et commercial, à Ottawa-Gatineau.",
+      "nav": "Lavage extérieur",
+      "partageAlt": "Revêtement fraîchement lavé et gouttière dégagée",
+      "accroche": "Propre, sans haute pression"
+    },
+    "contact": {
+      "titre": "Estimation gratuite : PMG Maintenance",
+      "description": "Demandez votre estimation gratuite : déneigement, déglaçage, lumières de Noël, gouttières, lavage et vitres. Réponse généralement en quelques minutes.",
+      "nav": "Contact",
+      "partageAlt": "Carte de la zone desservie par PMG Maintenance",
+      "accroche": "Votre estimation gratuite"
+    },
+    "404": {
+      "titre": "Page introuvable : PMG Maintenance",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Entretien extérieur de bâtiment · Ottawa-Gatineau",
+      "titre1": "Tout se joue",
+      "titre2": "au <em>bord du toit.</em>",
+      "texte": "Neige, glace, gouttières, lumières, vitres : PMG Maintenance entretient l'extérieur des maisons et des commerces depuis 2015, avec une équipe assurée et formée au travail en hauteur.",
+      "action": "Estimation gratuite",
+      "texter": "Texter le 819-661-9294",
+      "infoHiver": "En ce moment : déneigement de toiture, déglaçage à la vapeur et lumières de Noël.",
+      "infoAutomne": "En ce moment : gouttières d'automne et installation des lumières de Noël.",
+      "infoPrintemps": "En ce moment : lavage à basse pression, vitres et gouttières de printemps.",
+      "alt": "Maison enneigée à l'heure bleue, neige épaisse au bord du toit"
+    },
+    "saison": {
+      "titre": "Le bon service, <em>à la bonne saison.</em>",
+      "texte": "Votre maison n'a pas les mêmes besoins en novembre qu'en mai. Choisissez la saison : voici ce qu'on fait pour vous.",
+      "onglets": "Choisir la saison",
+      "voir": "En savoir plus"
+    },
+    "jauge": {
+      "titre": "Votre toit, <em>où en est-il ?</em>",
+      "texte": "Indiquez l'épaisseur de neige sur votre toit et ce que vous remarquez dans la maison : on vous dit s'il est temps d'appeler."
+    },
+    "vapeur": {
+      "titre": "La vapeur, <em>jamais le marteau.</em>",
+      "texte": "Un barrage de glace retient l'eau de fonte au bord du toit, et l'eau finit par s'infiltrer : plafond taché, soffites qui coulent. PMG le retire à la vapeur, avec un équipement de calibre commercial, sans abîmer bardeaux, solins, gouttières ni soffites.",
+      "jamais": "Ce qu'on ne met jamais sur votre toit",
+      "delai": "En haute saison, intervention souvent le jour même ou en 24 à 48 h, selon la demande et la météo.",
+      "lien": "Tout sur le déglaçage"
+    },
+    "lumieres": {
+      "titre": "Vos lumières de Noël, <em>sans monter à l'échelle.</em>",
+      "texte": "Ampoules C9 à DEL de calibre commercial, fils coupés sur mesure : PMG conçoit, installe, retire au printemps et entrepose vos lumières jusqu'à la saison suivante.",
+      "choix": "Composez votre ligne de toit",
+      "note": "Combinaison modifiable chaque année, sans frais.",
+      "dispo": "Disponibilités limitées",
+      "action": "Réserver mon installation",
+      "lien": "Voir les réalisations"
+    },
+    "avantApres": {
+      "titre": "Avant, après. <em>Vraies photos.</em>",
+      "texte": "Lavage à basse pression : la pression d'un boyau d'arrosage et des produits non toxiques et biodégradables. Les taches viennent surtout des moisissures, des algues et des bactéries, côté nord et à l'ombre.",
+      "lien": "Tout sur le lavage extérieur"
+    },
+    "securite": {
+      "titre": "Assurés et formés <em>pour le travail en hauteur.</em>",
+      "montantTexte": "d'assurance responsabilité civile"
+    },
+    "avis": {
+      "titre": "Ce que disent <em>nos clients.</em>",
+      "texte": "Des voisins de Gatineau, d'Ottawa, de Val-des-Monts, de Cantley ou de Rockland. Quelques mots, tels qu'ils les ont écrits.",
+      "ruban": "Ils nous ont confié leur toit, leurs gouttières, leurs vitres ou leurs lumières"
+    },
+    "zone": {
+      "titre": "Des deux côtés <em>de la rivière.</em>",
+      "texte": "De Shawville à Saint-Jérôme, de Wakefield à Kemptville : 52 localités au Québec et 45 en Ontario, au départ de L'Ange-Gardien."
+    },
+    "fin": {
+      "titre": "Votre estimation, <em>gratuite.</em>",
+      "texte": "Les demandes envoyées par le formulaire reçoivent généralement une réponse en quelques minutes ; par texto, c'est souvent encore plus rapide.",
+      "action": "Demander mon estimation"
+    }
+  },
+  "jauge": {
+    "epaisseur": "Épaisseur de neige sur le toit",
+    "signes": "Ce que vous remarquez",
+    "pluie": "De la pluie est annoncée après la neige",
+    "unitePo": "po",
+    "ok": "Sous le repère des 24 po. Surveillez la météo, surtout si de la pluie suit la neige.",
+    "attention": "On approche du repère : planifiez un déneigement, surtout avant une pluie.",
+    "depasse": "Au repère des 24 po : le déneigement est généralement recommandé.",
+    "pluieConseil": "Pluie annoncée après une chute de neige : le déneigement est conseillé avant qu'elle n'alourdisse la neige.",
+    "alerte": "Signe d'alerte : faites vérifier et déneiger votre toit sans attendre.",
+    "repere": "Repère : 24 po",
+    "note": "Repères tirés de la page Déneigement de PMG Maintenance. Chaque toit est différent : en cas de doute, demandez l'avis d'un professionnel.",
+    "action": "Demander un déneigement",
+    "coupe": "Coupe d'un toit : la couche de neige suit l'épaisseur choisie",
+    "verdict": "Notre avis"
+  },
+  "securite": {
+    "montant": "5 000 000 $",
+    "cnesstTitre": "CNESST et WSIB",
+    "cnesst": "Chaque travailleur est couvert par la CNESST au Québec et par la WSIB en Ontario.",
+    "hauteurTitre": "Travail en hauteur",
+    "hauteur": "Équipe formée et certifiée « Working at Heights », et formée en sécurité.",
+    "soumissionTitre": "Par écrit",
+    "soumission": "Soumission écrite avant les travaux, facture et reçu après.",
+    "proprioTitre": "Le propriétaire sur place",
+    "proprio": "Une entreprise dirigée par son propriétaire, présent sur les chantiers."
+  },
+  "zone": {
+    "recherche": "Votre ville est-elle desservie ?",
+    "exemple": "Ex. : Cantley, Orléans, Aylmer",
+    "oui": "Oui : {ville} ({province}) fait partie de nos localités.",
+    "non": "« {ville} » n'est pas dans notre liste. Écrivez-nous quand même : on vous dira si on peut se déplacer.",
+    "schema": "Schéma de la région, pas à l'échelle",
+    "qc": "Québec",
+    "on": "Ontario",
+    "riviere": "Rivière des Outaouais",
+    "depart": "Départ : L'Ange-Gardien",
+    "listeQc": "Les 52 localités du Québec",
+    "listeOn": "Les 45 localités de l'Ontario",
+    "carte": "Carte schématique de la zone desservie, de part et d'autre de la rivière des Outaouais"
+  },
+  "offres": {
+    "titre": "Deux codes, <em>un bon voisin.</em>",
+    "texte": "Offres à durée limitée, un code par résidence ou commerce. Indiquez le code dans votre demande d'estimation.",
+    "deuxServices": "25 $ de rabais en combinant le nettoyage de gouttières et le lavage de vitres.",
+    "voisins": "25 $ pour vous et 25 $ pour votre voisin : même service, même journée.",
+    "voisinsDetail": "Gouttières et descentes, vitres (25 vitres ou plus) ou lavage extérieur complet.",
+    "referenceTitre": "Référence",
+    "reference": "50 $ sur votre prochain service pour chaque client référé.",
+    "referenceDetail": "Le client référé inscrit votre nom dans sa demande.",
+    "utiliser": "Utiliser ce code"
+  },
+  "toiture": {
+    "surtitre": "Déneigement et déglaçage de toiture",
+    "titre1": "Le toit dégagé,",
+    "titre2": "<em>les bardeaux intacts.</em>",
+    "texte": "Neige accumulée, barrage de glace, glaçons au-dessus de l'entrée : PMG intervient sur les toits résidentiels et commerciaux d'Ottawa-Gatineau, à la main et à la vapeur.",
+    "chiffre": "24 po",
+    "chiffreTexte": "d'accumulation : le seuil où le déneigement est généralement recommandé.",
+    "info": "En haute saison : souvent le jour même ou en 24 à 48 h.",
+    "alt": "Bord de toit en hiver : barrage de glace, glaçons et vapeur dans le soleil",
+    "signes": {
+      "titre": "Les signes <em>qui ne trompent pas.</em>",
+      "neige": "Trop de neige sur le toit",
+      "glace": "Un barrage de glace",
+      "note": "Un barrage de glace se retire dès qu'il se forme : plus il grossit, plus l'eau s'infiltre."
+    },
+    "jauge": {
+      "titre": "Le repère <em>des 24 po.</em>",
+      "texte": "Le déneigement est généralement recommandé quand l'accumulation approche 24 po, et avant une pluie annoncée après une chute de neige. Faites le point."
+    },
+    "deneigement": {
+      "titre": "Le déneigement, <em>à la main.</em>",
+      "texte": "Un déneigement manuel et contrôlé, pour retirer le poids sans abîmer la toiture.",
+      "quand": "Quand déneiger ? Quand l'accumulation approche 24 po, et avant une pluie annoncée après une chute de neige.",
+      "eviter": "Ce qu'on évite : la pelle en métal, le grattage agressif, le déneigement jusqu'aux bardeaux et le travail sans équipement de sécurité.",
+      "alt": "Déneigement d'un toit à la pelle"
+    },
+    "vapeur": {
+      "titre": "Le déglaçage <em>à la vapeur.</em>",
+      "texte": "La vapeur de calibre commercial fait fondre la glace de façon contrôlée, là où un marteau briserait les bardeaux.",
+      "protege": "La vapeur épargne",
+      "aussi": "Aussi : toits plats ou en pente, balcons, portails, escaliers et puits de lumière, et pour les chantiers commerciaux, dalles de béton et coffrages.",
+      "calcium": "Les produits à base de calcium servent à prévenir un barrage, pas à le retirer.",
+      "alt": "Barrage de glace fondu à la vapeur au bord d'un toit"
+    },
+    "prix": {
+      "titre": "Le prix, <em>par écrit.</em>",
+      "texte": "Il dépend de l'accès au toit, de l'accumulation, des exigences de sécurité et du temps requis. Vous recevez une soumission écrite et claire avant les travaux, puis une facture et un reçu."
+    },
+    "faq": "Questions <em>fréquentes</em>",
+    "fin": {
+      "titre": "Un toit chargé ? <em>Écrivez-nous.</em>",
+      "texte": "Envoyez une photo de votre toit par texto ou remplissez la demande : la soumission écrite est gratuite.",
+      "action": "Demander une soumission"
+    }
+  },
+  "lumieres": {
+    "surtitre": "Installation de lumières de Noël",
+    "titre1": "Votre maison,",
+    "titre2": "<em>allumée pour les Fêtes.</em>",
+    "texte": "Choisissez vos couleurs, la façade s'allume. Des ampoules C9 à DEL de calibre commercial, posées le long de votre ligne de toit et retirées au printemps.",
+    "info": "Disponibilités limitées : réservez tôt.",
+    "action": "Réserver mon installation",
+    "alt": "Façade de maison enneigée au crépuscule, ligne de toit illuminée par les ampoules choisies",
+    "simulation": "Simulation : les ampoules sont dessinées sur l'illustration.",
+    "couleurs": {
+      "titre": "Cinq couleurs, <em>une ligne de toit.</em>",
+      "texte": "Des ampoules C9 à facettes, brillantes, uniformes et économes. Une seule couleur ou plusieurs ; la combinaison peut changer chaque année, sans frais. D'autres couleurs et formats sont offerts sur commande spéciale."
+    },
+    "service": {
+      "titre": "De l'automne <em>au printemps.</em>",
+      "texte": "Vous n'achetez rien, vous ne montez nulle part : les lumières et l'équipement restent la propriété de PMG Maintenance."
+    },
+    "realisations": {
+      "titre": "Maisons et commerces <em>allumés.</em>",
+      "tout": "Tout",
+      "residentiel": "Résidentiel",
+      "commercial": "Commercial",
+      "filtres": "Filtrer les réalisations"
+    },
+    "garantie": {
+      "titre": "Une ampoule s'éteint ? <em>On revient.</em>",
+      "texte": "Pendant la période de garantie, une ampoule défectueuse ou un réglage à refaire sont réparés sans frais, selon les conditions de la garantie de service et la météo."
+    },
+    "fin": {
+      "titre": "Cette année, <em>on s'en occupe.</em>",
+      "texte": "Les disponibilités sont limitées : demandez votre estimation gratuite dès maintenant.",
+      "action": "Réserver mon installation"
+    }
+  },
+  "lavage": {
+    "surtitre": "Lavage extérieur, gouttières et vitres",
+    "titre1": "Propre,",
+    "titre2": "<em>sans haute pression.</em>",
+    "texte": "Le lavage à basse pression nettoie revêtements, soffites, toitures et béton avec la pression d'un boyau d'arrosage et des produits non toxiques et biodégradables.",
+    "info": "Résidentiel, commercial et institutionnel.",
+    "alt": "Revêtement de vinyle blanc fraîchement lavé, gouttelettes au soleil de printemps",
+    "bassePression": {
+      "titre": "Pourquoi <em>la basse pression ?</em>",
+      "p1": "Moins de risques pour vos surfaces et moins d'eau qu'un lavage à haute pression.",
+      "p2": "Les taches noires et vertes sont surtout des moisissures, des algues et des bactéries, plus visibles côté nord et à l'ombre.",
+      "p3": "Des équipements qui permettent de travailler en hauteur en toute sécurité.",
+      "complet": "Le lavage extérieur complet",
+      "c1": "Vidange des gouttières",
+      "c2": "Gouttières, descentes, fascias, soffites, revêtement et portes",
+      "c3": "Vitres, cadres et moustiquaires extérieurs"
+    },
+    "surfaces": {
+      "titre": "Ce qu'on <em>lave.</em>",
+      "texte": "Choisissez un type de surface.",
+      "filtres": "Filtrer les surfaces"
+    },
+    "gouttieres": {
+      "titre": "Des gouttières <em>qui font leur travail.</em>",
+      "texte": "Pleines de débris, elles débordent, s'affaissent, gèlent et laissent l'eau s'infiltrer dans le toit, les murs et les fondations.",
+      "verifs": "À chaque nettoyage, on vérifie trois choses",
+      "v1": "L'eau circule sans obstacle",
+      "v2": "Les descentes sont dégagées",
+      "v3": "Aucune eau ne stagne",
+      "frequence": "Une fois par année, à l'automne, suffit le plus souvent. Un deuxième nettoyage au printemps ou en été est utile si des pins ou des érables sont proches.",
+      "parefeuilles": "Et les pare-feuilles ? Aucun ne remplace vraiment le nettoyage : les débris collent dessus, et les granules de bardeaux s'accumulent même sans arbres.",
+      "alt": "Gouttière dégagée, l'eau s'écoule librement"
+    },
+    "vitres": {
+      "titre": "Des vitres <em>qui laissent passer le jour.</em>",
+      "texte": "Vitres résidentielles, commerciales et institutionnelles, et lavage après construction ou rénovation. Une à deux fois par année, pour une maison claire ou une vitrine qui donne envie d'entrer.",
+      "alt": "Grande fenêtre propre qui reflète le ciel"
+    },
+    "fin": {
+      "titre": "Au printemps, <em>tout reluit.</em>",
+      "texte": "Demandez votre estimation gratuite : gouttières, lavage, vitres ou tout à la fois.",
+      "action": "Demander mon estimation"
+    }
+  },
+  "contact": {
+    "titre1": "Parlons de",
+    "titre2": "<em>votre maison.</em>",
+    "texte": "Les soumissions sont envoyées par courriel. Les demandes reçoivent généralement une réponse en quelques minutes ; par texto, souvent plus vite encore.",
+    "info": "Textos bienvenus au 819-661-9294",
+    "action": "Commencer ma demande",
+    "estimation": {
+      "titre": "Votre estimation <em>gratuite.</em>",
+      "etapes": "Quatre étapes, deux minutes",
+      "e1": "Les services",
+      "e2": "L'adresse",
+      "e3": "Vos coordonnées",
+      "e4": "Pour finir",
+      "suivant": "Suivant",
+      "precedent": "Précédent",
+      "envoyer": "Envoyer ma demande",
+      "propriete": "Type de propriété",
+      "residentielle": "Résidentielle",
+      "commerciale": "Commerciale",
+      "institutionnelle": "Institutionnelle",
+      "servicesLegende": "Services souhaités",
+      "aucunService": "Choisissez au moins un service.",
+      "rue": "Numéro et rue des travaux",
+      "ville": "Ville",
+      "codePostal": "Code postal",
+      "desservie": "Localité desservie",
+      "nonListee": "Localité hors de notre liste : on vous confirmera le déplacement.",
+      "nom": "Prénom et nom",
+      "entreprise": "Nom d'entreprise (facultatif)",
+      "email": "Courriel (la soumission vous est envoyée par courriel)",
+      "tel": "Téléphone cellulaire",
+      "preference": "Je préfère être joint par",
+      "prefCourriel": "Courriel",
+      "prefTel": "Téléphone",
+      "prefTexto": "Texto",
+      "code": "Code promo",
+      "codeAucun": "Aucun",
+      "referent": "Nom du client qui vous a référé (facultatif)",
+      "source": "Comment avez-vous connu PMG ?",
+      "sourceChoisir": "Choisir",
+      "sourceRecherche": "Recherche en ligne",
+      "sourceReference": "Référence d'un client",
+      "sourceVoisin": "Un voisin, nos camions sur un chantier",
+      "sourceAutre": "Autre",
+      "message": "Message (accès au toit, photos à envoyer par texto, précisions)",
+      "recap": "Votre demande",
+      "recapVide": "Aucun service choisi pour l'instant.",
+      "recapVille": "Lieu des travaux",
+      "recapCode": "Code",
+      "recapRemise": "25 $ si les conditions sont remplies",
+      "donnees": "Vos coordonnées servent seulement à préparer votre soumission.",
+      "politique": "Politique de confidentialité (à compléter)",
+      "envoye": "Demande simulée : rien n'a été envoyé. Sur le site final, elle partira vers PMG Maintenance, qui vous répondra par courriel."
+    },
+    "paiement": {
+      "titre": "Paiement",
+      "texte": "Chèque à l'ordre de PMG Maintenance, argent comptant, virement Interac à info@pmgmaintenance.com, et PayPal avec Visa, Mastercard, American Express ou Discover."
+    },
+    "coordonnees": {
+      "titre": "Nous <em>joindre.</em>",
+      "texte": "Une question sur un toit, une gouttière ou des lumières ? Appelez, textez ou écrivez."
+    },
+    "zone": {
+      "titre": "La zone <em>desservie.</em>"
+    }
+  },
+  "introuvable": {
+    "titre": "Cette page est restée <em>sous la neige.</em>",
+    "texte": "Elle n'existe pas ou plus. Le reste du site est bien dégagé.",
+    "retour": "Revenir à l'accueil",
+    "alt": "Une pelle à neige plantée dans un banc de neige"
+  }
+}

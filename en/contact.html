@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en" data-v="1" data-saison="hiver">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Free estimate: PMG Maintenance</title>
+<meta name="description" content="Ask for your free estimate: snow removal, ice dams, Christmas lights, gutters, washing and windows. We usually reply within minutes.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://pmg-maintenance-maquette.vercel.app/en/contact">
+<link rel="alternate" hreflang="fr" href="https://pmg-maintenance-maquette.vercel.app/contact">
+<link rel="alternate" hreflang="en" href="https://pmg-maintenance-maquette.vercel.app/en/contact">
+<link rel="alternate" hreflang="x-default" href="https://pmg-maintenance-maquette.vercel.app/contact">
+<style>:root{--fond:#f3f6f9;--texte:#0c1a2a;--voile-fond:#0c1a2a;--ouverture-fond:#0c1a2a;--menu-fond:#0c1a2a}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+try {
+var ps = new URLSearchParams(location.search).get('saison'), mo = new Date().getMonth() + 1;
+var sa = /^(automne|hiver|printemps)$/.test(ps || '') ? ps : (mo >= 11 || mo <= 3) ? 'hiver' : mo >= 9 ? 'automne' : 'printemps';
+d.setAttribute('data-saison', sa);
+} catch (e) {}
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/archivo-titres.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0c1a2a">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PMG Maintenance">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Free estimate: PMG Maintenance">
+<meta property="og:description" content="Ask for your free estimate: snow removal, ice dams, Christmas lights, gutters, washing and windows. We usually reply within minutes.">
+<meta property="og:url" content="https://pmg-maintenance-maquette.vercel.app/en/contact">
+<meta property="og:image" content="https://pmg-maintenance-maquette.vercel.app/assets/partage/contact-en.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Map of the area served by PMG Maintenance">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"PMG Maintenance","description":"Entretien extérieur de bâtiment : déneigement de toiture, déglaçage à la vapeur, installation de lumières de Noël, nettoyage de gouttières, lavage à basse pression et lavage de vitres, Ottawa-Gatineau.","telephone":"+1-819-661-9294","email":"info@pmgmaintenance.com","foundingDate":"2015","address":{"@type":"PostalAddress","streetAddress":"16, chemin Gaspard","addressLocality":"L'Ange-Gardien","addressRegion":"QC","postalCode":"J8L 0G7","addressCountry":"CA"},"areaServed":["Gatineau","Ottawa","Outaouais","Est ontarien"],"paymentAccepted":"Cheque, Cash, Interac e-Transfer, PayPal, Visa, Mastercard, American Express, Discover"}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C 240 20 480 20 720 70 S 1200 130 1440 40 V 120 H 0 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 C 240 100 480 100 720 50 S 1200 -10 1440 80 V 0 H 0 Z"/></svg><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="56" height="56"><span data-voile-libelle>Contact</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-clair.svg" alt="" width="64" height="64" data-ouverture-objet>
+  <p class="ouverture-nom">PMG Maintenance</p>
+  <div class="toit toit--ampoules ouverture-toit" aria-hidden="true">
+  <svg class="toit-trait" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false"><path d="M0 82 L34 82 L50 14 L66 82 L100 82" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+  <span class="c9" style="--x:3.45%;--y:82%;--i:0;--c:#ffc46b"></span><span class="c9" style="--x:10.34%;--y:82%;--i:1;--c:#ff3b30"></span><span class="c9" style="--x:17.23%;--y:82%;--i:2;--c:#2fd06a"></span><span class="c9" style="--x:24.12%;--y:82%;--i:3;--c:#4d8dff"></span><span class="c9" style="--x:31.02%;--y:82%;--i:4;--c:#eef4ff"></span><span class="c9" style="--x:37.53%;--y:66.98%;--i:5;--c:#ffc46b"></span><span class="c9" style="--x:43.77%;--y:40.49%;--i:6;--c:#ff3b30"></span><span class="c9" style="--x:50%;--y:14%;--i:7;--c:#2fd06a"></span><span class="c9" style="--x:56.23%;--y:40.49%;--i:8;--c:#4d8dff"></span><span class="c9" style="--x:62.47%;--y:66.98%;--i:9;--c:#eef4ff"></span><span class="c9" style="--x:68.98%;--y:82%;--i:10;--c:#ffc46b"></span><span class="c9" style="--x:75.88%;--y:82%;--i:11;--c:#ff3b30"></span><span class="c9" style="--x:82.77%;--y:82%;--i:12;--c:#2fd06a"></span><span class="c9" style="--x:89.66%;--y:82%;--i:13;--c:#4d8dff"></span><span class="c9" style="--x:96.55%;--y:82%;--i:14;--c:#eef4ff"></span>
+</div>
+  <p class="ouverture-ligne">Exterior building maintenance</p>
+</div>
+<a class="evitement" href="#contenu">Skip to content</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/en" data-libelle="Home" aria-label="PMG Maintenance, home">
+      <img src="/assets/images/logo.svg" alt="" width="36" height="36"><span class="entete-nom">PMG <span>Maintenance</span></span>
+    </a>
+    <nav data-nav aria-label="Main navigation">
+      <ul><li><a href="/en/toiture-hiver" data-libelle="Winter roofs">Winter roofs</a></li><li><a href="/en/lumieres-de-noel" data-libelle="Christmas lights">Christmas lights</a></li><li><a href="/en/lavage-exterieur" data-libelle="Exterior washing">Exterior washing</a></li><li><a href="/en/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="entete-langue" href="/contact" hreflang="fr" lang="fr" data-langue="fr" aria-label="Version française">fr</a>
+      <a class="bouton" href="/en/contact#estimation" data-libelle="Contact">Free estimate</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Close"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Close</a></p>
+  <ul><li style="--i:0"><a href="/en" class="menu-lien" data-libelle="Home">Home</a></li><li style="--i:1"><a href="/en/toiture-hiver" class="menu-lien" data-libelle="Winter roofs">Winter roofs</a></li><li style="--i:2"><a href="/en/lumieres-de-noel" class="menu-lien" data-libelle="Christmas lights">Christmas lights</a></li><li style="--i:3"><a href="/en/lavage-exterieur" class="menu-lien" data-libelle="Exterior washing">Exterior washing</a></li><li style="--i:4"><a href="/en/contact" class="menu-lien" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+18196619294">Call 819-661-9294</a></p>
+  <p><a class="entete-langue" href="/contact" hreflang="fr" lang="fr" data-langue="fr">Version française</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="page-tete page-tete--contact section--glace" id="debut">
+  <div class="conteneur page-tete-grille contact-tete">
+    <div>
+      <h1 data-grille="typo"><span class="ligne-masque"><span class="page-ligne">Let&#39;s talk about</span></span><span class="ligne-masque"><span class="page-ligne"><em>your home.</em></span></span></h1>
+      <p class="page-intro masque-ecran-tres-bas" data-anime="gsap">Quotes are sent by email. Requests usually get an answer within minutes; by text, often even faster.</p>
+      <p class="contact-numero masque-ecran-tres-bas" data-anime="gsap"><a href="tel:+18196619294">819-661-9294</a></p>
+      <div class="hero-actions" data-anime="gsap">
+        <a class="bouton" href="#estimation" data-action-principale>Start my request</a>
+        <a class="bouton bouton--contour" href="sms:+18196619294">Text</a>
+      </div>
+      <p class="hero-info" data-info-cle data-anime="gsap"><span class="pastille-saison" aria-hidden="true"></span>Texts welcome at 819-661-9294</p>
+    </div>
+    <div class="contact-zone" data-iris-centre>
+      <div class="zone-carte" data-visuel data-effet="carte-zone">
+  <svg viewBox="0 0 1200 546" role="img" aria-label="Diagram of the service area on both sides of the Ottawa River">
+    <rect x="0" y="0" width="1200" height="546" rx="22" class="zone-fond"/>
+    <path class="zone-riviere" d="M0 240.9 L103.4 252.7 L206.9 223.3 L281.4 240.9 L364.1 287.9 L405.5 282 L446.9 267.4 L488.3 252.7 L529.7 229.2 L579.3 205.7 L629 182.2 L682.8 170.4 L765.5 158.6 L869 146.9 L972.4 164.5 L1096.6 211.5 L1200 235" pathLength="1" fill="none"/>
+    <text class="zone-province" x="40" y="60">Quebec</text>
+    <text class="zone-province" x="40" y="506">Ontario</text>
+    <g class="zone-point zone-point--qc" style="--i:0" data-ville="Gatineau">
+      <circle cx="455.2" cy="235" r="6"/>
+      <text x="443.2" y="223" text-anchor="end">Gatineau</text>
+    </g><g class="zone-point zone-point--on" style="--i:1" data-ville="Ottawa">
+      <circle cx="455.2" cy="270.3" r="6"/>
+      <text x="467.2" y="288.3" text-anchor="start">Ottawa</text>
+    </g><g class="zone-point zone-point--qc zone-point--siege" style="--i:2" data-ville="L&#39;Ange-Gardien">
+      <circle cx="558.6" cy="176.3" r="11"/>
+      <text x="552.6" y="158.3" text-anchor="middle">L&#39;Ange-Gardien</text>
+    </g><g class="zone-point zone-point--qc" style="--i:3" data-ville="Aylmer">
+      <circle cx="393.1" cy="282" r="6"/>
+    </g><g class="zone-point zone-point--qc" style="--i:4" data-ville="Hull">
+      <circle cx="446.9" cy="264.4" r="6"/>
+    </g><g class="zone-point zone-point--qc" style="--i:5" data-ville="Buckingham">
+      <circle cx="571" cy="170.4" r="6"/>
+    </g><g class="zone-point zone-point--qc" style="--i:6" data-ville="Masson-Angers">
+      <circle cx="575.2" cy="199.8" r="6"/>
+    </g><g class="zone-point zone-point--qc" style="--i:7" data-ville="Val-des-Monts">
+      <circle cx="467.6" cy="135.1" r="6"/>
+      <text x="479.6" y="127.1" text-anchor="start">Val-des-Monts</text>
+    </g><g class="zone-point zone-point--qc" style="--i:8" data-ville="Cantley">
+      <circle cx="422.1" cy="182.2" r="6"/>
+    </g><g class="zone-point zone-point--qc" style="--i:9" data-ville="Chelsea">
+      <circle cx="413.8" cy="223.3" r="6"/>
+    </g><g class="zone-point zone-point--qc" style="--i:10" data-ville="Wakefield">
+      <circle cx="360" cy="141" r="6"/>
+      <text x="350" y="131" text-anchor="end">Wakefield</text>
+    </g><g class="zone-point zone-point--qc" style="--i:11" data-ville="La Pêche">
+      <circle cx="331" cy="152.8" r="6"/>
+    </g><g class="zone-point zone-point--qc" style="--i:12" data-ville="Thurso">
+      <circle cx="641.4" cy="164.5" r="6"/>
+    </g><g class="zone-point zone-point--qc" style="--i:13" data-ville="Papineauville">
+      <circle cx="736.6" cy="152.8" r="6"/>
+    </g><g class="zone-point zone-point--qc" style="--i:14" data-ville="Montebello">
+      <circle cx="769.7" cy="135.1" r="6"/>
+      <text x="769.7" y="121.1" text-anchor="middle">Montebello</text>
+    </g><g class="zone-point zone-point--qc" style="--i:15" data-ville="Shawville">
+      <circle cx="128.3" cy="164.5" r="6"/>
+      <text x="140.3" y="169.5" text-anchor="start">Shawville</text>
+    </g><g class="zone-point zone-point--qc" style="--i:16" data-ville="Quyon">
+      <circle cx="235.9" cy="211.5" r="6"/>
+    </g><g class="zone-point zone-point--qc" style="--i:17" data-ville="Luskville">
+      <circle cx="322.8" cy="205.7" r="6"/>
+    </g><g class="zone-point zone-point--qc" style="--i:18" data-ville="Lachute">
+      <circle cx="1022.1" cy="135.1" r="6"/>
+    </g><g class="zone-point zone-point--qc" style="--i:19" data-ville="Mirabel">
+      <circle cx="1125.5" cy="135.1" r="6"/>
+    </g><g class="zone-point zone-point--qc" style="--i:20" data-ville="Saint-Jérôme">
+      <circle cx="1158.6" cy="58.8" r="6"/>
+      <text x="1146.6" y="63.8" text-anchor="end">Saint-Jérôme</text>
+    </g><g class="zone-point zone-point--qc" style="--i:21" data-ville="Grenville">
+      <circle cx="910.3" cy="146.9" r="6"/>
+    </g><g class="zone-point zone-point--qc" style="--i:22" data-ville="Low">
+      <circle cx="351.7" cy="47" r="6"/>
+    </g><g class="zone-point zone-point--on" style="--i:23" data-ville="Kanata">
+      <circle cx="368.3" cy="334.9" r="6"/>
+      <text x="356.3" y="339.9" text-anchor="end">Kanata</text>
+    </g><g class="zone-point zone-point--on" style="--i:24" data-ville="Nepean">
+      <circle cx="446.9" cy="323.2" r="6"/>
+    </g><g class="zone-point zone-point--on" style="--i:25" data-ville="Orléans">
+      <circle cx="533.8" cy="240.9" r="6"/>
+      <text x="545.8" y="260.9" text-anchor="start">Orléans</text>
+    </g><g class="zone-point zone-point--on" style="--i:26" data-ville="Barrhaven">
+      <circle cx="438.6" cy="358.4" r="6"/>
+    </g><g class="zone-point zone-point--on" style="--i:27" data-ville="Clarence-Rockland">
+      <circle cx="624.8" cy="193.9" r="6"/>
+    </g><g class="zone-point zone-point--on" style="--i:28" data-ville="Cumberland">
+      <circle cx="579.3" cy="211.5" r="6"/>
+    </g><g class="zone-point zone-point--on" style="--i:29" data-ville="Arnprior">
+      <circle cx="186.2" cy="264.4" r="6"/>
+      <text x="198.2" y="269.4" text-anchor="start">Arnprior</text>
+    </g><g class="zone-point zone-point--on" style="--i:30" data-ville="Carleton Place">
+      <circle cx="273.1" cy="434.8" r="6"/>
+    </g><g class="zone-point zone-point--on" style="--i:31" data-ville="Kemptville">
+      <circle cx="475.9" cy="505.3" r="6"/>
+      <text x="487.9" y="510.3" text-anchor="start">Kemptville</text>
+    </g><g class="zone-point zone-point--on" style="--i:32" data-ville="Manotick">
+      <circle cx="463.4" cy="381.9" r="6"/>
+    </g><g class="zone-point zone-point--on" style="--i:33" data-ville="Russell">
+      <circle cx="595.9" cy="364.3" r="6"/>
+    </g><g class="zone-point zone-point--on" style="--i:34" data-ville="Embrun">
+      <circle cx="629" cy="358.4" r="6"/>
+    </g><g class="zone-point zone-point--on" style="--i:35" data-ville="Casselman">
+      <circle cx="707.6" cy="334.9" r="6"/>
+    </g><g class="zone-point zone-point--on" style="--i:36" data-ville="Hawkesbury">
+      <circle cx="906.2" cy="158.6" r="6"/>
+      <text x="906.2" y="184.6" text-anchor="middle">Hawkesbury</text>
+    </g><g class="zone-point zone-point--on" style="--i:37" data-ville="Renfrew">
+      <circle cx="49.7" cy="240.9" r="6"/>
+    </g><g class="zone-point zone-point--on" style="--i:38" data-ville="Stittsville">
+      <circle cx="364.1" cy="364.3" r="6"/>
+    </g><g class="zone-point zone-point--on" style="--i:39" data-ville="Winchester">
+      <circle cx="600" cy="464.2" r="6"/>
+    </g><g class="zone-point zone-point--on" style="--i:40" data-ville="Maxville">
+      <circle cx="802.8" cy="346.7" r="6"/>
+    </g>
+  </svg>
+  <p class="zone-schema">Diagram of the region, not to scale · Base: L&#39;Ange-Gardien</p>
+</div>
+      <div class="zone-recherche" data-zone data-oui="Yes: {ville} ({province}) is one of our communities." data-non="&quot;{ville}&quot; isn&#39;t on our list. Write to us anyway: we&#39;ll tell you if we can come." data-qc="Quebec" data-on="Ontario">
+  <label for="zone-contact-ville">Do we serve your town?</label>
+  <input id="zone-contact-ville" type="search" list="zone-contact-liste" autocomplete="off" placeholder="E.g. Kanata, Orléans, Chelsea" data-zone-champ>
+  <datalist id="zone-contact-liste"><option value="Alcove"></option><option value="Aylmer"></option><option value="Blanche"></option><option value="Breckenridge"></option><option value="Bristol"></option><option value="Buckingham"></option><option value="Cantley"></option><option value="Chelsea"></option><option value="Chénéville"></option><option value="Denholm"></option><option value="Duhamel"></option><option value="Farrellton"></option><option value="Gatineau"></option><option value="Grenville"></option><option value="Hull"></option><option value="Inlet"></option><option value="Lac-des-Loups"></option><option value="Lac-des-Plages"></option><option value="Lachute"></option><option value="Lac-Simon"></option><option value="L&#39;Ange-Gardien"></option><option value="La Pêche"></option><option value="Limoges"></option><option value="Lochaber"></option><option value="Low"></option><option value="Luskville"></option><option value="Martindale"></option><option value="Masson-Angers"></option><option value="Mayo"></option><option value="Mirabel"></option><option value="Montebello"></option><option value="Montpellier"></option><option value="Namur"></option><option value="Notre-Dame-de-Bon-Secours-Partie-Nord"></option><option value="Notre-Dame-de-la-Salette"></option><option value="Papineauville"></option><option value="Perkins"></option><option value="Plaisance"></option><option value="Poltimore"></option><option value="Pontiac"></option><option value="Quyon"></option><option value="Ripon"></option><option value="Saint-André-Avellin"></option><option value="Sainte-Angélique"></option><option value="Saint-Émile-de-Suffolk"></option><option value="Saint-Jérôme"></option><option value="Saint-Sixte"></option><option value="Shawville"></option><option value="Thurso"></option><option value="Val-des-Bois"></option><option value="Val-des-Monts"></option><option value="Wakefield"></option><option value="Arnprior"></option><option value="Barrhaven"></option><option value="Black Corners"></option><option value="Cannamore"></option><option value="Carleton Place"></option><option value="Casselman"></option><option value="Cumberland"></option><option value="Clarence-Creek"></option><option value="Clarence-Rockland"></option><option value="Crysler"></option><option value="Dunrobin"></option><option value="Edwards"></option><option value="Embrun"></option><option value="Ficko"></option><option value="Franktown"></option><option value="Gloucester"></option><option value="Greely"></option><option value="Hawkesbury"></option><option value="Hammond"></option><option value="Kanata"></option><option value="Kars"></option><option value="Kemptville"></option><option value="Kinburn"></option><option value="Limoges"></option><option value="Manotick"></option><option value="Maxville"></option><option value="Metcalfe"></option><option value="Mississippi Mills"></option><option value="Morewood"></option><option value="Munster"></option><option value="Navan"></option><option value="Nepean"></option><option value="Ottawa"></option><option value="Orléans"></option><option value="Osgoode"></option><option value="Renfrew"></option><option value="Richmond"></option><option value="Riverside South"></option><option value="Rockcliffe Park"></option><option value="Russell"></option><option value="Spring Hill"></option><option value="St-Albert"></option><option value="Stittsville"></option><option value="Vanier"></option><option value="Winchester"></option></datalist>
+  <p class="zone-reponse" data-zone-reponse aria-live="polite"></p>
+  <details class="zone-listes">
+    <summary>All 52 communities in Quebec · All 45 communities in Ontario</summary>
+    <div class="zone-colonnes">
+      <div><p class="zone-col-titre">Quebec</p><p data-zone-qc='[&quot;Alcove&quot;,&quot;Aylmer&quot;,&quot;Blanche&quot;,&quot;Breckenridge&quot;,&quot;Bristol&quot;,&quot;Buckingham&quot;,&quot;Cantley&quot;,&quot;Chelsea&quot;,&quot;Chénéville&quot;,&quot;Denholm&quot;,&quot;Duhamel&quot;,&quot;Farrellton&quot;,&quot;Gatineau&quot;,&quot;Grenville&quot;,&quot;Hull&quot;,&quot;Inlet&quot;,&quot;Lac-des-Loups&quot;,&quot;Lac-des-Plages&quot;,&quot;Lachute&quot;,&quot;Lac-Simon&quot;,&quot;L&#39;Ange-Gardien&quot;,&quot;La Pêche&quot;,&quot;Limoges&quot;,&quot;Lochaber&quot;,&quot;Low&quot;,&quot;Luskville&quot;,&quot;Martindale&quot;,&quot;Masson-Angers&quot;,&quot;Mayo&quot;,&quot;Mirabel&quot;,&quot;Montebello&quot;,&quot;Montpellier&quot;,&quot;Namur&quot;,&quot;Notre-Dame-de-Bon-Secours-Partie-Nord&quot;,&quot;Notre-Dame-de-la-Salette&quot;,&quot;Papineauville&quot;,&quot;Perkins&quot;,&quot;Plaisance&quot;,&quot;Poltimore&quot;,&quot;Pontiac&quot;,&quot;Quyon&quot;,&quot;Ripon&quot;,&quot;Saint-André-Avellin&quot;,&quot;Sainte-Angélique&quot;,&quot;Saint-Émile-de-Suffolk&quot;,&quot;Saint-Jérôme&quot;,&quot;Saint-Sixte&quot;,&quot;Shawville&quot;,&quot;Thurso&quot;,&quot;Val-des-Bois&quot;,&quot;Val-des-Monts&quot;,&quot;Wakefield&quot;]'>Alcove, Aylmer, Blanche, Breckenridge, Bristol, Buckingham, Cantley, Chelsea, Chénéville, Denholm, Duhamel, Farrellton, Gatineau, Grenville, Hull, Inlet, Lac-des-Loups, Lac-des-Plages, Lachute, Lac-Simon, L&#39;Ange-Gardien, La Pêche, Limoges, Lochaber, Low, Luskville, Martindale, Masson-Angers, Mayo, Mirabel, Montebello, Montpellier, Namur, Notre-Dame-de-Bon-Secours-Partie-Nord, Notre-Dame-de-la-Salette, Papineauville, Perkins, Plaisance, Poltimore, Pontiac, Quyon, Ripon, Saint-André-Avellin, Sainte-Angélique, Saint-Émile-de-Suffolk, Saint-Jérôme, Saint-Sixte, Shawville, Thurso, Val-des-Bois, Val-des-Monts, Wakefield</p></div>
+      <div><p class="zone-col-titre">Ontario</p><p data-zone-on='[&quot;Arnprior&quot;,&quot;Barrhaven&quot;,&quot;Black Corners&quot;,&quot;Cannamore&quot;,&quot;Carleton Place&quot;,&quot;Casselman&quot;,&quot;Cumberland&quot;,&quot;Clarence-Creek&quot;,&quot;Clarence-Rockland&quot;,&quot;Crysler&quot;,&quot;Dunrobin&quot;,&quot;Edwards&quot;,&quot;Embrun&quot;,&quot;Ficko&quot;,&quot;Franktown&quot;,&quot;Gloucester&quot;,&quot;Greely&quot;,&quot;Hawkesbury&quot;,&quot;Hammond&quot;,&quot;Kanata&quot;,&quot;Kars&quot;,&quot;Kemptville&quot;,&quot;Kinburn&quot;,&quot;Limoges&quot;,&quot;Manotick&quot;,&quot;Maxville&quot;,&quot;Metcalfe&quot;,&quot;Mississippi Mills&quot;,&quot;Morewood&quot;,&quot;Munster&quot;,&quot;Navan&quot;,&quot;Nepean&quot;,&quot;Ottawa&quot;,&quot;Orléans&quot;,&quot;Osgoode&quot;,&quot;Renfrew&quot;,&quot;Richmond&quot;,&quot;Riverside South&quot;,&quot;Rockcliffe Park&quot;,&quot;Russell&quot;,&quot;Spring Hill&quot;,&quot;St-Albert&quot;,&quot;Stittsville&quot;,&quot;Vanier&quot;,&quot;Winchester&quot;]'>Arnprior, Barrhaven, Black Corners, Cannamore, Carleton Place, Casselman, Cumberland, Clarence-Creek, Clarence-Rockland, Crysler, Dunrobin, Edwards, Embrun, Ficko, Franktown, Gloucester, Greely, Hawkesbury, Hammond, Kanata, Kars, Kemptville, Kinburn, Limoges, Manotick, Maxville, Metcalfe, Mississippi Mills, Morewood, Munster, Navan, Nepean, Ottawa, Orléans, Osgoode, Renfrew, Richmond, Riverside South, Rockcliffe Park, Russell, Spring Hill, St-Albert, Stittsville, Vanier, Winchester</p></div>
+    </div>
+  </details>
+</div>
+    </div>
+  </div>
+</section>
+<section class="section estimation" id="estimation">
+  <div class="conteneur estimation-grille">
+    <div>
+      <h2 data-anime="lignes">Your <em>free estimate.</em></h2>
+      <ol class="puces-etapes" aria-label="Four steps, two minutes" data-anime="cascade">
+        <li data-puce><span>1</span>Services</li><li data-puce><span>2</span>Address</li><li data-puce><span>3</span>Your details</li><li data-puce><span>4</span>Last step</li>
+      </ol>
+      <form class="formulaire" data-formulaire data-etapes action="#" novalidate data-effet="formulaire-etapes">
+        <fieldset data-etape>
+          <legend>Services</legend>
+          <div class="groupe-services">
+            <p class="groupe-titre">Fall</p>
+            <label class="case"><input type="checkbox" name="services" value="gouttieres" data-service="gouttieres"> <span>Gutter cleaning</span></label><label class="case"><input type="checkbox" name="services" value="lumieres" data-service="lumieres"> <span>Christmas light installation</span></label>
+          </div><div class="groupe-services">
+            <p class="groupe-titre">Winter</p>
+            <label class="case"><input type="checkbox" name="services" value="deneigement" data-service="deneigement"> <span>Roof snow removal</span></label><label class="case"><input type="checkbox" name="services" value="deglacage" data-service="deglacage"> <span>Steam ice dam removal</span></label>
+          </div><div class="groupe-services">
+            <p class="groupe-titre">Spring and summer</p>
+            <label class="case"><input type="checkbox" name="services" value="gouttieres-printemps" data-service="gouttieres-printemps"> <span>Gutter cleaning (spring)</span></label><label class="case"><input type="checkbox" name="services" value="lavage" data-service="lavage"> <span>Complete exterior wash (soft wash, windows, gutters)</span></label><label class="case"><input type="checkbox" name="services" value="pression" data-service="pression"> <span>Pressure washing (other surfaces)</span></label><label class="case"><input type="checkbox" name="services" value="vitres" data-service="vitres"> <span>Exterior window cleaning</span></label><label class="case"><input type="checkbox" name="services" value="stationnement" data-service="stationnement"> <span>Parking lot washing</span></label>
+          </div>
+          <p class="champ-erreur" data-erreur-services hidden role="alert">Choose at least one service.</p>
+          <div class="champ"><label for="f-propriete">Property type</label>
+            <select id="f-propriete" name="propriete">
+              <option value="residentielle">Residential</option>
+              <option value="commerciale">Commercial</option>
+              <option value="institutionnelle">Institutional</option>
+            </select></div>
+          <p class="etape-actions"><button type="button" class="bouton" data-suivant>Next</button></p>
+        </fieldset>
+        <fieldset data-etape hidden>
+          <legend>Address</legend>
+          <div class="champ"><label for="f-rue">Street number and name</label><input id="f-rue" name="rue" autocomplete="street-address" required></div>
+          <div class="champ-ligne">
+            <div class="champ"><label for="f-ville">Town or city</label><input id="f-ville" name="ville" list="zone-contact-liste" autocomplete="address-level2" required></div>
+            <div class="champ"><label for="f-cp">Postal code</label><input id="f-cp" name="cp" autocomplete="postal-code"></div>
+          </div>
+          <p class="etape-actions"><button type="button" class="bouton bouton--contour" data-precedent>Back</button><button type="button" class="bouton" data-suivant>Next</button></p>
+        </fieldset>
+        <fieldset data-etape hidden>
+          <legend>Your details</legend>
+          <div class="champ"><label for="f-nom">First and last name</label><input id="f-nom" name="nom" autocomplete="name" required></div>
+          <div class="champ"><label for="f-entreprise">Company name (optional)</label><input id="f-entreprise" name="entreprise" autocomplete="organization"></div>
+          <div class="champ"><label for="f-email">Email (your quote is sent by email)</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+          <div class="champ"><label for="f-tel">Mobile phone</label><input id="f-tel" name="tel" type="tel" autocomplete="tel"></div>
+          <div class="champ"><label for="f-pref">Best way to reach me</label>
+            <select id="f-pref" name="preference"><option value="courriel">Email</option><option value="telephone">Phone</option><option value="texto">Text</option></select></div>
+          <p class="etape-actions"><button type="button" class="bouton bouton--contour" data-precedent>Back</button><button type="button" class="bouton" data-suivant>Next</button></p>
+        </fieldset>
+        <fieldset data-etape hidden>
+          <legend>Last step</legend>
+          <div class="champ"><label for="f-code">Promo code</label>
+            <select id="f-code" name="code"><option value="">None</option><option value="2SERVICES">2SERVICES</option><option value="VOISINS25">VOISINS25</option></select></div>
+          <div class="champ"><label for="f-referent">Name of the client who referred you (optional)</label><input id="f-referent" name="referent" autocomplete="off"></div>
+          <div class="champ"><label for="f-source">How did you hear about PMG?</label>
+            <select id="f-source" name="source"><option value="">Choose</option><option>Online search</option><option>Referred by a client</option><option>A neighbour, our crew on a job</option><option>Other</option></select></div>
+          <div class="champ"><label for="f-message">Message (roof access, photos to text us, details)</label><textarea id="f-message" name="message" rows="4"></textarea></div>
+          <p class="mention-donnees">Your details are only used to prepare your quote. <a href="#pied-legal" data-sans-transition>Privacy policy (to be completed)</a></p>
+          <p class="etape-actions"><button type="button" class="bouton bouton--contour" data-precedent>Back</button><button type="submit" class="bouton">Send my request</button></p>
+          <p data-message-envoi role="status" tabindex="-1" hidden data-texte="Simulated request: nothing was sent. On the final site, it will go to PMG Maintenance, who will reply by email."></p>
+        </fieldset>
+      </form>
+    </div>
+    <aside class="recap" data-recap data-vide="No service chosen yet." data-desservie="Served community" data-nonlistee="Not on our list: we&#39;ll confirm whether we can come." data-remise="$25 if conditions are met" aria-live="polite">
+      <svg class="recap-toit" viewBox="0 0 100 24" preserveAspectRatio="none" aria-hidden="true" data-visuel data-grille="fil"><path d="M0 22 H34 L50 3 L66 22 H100" fill="none" stroke="currentColor" stroke-width="3" vector-effect="non-scaling-stroke"/></svg>
+      <h3>Your request</h3>
+      <ul class="recap-services" data-recap-services><li class="vide">No service chosen yet.</li></ul>
+      <p><span class="recap-libelle">Job location</span> <span data-recap-ville>—</span></p>
+      <p><span class="recap-libelle">Code</span> <span data-recap-code>—</span></p>
+    </aside>
+  </div>
+</section>
+<section class="section section--nuit coordonnees" id="coordonnees">
+  <div class="conteneur coord-grille">
+    <div>
+      <h2 data-anime="lignes">Get <em>in touch.</em></h2>
+      <p data-anime>A question about a roof, a gutter or lights? Call, text or write.</p>
+    </div>
+    <ul class="coord-cartes" data-anime="cascade">
+      <li><p class="coord-libelle">Phone</p><a class="coord-valeur" href="tel:+18196619294">819-661-9294</a></li>
+      <li><p class="coord-libelle">Toll-free</p><a class="coord-valeur" href="tel:+18776619294">1 877 661-9294</a></li>
+      <li><p class="coord-libelle">Texts</p><a class="coord-valeur" href="sms:+18196619294">819-661-9294</a></li>
+      <li><p class="coord-libelle">Email</p><p class="coord-valeur selectionnable">info@pmgmaintenance.com</p></li>
+      <li class="coord-large"><p class="coord-libelle">Address</p><p class="coord-valeur">16, chemin Gaspard, L&#39;Ange-Gardien (QC) J8L 0G7</p></li>
+      <li class="coord-large"><p class="coord-libelle">Payment</p><p>Cheque payable to PMG Maintenance, cash, Interac e-Transfer to info@pmgmaintenance.com, and PayPal with Visa, Mastercard, American Express or Discover.</p></li>
+    </ul>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-nom"><img src="/assets/images/logo-clair.svg" alt="" width="40" height="40"> PMG Maintenance</p>
+      <p>Exterior building maintenance in Ottawa-Gatineau since 2015.</p>
+      <p>16, chemin Gaspard, L&#39;Ange-Gardien (QC) J8L 0G7</p>
+    </div>
+    <div>
+      <p class="pied-titre">Get in touch</p>
+      <ul>
+        <li><span class="pied-libelle">Phone</span> <a href="tel:+18196619294">819-661-9294</a></li>
+        <li><span class="pied-libelle">Toll-free</span> <a href="tel:+18776619294">1 877 661-9294</a></li>
+        <li><span class="pied-libelle">Texts</span> <a href="sms:+18196619294">819-661-9294</a></li>
+        <li><span class="pied-libelle">Email</span> <span class="selectionnable">info@pmgmaintenance.com</span></li>
+      </ul>
+    </div>
+    <nav aria-label="Site map">
+      <p class="pied-titre">Site map</p>
+      <ul><li><a href="/en" data-libelle="Home">Home</a></li><li><a href="/en/toiture-hiver" data-libelle="Winter roofs">Winter roofs</a></li><li><a href="/en/lumieres-de-noel" data-libelle="Christmas lights">Christmas lights</a></li><li><a href="/en/lavage-exterieur" data-libelle="Exterior washing">Exterior washing</a></li><li><a href="/en/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas" id="pied-legal">
+    <p>Legal notice · to be completed</p>
+    <p>Privacy policy · to be completed</p>
+    <p>Presentation mock-up: forms are simulated, nothing is sent.</p>
+    <p><a href="#haut" data-sans-transition>Back to top</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+18196619294">Call</a>
+  <a class="bouton bouton--contour" href="sms:+18196619294">Text</a>
+  <a class="bouton" href="/en/contact#estimation" data-libelle="Contact">Estimate</a>
+</div>
+</body>
+</html>

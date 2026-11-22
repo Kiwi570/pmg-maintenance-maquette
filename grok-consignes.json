@@ -1,0 +1,183 @@
+{
+  "client": "PMG Maintenance",
+  "activite": "bâtiment",
+  "direction": "Au bord du toit",
+  "date": "2026-11-20T22:15:55.531Z",
+  "images": [
+    {
+      "nom": "accueil-ouverture",
+      "fichier": "accueil-ouverture.jpg",
+      "page": "Accueil",
+      "emplacement": "ouverture (grand fond de nuit d'hiver) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "A two-storey suburban house with a steep pitched asphalt-shingle roof at blue hour on a still winter evening, a thick even layer of fresh snow on the roof with a clean overhanging edge and a few clear icicles along the white gutter, warm amber light glowing in two windows, a snowy front yard and a shovelled path, light snowflakes drifting in the air, deep night-blue sky, quiet and cinematic, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of snow white, pale ice blue and deep night blue, with small touches of warm amber window light, soft natural light true to the season described, tactile asphalt shingles, vinyl and wood siding, white aluminum gutters and fascia, snow and clear ice, set in a quiet North American residential suburb with pitched roofs on a calm moment of the season described above, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. A quiet North American residential suburb with pitched roofs landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "accueil-ouverture",
+      "fichier": "accueil-ouverture-mobile.jpg",
+      "page": "Accueil",
+      "emplacement": "ouverture (grand fond de nuit d'hiver) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "A two-storey suburban house with a steep pitched asphalt-shingle roof at blue hour on a still winter evening, a thick even layer of fresh snow on the roof with a clean overhanging edge and a few clear icicles along the white gutter, warm amber light glowing in two windows, a snowy front yard and a shovelled path, light snowflakes drifting in the air, deep night-blue sky, quiet and cinematic, nobody. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of snow white, pale ice blue and deep night blue, with small touches of warm amber window light, soft natural light true to the season described, tactile asphalt shingles, vinyl and wood siding, white aluminum gutters and fascia, snow and clear ice, set in a quiet North American residential suburb with pitched roofs on a calm moment of the season described above, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. A quiet North American residential suburb with pitched roofs landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "toiture-ouverture",
+      "fichier": "toiture-ouverture.jpg",
+      "page": "Toiture l'hiver",
+      "emplacement": "ouverture (bord de toit et barrage de glace) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Close view from a low angle of the lower edge of a snowy asphalt-shingle roof on a cold sunny winter morning, a thick ridge of clear ice along the eave and a row of long glassy icicles hanging from the white aluminum gutter, soft white steam rising and drifting in the sunlight where part of the ice has already been melted cleanly away, crisp blue sky, sparkling snow, the roof edge running diagonally across the frame, nobody, no tools. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of snow white, pale ice blue and deep night blue, with small touches of warm amber window light, soft natural light true to the season described, tactile asphalt shingles, vinyl and wood siding, white aluminum gutters and fascia, snow and clear ice, set in a quiet North American residential suburb with pitched roofs on a calm moment of the season described above, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "toiture-ouverture",
+      "fichier": "toiture-ouverture-mobile.jpg",
+      "page": "Toiture l'hiver",
+      "emplacement": "ouverture (bord de toit et barrage de glace) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Close view from a low angle of the lower edge of a snowy asphalt-shingle roof on a cold sunny winter morning, a thick ridge of clear ice along the eave and a row of long glassy icicles hanging from the white aluminum gutter, soft white steam rising and drifting in the sunlight where part of the ice has already been melted cleanly away, crisp blue sky, sparkling snow, the roof edge running diagonally across the frame, nobody, no tools. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of snow white, pale ice blue and deep night blue, with small touches of warm amber window light, soft natural light true to the season described, tactile asphalt shingles, vinyl and wood siding, white aluminum gutters and fascia, snow and clear ice, set in a quiet North American residential suburb with pitched roofs on a calm moment of the season described above, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "lumieres-facade",
+      "fichier": "lumieres-facade.jpg",
+      "page": "Lumières de Noël",
+      "emplacement": "ouverture : façade où le visiteur allume ses ampoules C9 (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Front view, straight on and perfectly level, of a simple two-storey suburban house with one large symmetrical gable roof at dusk on a snowy evening, the whole roofline and white gutter clearly visible as clean straight lines against the deep blue sky, no Christmas lights and no decorations at all, warm amber glow in a few windows, fresh snow on the roof and in the yard, two small snowy evergreen shrubs by the door, plenty of sky above the roof, calm and festive mood, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of snow white, pale ice blue and deep night blue, with small touches of warm amber window light, soft natural light true to the season described, tactile asphalt shingles, vinyl and wood siding, white aluminum gutters and fascia, snow and clear ice, set in a quiet North American residential suburb with pitched roofs on a calm moment of the season described above, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "lumieres-facade",
+      "fichier": "lumieres-facade-mobile.jpg",
+      "page": "Lumières de Noël",
+      "emplacement": "ouverture : façade où le visiteur allume ses ampoules C9 (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Front view, straight on and perfectly level, of a simple two-storey suburban house with one large symmetrical gable roof at dusk on a snowy evening, the whole roofline and white gutter clearly visible as clean straight lines against the deep blue sky, no Christmas lights and no decorations at all, warm amber glow in a few windows, fresh snow on the roof and in the yard, two small snowy evergreen shrubs by the door, plenty of sky above the roof, calm and festive mood, nobody. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of snow white, pale ice blue and deep night blue, with small touches of warm amber window light, soft natural light true to the season described, tactile asphalt shingles, vinyl and wood siding, white aluminum gutters and fascia, snow and clear ice, set in a quiet North American residential suburb with pitched roofs on a calm moment of the season described above, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "lavage-ouverture",
+      "fichier": "lavage-ouverture.jpg",
+      "page": "Lavage extérieur",
+      "emplacement": "ouverture (façade propre au printemps) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Three-quarter view of the bright white vinyl siding and white soffit of a suburban house on a fresh spring morning just after a gentle wash, clean siding glistening with fine water droplets, a white aluminum gutter and downspout, a clean window reflecting a blue sky with small clouds, young green maple leaves at the edge of the frame, sunlight and crisp shadows, nobody, no tools, no hose. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of snow white, pale ice blue and deep night blue, with small touches of warm amber window light, soft natural light true to the season described, tactile asphalt shingles, vinyl and wood siding, white aluminum gutters and fascia, snow and clear ice, set in a quiet North American residential suburb with pitched roofs on a calm moment of the season described above, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "lavage-ouverture",
+      "fichier": "lavage-ouverture-mobile.jpg",
+      "page": "Lavage extérieur",
+      "emplacement": "ouverture (façade propre au printemps) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Three-quarter view of the bright white vinyl siding and white soffit of a suburban house on a fresh spring morning just after a gentle wash, clean siding glistening with fine water droplets, a white aluminum gutter and downspout, a clean window reflecting a blue sky with small clouds, young green maple leaves at the edge of the frame, sunlight and crisp shadows, nobody, no tools, no hose. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of snow white, pale ice blue and deep night blue, with small touches of warm amber window light, soft natural light true to the season described, tactile asphalt shingles, vinyl and wood siding, white aluminum gutters and fascia, snow and clear ice, set in a quiet North American residential suburb with pitched roofs on a calm moment of the season described above, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "deneigement",
+      "fichier": "deneigement.jpg",
+      "page": "Accueil",
+      "emplacement": "carte « Déneigement de toiture » (si vos photos ne conviennent pas)",
+      "role": "carte-service",
+      "format": "4:3",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A worker seen strictly from behind on a snowy pitched roof on a bright winter day, wearing a red safety helmet, a full-body safety harness clipped to a rope anchored at the ridge and winter work clothes, pushing a large plastic snow shovel that slides a neat block of snow off the roof edge, a protective layer of snow left on the shingles, blue sky, face never visible. Horizontal composition, aspect ratio 4:3, main subject well inside the central area with generous margins on every side, so the image can be cropped. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of snow white, pale ice blue and deep night blue, with small touches of warm amber window light, soft natural light true to the season described, tactile asphalt shingles, vinyl and wood siding, white aluminum gutters and fascia, snow and clear ice, set in a quiet North American residential suburb with pitched roofs on a calm moment of the season described above, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "vapeur",
+      "fichier": "vapeur.jpg",
+      "page": "Accueil",
+      "emplacement": "section « La vapeur, jamais le marteau » (si vos photos ne conviennent pas)",
+      "role": "carte-service",
+      "format": "4:3",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "mains en trop"
+      ],
+      "consigne": "Close-up of a thick ridge of clear ice on the edge of a snowy shingle roof being melted by a jet of white steam coming from a slim metal steam wand that enters the frame from the bottom edge, a work-gloved hand at the very edge of the frame only, dense white steam clouds lit by the low winter sun, water dripping cleanly into the gutter, nobody visible. Horizontal composition, aspect ratio 4:3, main subject well inside the central area with generous margins on every side, so the image can be cropped. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of snow white, pale ice blue and deep night blue, with small touches of warm amber window light, soft natural light true to the season described, tactile asphalt shingles, vinyl and wood siding, white aluminum gutters and fascia, snow and clear ice, set in a quiet North American residential suburb with pitched roofs on a calm moment of the season described above, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "gouttiere",
+      "fichier": "gouttiere.jpg",
+      "page": "Lavage extérieur",
+      "emplacement": "section Gouttières (si vos photos ne conviennent pas)",
+      "role": "carte-service",
+      "format": "4:3",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Close-up along a clean white aluminum gutter on a crisp autumn afternoon, clear rainwater flowing freely toward the downspout, a few red and orange maple leaves resting on the roof shingles above it, golden low sun, shallow depth of field, nobody, no tools. Horizontal composition, aspect ratio 4:3, main subject well inside the central area with generous margins on every side, so the image can be cropped. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of snow white, pale ice blue and deep night blue, with small touches of warm amber window light, soft natural light true to the season described, tactile asphalt shingles, vinyl and wood siding, white aluminum gutters and fascia, snow and clear ice, set in a quiet North American residential suburb with pitched roofs on a calm moment of the season described above, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "vitres",
+      "fichier": "vitres.jpg",
+      "page": "Lavage extérieur",
+      "emplacement": "section Vitres (si vos photos ne conviennent pas)",
+      "role": "carte-service",
+      "format": "4:3",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A large spotless window in a white frame on a house facade in spring, the glass so clean it perfectly reflects a blue sky, small white clouds and fresh green maple branches, a few water droplets on the white sill, sunlight, nobody, no tools. Horizontal composition, aspect ratio 4:3, main subject well inside the central area with generous margins on every side, so the image can be cropped. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of snow white, pale ice blue and deep night blue, with small touches of warm amber window light, soft natural light true to the season described, tactile asphalt shingles, vinyl and wood siding, white aluminum gutters and fascia, snow and clear ice, set in a quiet North American residential suburb with pitched roofs on a calm moment of the season described above, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "page-404",
+      "fichier": "page-404.jpg",
+      "page": "404",
+      "emplacement": "image de la page introuvable",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "404",
+      "pieges": [],
+      "consigne": "A single red plastic snow shovel standing upright, half buried in a deep fresh snowbank on a quiet winter evening, snow gently falling, soft blue hour light with a warm amber window glow far in the background, playful and calm, nobody. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Editorial architectural photography, realistic and natural, calm, clean and reassuring mood, palette of snow white, pale ice blue and deep night blue, with small touches of warm amber window light, soft natural light true to the season described, tactile asphalt shingles, vinyl and wood siding, white aluminum gutters and fascia, snow and clear ice, set in a quiet North American residential suburb with pitched roofs on a calm moment of the season described above, muted contrast, fine real textures, full-frame camera, sharp focus, clean composition with generous negative space. No before/after, no damaged or broken work, no unsafe scaffolding, no worker without protective equipment, no company vehicle, no site sign, no recognizable house presented as a real project. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+[
+  { "cle": "automne", "cartes": [
+    { "image": "gouttiere-feuilles", "cadrage": "50% 45%", "page": "lavage-exterieur", "ancre": "gouttieres",
+      "titre": { "fr": "Nettoyage de gouttières", "en": "Gutter cleaning" },
+      "texte": { "fr": "Le nettoyage d'automne : l'eau circule, les descentes sont dégagées, rien ne stagne.", "en": "The fall clean-out: water flows, downspouts are clear, nothing sits." } },
+    { "image": "noel-pignon", "cadrage": "50% 40%", "page": "lumieres-de-noel", "ancre": "",
+      "titre": { "fr": "Installation des lumières", "en": "Christmas light installation" },
+      "texte": { "fr": "Disponibilités limitées : on réserve dès l'automne.", "en": "Limited availability: book in the fall." } },
+    { "image": "glacons", "cadrage": "50% 40%", "page": "toiture-hiver", "ancre": "",
+      "titre": { "fr": "Toiture : avant la neige", "en": "Roofs: before the snow" },
+      "texte": { "fr": "Réservez le déneigement et le déglaçage de l'hiver avant les premières accumulations.", "en": "Book winter snow and ice dam removal before the first build-up." } }
+  ]},
+  { "cle": "hiver", "cartes": [
+    { "image": "deneigement-lucarnes", "cadrage": "60% 50%", "page": "toiture-hiver", "ancre": "deneigement",
+      "titre": { "fr": "Déneigement de toiture", "en": "Roof snow removal" },
+      "texte": { "fr": "À la pelle en plastique, en laissant 1 à 4 po de neige pour protéger vos bardeaux.", "en": "With plastic shovels, leaving 1 to 4 inches of snow to protect your shingles." } },
+    { "image": "vapeur-immeuble", "cadrage": "50% 40%", "page": "toiture-hiver", "ancre": "vapeur",
+      "titre": { "fr": "Déglaçage à la vapeur", "en": "Steam ice dam removal" },
+      "texte": { "fr": "Les barrages de glace fondent sous la vapeur, sans marteau ni hache.", "en": "Ice dams melt under steam, with no hammer or axe." } },
+    { "image": "noel-heure-bleue", "cadrage": "60% 50%", "page": "lumieres-de-noel", "ancre": "",
+      "titre": { "fr": "Lumières de Noël", "en": "Christmas lights" },
+      "texte": { "fr": "Installées pour les Fêtes, retirées au printemps, entreposées jusqu'à l'an prochain.", "en": "Up for the holidays, down in spring, stored until next year." } }
+  ]},
+  { "cle": "printemps", "cartes": [
+    { "image": "lavage-facade", "cadrage": "40% 50%", "page": "lavage-exterieur", "ancre": "basse-pression",
+      "titre": { "fr": "Lavage à basse pression", "en": "Soft washing" },
+      "texte": { "fr": "La pression d'un boyau d'arrosage et des produits biodégradables, pour revêtements, soffites et toitures.", "en": "Garden-hose pressure and biodegradable products for siding, soffits and roofs." } },
+    { "image": "vitres-perche", "cadrage": "50% 40%", "page": "lavage-exterieur", "ancre": "vitres",
+      "titre": { "fr": "Lavage de vitres", "en": "Window cleaning" },
+      "texte": { "fr": "Vitres, cadres et moustiquaires extérieurs, une à deux fois par année.", "en": "Exterior windows, frames and screens, once or twice a year." } },
+    { "image": "entree-asphalte", "cadrage": "50% 60%", "page": "lavage-exterieur", "ancre": "surfaces",
+      "titre": { "fr": "Béton, pavé et stationnements", "en": "Concrete, pavers and parking lots" },
+      "texte": { "fr": "Entrées, dalles, pavé uni et stationnements retrouvent leur couleur.", "en": "Driveways, slabs, pavers and parking lots get their colour back." } }
+  ]}
+]

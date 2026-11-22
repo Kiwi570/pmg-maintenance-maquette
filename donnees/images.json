@@ -1,0 +1,2924 @@
+{
+  "noel-blanc-chaud": {
+    "nom": "noel-blanc-chaud",
+    "source": "recu/pmg-maintenancechristmas-light-4.jpg",
+    "role": "section-fond",
+    "alt": "Maison illuminée d'ampoules blanc chaud le long de la ligne de toit",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "62f15c53b3f6590f",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 34%"
+    },
+    "cadrage": "51% 34%",
+    "sujet": {
+      "x": 6.3,
+      "y": 8.3,
+      "l": 90.6,
+      "h": 45.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.41,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1501
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "noel-blanc-chaud-640.webp",
+      "noel-blanc-chaud-1280.webp",
+      "noel-blanc-chaud-1920.webp",
+      "noel-blanc-chaud-mobile-640.webp",
+      "noel-blanc-chaud-mobile-1080.webp"
+    ],
+    "poids": {
+      "noel-blanc-chaud-640.webp": 38188,
+      "noel-blanc-chaud-1280.webp": 111246,
+      "noel-blanc-chaud-1920.webp": 191696,
+      "noel-blanc-chaud-mobile-640.webp": 50822,
+      "noel-blanc-chaud-mobile-1080.webp": 105148
+    },
+    "media": "c.media({ nom: 'noel-blanc-chaud', alt: \"Maison illuminée d'ampoules blanc chaud le long de la ligne de toit\", cadrage: '51% 34%', cadrageMobile: '50% 34%', sizes: '100vw' })"
+  },
+  "noel-multicolore": {
+    "nom": "noel-multicolore",
+    "source": "recu/pmg-maintenancechristmas-light.jpg",
+    "role": "galerie",
+    "alt": "Maison de deux étages aux arches illuminées de couleurs",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c73290dd1852afb0",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "48% 60%",
+    "sujet": {
+      "x": 3.1,
+      "y": 25,
+      "l": 87.5,
+      "h": 75
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.63,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "noel-multicolore-1024.webp",
+      "noel-multicolore-1168.webp",
+      "noel-multicolore-1600.webp"
+    ],
+    "poids": {
+      "noel-multicolore-1024.webp": 71208,
+      "noel-multicolore-1168.webp": 84738,
+      "noel-multicolore-1600.webp": 128014
+    },
+    "media": "c.media({ nom: 'noel-multicolore', alt: \"Maison de deux étages aux arches illuminées de couleurs\", cadrage: '48% 60%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "noel-pignon": {
+    "nom": "noel-pignon",
+    "source": "recu/pmg-maintenancechristmas-light-2.jpg",
+    "role": "galerie",
+    "alt": "Pignon et fenêtres soulignés d'ampoules multicolores",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c66c0731d0c4f234",
+    "ratio": "3:4",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "48% 44%",
+    "sujet": {
+      "x": 8.3,
+      "y": 12.5,
+      "l": 75,
+      "h": 59.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.47,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.38,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.24,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "noel-pignon-1024.webp",
+      "noel-pignon-1168.webp",
+      "noel-pignon-1600.webp"
+    ],
+    "poids": {
+      "noel-pignon-1024.webp": 98636,
+      "noel-pignon-1168.webp": 117948,
+      "noel-pignon-1600.webp": 172026
+    },
+    "media": "c.media({ nom: 'noel-pignon', alt: \"Pignon et fenêtres soulignés d'ampoules multicolores\", cadrage: '48% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "noel-heure-bleue": {
+    "nom": "noel-heure-bleue",
+    "source": "recu/pmg-maintenancechristmas-light-6.jpg",
+    "role": "galerie",
+    "alt": "Maison de brique à l'heure bleue, arbres et ligne de toit illuminés",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f174c868356d3239",
+    "ratio": "16:9",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "47% 66%",
+    "sujet": {
+      "x": 3.2,
+      "y": 33.3,
+      "l": 95.3,
+      "h": 55.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.67,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.19,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1968,
+      "height": 1107,
+      "source": [
+        2000,
+        1107
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "noel-heure-bleue-1024.webp",
+      "noel-heure-bleue-1168.webp",
+      "noel-heure-bleue-1600.webp"
+    ],
+    "poids": {
+      "noel-heure-bleue-1024.webp": 88376,
+      "noel-heure-bleue-1168.webp": 106706,
+      "noel-heure-bleue-1600.webp": 164212
+    },
+    "media": "c.media({ nom: 'noel-heure-bleue', alt: \"Maison de brique à l'heure bleue, arbres et ligne de toit illuminés\", cadrage: '47% 66%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 9' })"
+  },
+  "noel-plain-pied": {
+    "nom": "noel-plain-pied",
+    "source": "recu/pmg-maintenancechristmas-light-7.jpg",
+    "role": "galerie",
+    "alt": "Maison de plain-pied illuminée de couleurs",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d75a7c23c0647ab9",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 3.1,
+      "y": 25,
+      "l": 87.5,
+      "h": 66.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.77,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.36,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.36,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.18,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "noel-plain-pied-1024.webp",
+      "noel-plain-pied-1168.webp",
+      "noel-plain-pied-1600.webp"
+    ],
+    "poids": {
+      "noel-plain-pied-1024.webp": 67096,
+      "noel-plain-pied-1168.webp": 80468,
+      "noel-plain-pied-1600.webp": 121526
+    },
+    "media": "c.media({ nom: 'noel-plain-pied', alt: \"Maison de plain-pied illuminée de couleurs\", cadrage: '50% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "noel-bungalow": {
+    "nom": "noel-bungalow",
+    "source": "recu/pmg-maintenance-5.jpg",
+    "role": "galerie",
+    "alt": "Bungalow illuminé en rouge, vert et blanc",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "3332f03fe153d0e6",
+    "ratio": "16:10",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "47% 54%",
+    "sujet": {
+      "x": 12.5,
+      "y": 32.7,
+      "l": 71.9,
+      "h": 38.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.95,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.53,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.52,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.47,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 9,
+      "width": 1600,
+      "height": 1000,
+      "source": [
+        1600,
+        1009
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "noel-bungalow-1024.webp",
+      "noel-bungalow-1168.webp",
+      "noel-bungalow-1600.webp"
+    ],
+    "poids": {
+      "noel-bungalow-1024.webp": 44208,
+      "noel-bungalow-1168.webp": 54026,
+      "noel-bungalow-1600.webp": 83582
+    },
+    "media": "c.media({ nom: 'noel-bungalow', alt: \"Bungalow illuminé en rouge, vert et blanc\", cadrage: '47% 54%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 10' })"
+  },
+  "noel-immeuble": {
+    "nom": "noel-immeuble",
+    "source": "recu/pmg-maintenancechristmas-light-3.jpg",
+    "role": "galerie",
+    "alt": "Immeuble résidentiel décoré pour les Fêtes",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "e4fe5232f4855a69",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "45% 36%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 83.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.42,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "noel-immeuble-1024.webp",
+      "noel-immeuble-1168.webp",
+      "noel-immeuble-1600.webp"
+    ],
+    "poids": {
+      "noel-immeuble-1024.webp": 137818,
+      "noel-immeuble-1168.webp": 178360,
+      "noel-immeuble-1600.webp": 256076
+    },
+    "media": "c.media({ nom: 'noel-immeuble', alt: \"Immeuble résidentiel décoré pour les Fêtes\", cadrage: '45% 36%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "noel-commercial": {
+    "nom": "noel-commercial",
+    "source": "recu/pmg-maintenance-installation-lumieres.jpg",
+    "role": "galerie",
+    "alt": "Bâtiment commercial et grand arbre illuminés",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "6b3a80e29709ec79",
+    "ratio": "4:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "49% 67%",
+    "sujet": {
+      "x": 21.9,
+      "y": 33.3,
+      "l": 56.3,
+      "h": 45.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.88,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.62,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.48,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.32,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "noel-commercial-1024.webp",
+      "noel-commercial-1168.webp",
+      "noel-commercial-1600.webp"
+    ],
+    "poids": {
+      "noel-commercial-1024.webp": 62088,
+      "noel-commercial-1168.webp": 81110,
+      "noel-commercial-1600.webp": 147818
+    },
+    "media": "c.media({ nom: 'noel-commercial', alt: \"Bâtiment commercial et grand arbre illuminés\", cadrage: '49% 67%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "noel-restaurant": {
+    "nom": "noel-restaurant",
+    "source": "recu/pmg-maintenancechristmas-light-10.jpg",
+    "role": "galerie",
+    "alt": "Façade de restaurant soulignée d'ampoules",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a09bd9d2d57cfaea",
+    "ratio": "16:9",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "49% 49%",
+    "sujet": {
+      "x": 6.3,
+      "y": 16.3,
+      "l": 71.9,
+      "h": 59.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 563,
+      "source": [
+        1000,
+        582
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600",
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1000 px après recadrage)"
+    ],
+    "fichiers": [
+      "noel-restaurant-1024.webp",
+      "noel-restaurant-1168.webp"
+    ],
+    "poids": {
+      "noel-restaurant-1024.webp": 90380,
+      "noel-restaurant-1168.webp": 107886
+    },
+    "media": "c.media({ nom: 'noel-restaurant', alt: \"Façade de restaurant soulignée d'ampoules\", cadrage: '49% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 9' })"
+  },
+  "ampoule-c9-blanc-chaud": {
+    "nom": "ampoule-c9-blanc-chaud",
+    "source": "recu/testimonials-14.webp",
+    "role": "vignette",
+    "alt": "Ampoule C9 à facettes, blanc chaud",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "131b3acf1a9430f7",
+    "ratio": "1:1",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 64%",
+    "sujet": {
+      "x": 37.5,
+      "y": 25,
+      "l": 25,
+      "h": 68.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.91,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.89,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.8,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.58,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 713,
+      "height": 713,
+      "source": [
+        713,
+        713
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "713 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,12 fois (source de 713 px après recadrage)"
+    ],
+    "fichiers": [
+      "ampoule-c9-blanc-chaud-640.webp",
+      "ampoule-c9-blanc-chaud-800.webp"
+    ],
+    "poids": {
+      "ampoule-c9-blanc-chaud-640.webp": 20070,
+      "ampoule-c9-blanc-chaud-800.webp": 25836
+    },
+    "media": "c.media({ nom: 'ampoule-c9-blanc-chaud', alt: \"Ampoule C9 à facettes, blanc chaud\", cadrage: '50% 64%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "vapeur-toit": {
+    "nom": "vapeur-toit",
+    "source": "recu/pmg-maintenance-2.jpg",
+    "role": "section-fond",
+    "alt": "Déglaçage à la vapeur sur un toit enneigé, nuage de vapeur au soleil",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "697bc71497df49f3",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      1024,
+      1600
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 40%"
+    },
+    "cadrage": "50% 40%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.41,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 99,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        1797,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "vapeur-toit-640.webp",
+      "vapeur-toit-1024.webp",
+      "vapeur-toit-1600.webp",
+      "vapeur-toit-mobile-640.webp",
+      "vapeur-toit-mobile-1080.webp"
+    ],
+    "poids": {
+      "vapeur-toit-640.webp": 51030,
+      "vapeur-toit-1024.webp": 103726,
+      "vapeur-toit-1600.webp": 192768,
+      "vapeur-toit-mobile-640.webp": 71810,
+      "vapeur-toit-mobile-1080.webp": 143988
+    },
+    "media": "c.media({ nom: 'vapeur-toit', alt: \"Déglaçage à la vapeur sur un toit enneigé, nuage de vapeur au soleil\", cadrage: '50% 40%', cadrageMobile: '50% 40%', sizes: '100vw' })"
+  },
+  "vapeur-bord-toit": {
+    "nom": "vapeur-bord-toit",
+    "source": "recu/how-we-remove-ice-8.jpg",
+    "role": "section-fond",
+    "alt": "Technicien sur le bord du toit, vapeur et glaçons au soleil",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "1f710ec3bcb3248b",
+    "ratio": "3:4",
+    "largeurs": [
+      640,
+      1024,
+      1500
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "52% 43%"
+    },
+    "cadrage": "52% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.48,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "vapeur-bord-toit-640.webp",
+      "vapeur-bord-toit-1024.webp",
+      "vapeur-bord-toit-1500.webp",
+      "vapeur-bord-toit-mobile-640.webp",
+      "vapeur-bord-toit-mobile-1080.webp"
+    ],
+    "poids": {
+      "vapeur-bord-toit-640.webp": 38168,
+      "vapeur-bord-toit-1024.webp": 73264,
+      "vapeur-bord-toit-1500.webp": 120736,
+      "vapeur-bord-toit-mobile-640.webp": 37934,
+      "vapeur-bord-toit-mobile-1080.webp": 76514
+    },
+    "media": "c.media({ nom: 'vapeur-bord-toit', alt: \"Technicien sur le bord du toit, vapeur et glaçons au soleil\", cadrage: '52% 47%', cadrageMobile: '52% 43%', sizes: '100vw' })"
+  },
+  "vapeur-immeuble": {
+    "nom": "vapeur-immeuble",
+    "source": "recu/how-we-remove-ice-5.jpg",
+    "role": "carte-service",
+    "alt": "Déglaçage à la vapeur d'un immeuble de condos sous le ciel bleu",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "14d32277767716ce",
+    "ratio": "4:3",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "52% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.56,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.05,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 798,
+      "width": 1500,
+      "height": 1125,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "vapeur-immeuble-1168.webp"
+    ],
+    "poids": {
+      "vapeur-immeuble-1168.webp": 169734
+    },
+    "media": "c.media({ nom: 'vapeur-immeuble', alt: \"Déglaçage à la vapeur d'un immeuble de condos sous le ciel bleu\", cadrage: '52% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "vapeur-maison": {
+    "nom": "vapeur-maison",
+    "source": "recu/how-we-remove-ice-6.jpg",
+    "role": "carte-service",
+    "alt": "Deux techniciens retirent la glace à la vapeur sur une maison",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e73763d0b682b5e5",
+    "ratio": "4:3",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "45% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.3,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "vapeur-maison-1168.webp"
+    ],
+    "poids": {
+      "vapeur-maison-1168.webp": 160532
+    },
+    "media": "c.media({ nom: 'vapeur-maison', alt: \"Deux techniciens retirent la glace à la vapeur sur une maison\", cadrage: '45% 53%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "vapeur-toit-plat": {
+    "nom": "vapeur-toit-plat",
+    "source": "recu/how-we-remove-ice-4.jpg",
+    "role": "carte-service",
+    "alt": "Déglaçage à la vapeur d'un toit plat commercial",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6e262bad57e8a159",
+    "ratio": "4:3",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "53% 39%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "vapeur-toit-plat-1168.webp"
+    ],
+    "poids": {
+      "vapeur-toit-plat-1168.webp": 196808
+    },
+    "media": "c.media({ nom: 'vapeur-toit-plat', alt: \"Déglaçage à la vapeur d'un toit plat commercial\", cadrage: '53% 39%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "vapeur-chantier-nuit": {
+    "nom": "vapeur-chantier-nuit",
+    "source": "recu/icing-concrete-slabs-formwork.jpg",
+    "role": "carte-service",
+    "alt": "Dégel de coffrages de béton à la vapeur, de nuit",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6ebcd92965ce9ac2",
+    "ratio": "4:3",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "59% 57%",
+    "sujet": {
+      "x": 18.8,
+      "y": 12.5,
+      "l": 65.6,
+      "h": 83.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.47,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.44,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.13,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "vapeur-chantier-nuit-1168.webp"
+    ],
+    "poids": {
+      "vapeur-chantier-nuit-1168.webp": 60016
+    },
+    "media": "c.media({ nom: 'vapeur-chantier-nuit', alt: \"Dégel de coffrages de béton à la vapeur, de nuit\", cadrage: '59% 57%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "perimetre-securise": {
+    "nom": "perimetre-securise",
+    "source": "recu/how-we-remove-ice.jpg",
+    "role": "carte-service",
+    "alt": "Panneau de danger et protection de bois sous un toit en déglaçage",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a65c0e32749cd054",
+    "ratio": "4:3",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "42% 57%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "perimetre-securise-1168.webp"
+    ],
+    "poids": {
+      "perimetre-securise-1168.webp": 156522
+    },
+    "media": "c.media({ nom: 'perimetre-securise', alt: \"Panneau de danger et protection de bois sous un toit en déglaçage\", cadrage: '42% 57%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "glacons": {
+    "nom": "glacons",
+    "source": "recu/pmg-maintenance-ice-dam-4.jpg",
+    "role": "carte-service",
+    "alt": "Rideau de glaçons devant les fenêtres",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f97e7fc1d628cbe0",
+    "ratio": "4:3",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.31,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 750,
+      "source": [
+        1000,
+        752
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1000 px après recadrage)"
+    ],
+    "fichiers": [
+      "glacons-1168.webp"
+    ],
+    "poids": {
+      "glacons-1168.webp": 110320
+    },
+    "media": "c.media({ nom: 'glacons', alt: \"Rideau de glaçons devant les fenêtres\", cadrage: '50% 55%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "glacons-soleil": {
+    "nom": "glacons-soleil",
+    "source": "recu/signs-you-may-have-3.jpg",
+    "role": "vignette",
+    "alt": "Glaçons au bord d'un toit enneigé, ciel bleu",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "441d15d52071b10a",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "54% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 4.2,
+      "l": 100,
+      "h": 95.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 750,
+      "source": [
+        1000,
+        750
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "glacons-soleil-640.webp",
+      "glacons-soleil-800.webp"
+    ],
+    "poids": {
+      "glacons-soleil-640.webp": 34544,
+      "glacons-soleil-800.webp": 50806
+    },
+    "media": "c.media({ nom: 'glacons-soleil', alt: \"Glaçons au bord d'un toit enneigé, ciel bleu\", cadrage: '54% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "infiltration": {
+    "nom": "infiltration",
+    "source": "recu/infiltration-eau-2.jpg",
+    "role": "vignette",
+    "alt": "Tache d'infiltration d'eau au plafond",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "efb6911b7c18f31d",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "55% 68%",
+    "sujet": {
+      "x": 0,
+      "y": 12.2,
+      "l": 95.5,
+      "h": 87.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.95,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.66,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.63,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.31,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 757,
+      "width": 1000,
+      "height": 750,
+      "source": [
+        1000,
+        1507
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large",
+      "compression visible"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "infiltration-640.webp",
+      "infiltration-800.webp"
+    ],
+    "poids": {
+      "infiltration-640.webp": 6818,
+      "infiltration-800.webp": 9642
+    },
+    "media": "c.media({ nom: 'infiltration', alt: \"Tache d'infiltration d'eau au plafond\", cadrage: '55% 68%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "deneigement-lucarnes": {
+    "nom": "deneigement-lucarnes",
+    "source": "recu/pmg-maintenance-7.jpg",
+    "role": "carte-service",
+    "alt": "Déneigement d'un toit entre deux lucarnes, neige profonde",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f6ac9d02c1212271",
+    "ratio": "16:9",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "53% 37%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 97.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.45,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.35,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 563,
+      "source": [
+        1000,
+        577
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large",
+      "compression visible"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1000 px après recadrage)"
+    ],
+    "fichiers": [
+      "deneigement-lucarnes-1168.webp"
+    ],
+    "poids": {
+      "deneigement-lucarnes-1168.webp": 20218
+    },
+    "media": "c.media({ nom: 'deneigement-lucarnes', alt: \"Déneigement d'un toit entre deux lucarnes, neige profonde\", cadrage: '53% 37%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 9' })"
+  },
+  "deneigement-maison": {
+    "nom": "deneigement-maison",
+    "source": "recu/pmg-maintenance-roof-snow-13.jpg",
+    "role": "carte-service",
+    "alt": "Maison rouge au toit chargé de neige",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "be4c084d77143df4",
+    "ratio": "4:3",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "55% 45%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 750,
+      "source": [
+        1000,
+        750
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1000 px après recadrage)"
+    ],
+    "fichiers": [
+      "deneigement-maison-1168.webp"
+    ],
+    "poids": {
+      "deneigement-maison-1168.webp": 113518
+    },
+    "media": "c.media({ nom: 'deneigement-maison', alt: \"Maison rouge au toit chargé de neige\", cadrage: '55% 45%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "equipe-hauteur": {
+    "nom": "equipe-hauteur",
+    "source": "recu/pmg-maintenance-4.jpg",
+    "role": "section-fond",
+    "alt": "Deux techniciens sur échelles au pignon d'une maison de brique",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "9104a8527d8cd243",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      1280,
+      1800
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 40%"
+    },
+    "cadrage": "53% 40%",
+    "sujet": {
+      "x": 0,
+      "y": 4.3,
+      "l": 100,
+      "h": 95.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.42,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 92,
+      "top": 0,
+      "width": 1765,
+      "height": 1324,
+      "source": [
+        1857,
+        1324
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "equipe-hauteur-640.webp",
+      "equipe-hauteur-1280.webp",
+      "equipe-hauteur-1800.webp",
+      "equipe-hauteur-mobile-640.webp",
+      "equipe-hauteur-mobile-1080.webp"
+    ],
+    "poids": {
+      "equipe-hauteur-640.webp": 52036,
+      "equipe-hauteur-1280.webp": 176378,
+      "equipe-hauteur-1800.webp": 277620,
+      "equipe-hauteur-mobile-640.webp": 99300,
+      "equipe-hauteur-mobile-1080.webp": 179366
+    },
+    "media": "c.media({ nom: 'equipe-hauteur', alt: \"Deux techniciens sur échelles au pignon d'une maison de brique\", cadrage: '53% 40%', cadrageMobile: '50% 40%', sizes: '100vw' })"
+  },
+  "vitres-perche": {
+    "nom": "vitres-perche",
+    "source": "recu/pmg-maintenance-window-cleaning-2.jpg",
+    "role": "section-fond",
+    "alt": "Lavage de vitres à la perche sur une maison au revêtement noir",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f5213f993d923e93",
+    "ratio": "4:5",
+    "largeurs": [
+      640,
+      1024,
+      1500
+    ],
+    "mobile": null,
+    "cadrage": "38% 20%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 83.3,
+      "h": 93.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1875,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "vitres-perche-640.webp",
+      "vitres-perche-1024.webp",
+      "vitres-perche-1500.webp"
+    ],
+    "poids": {
+      "vitres-perche-640.webp": 87216,
+      "vitres-perche-1024.webp": 202468,
+      "vitres-perche-1500.webp": 289546
+    },
+    "media": "c.media({ nom: 'vitres-perche', alt: \"Lavage de vitres à la perche sur une maison au revêtement noir\", cadrage: '38% 20%', sizes: '100vw' })"
+  },
+  "vitres-immeuble": {
+    "nom": "vitres-immeuble",
+    "source": "recu/pmg-maintenance-window-cleaning.jpg",
+    "role": "carte-service",
+    "alt": "Lavage des vitres d'un immeuble de quatre étages",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "cb8643958edbfb6b",
+    "ratio": "4:5",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "64% 44%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.08,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 10,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        1610,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "vitres-immeuble-1168.webp"
+    ],
+    "poids": {
+      "vitres-immeuble-1168.webp": 212960
+    },
+    "media": "c.media({ nom: 'vitres-immeuble', alt: \"Lavage des vitres d'un immeuble de quatre étages\", cadrage: '64% 44%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 5' })"
+  },
+  "vitres-apres-construction": {
+    "nom": "vitres-apres-construction",
+    "source": "recu/pmg-maintenance-post-construction.jpg",
+    "role": "vignette",
+    "alt": "Grandes vitres d'une maison neuve après construction",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d62ad0d7e14b6ae1",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "45% 49%",
+    "sujet": {
+      "x": 3.1,
+      "y": 11.1,
+      "l": 96.9,
+      "h": 88.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 563,
+      "source": [
+        1000,
+        563
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "vitres-apres-construction-640.webp",
+      "vitres-apres-construction-800.webp"
+    ],
+    "poids": {
+      "vitres-apres-construction-640.webp": 29402,
+      "vitres-apres-construction-800.webp": 42974
+    },
+    "media": "c.media({ nom: 'vitres-apres-construction', alt: \"Grandes vitres d'une maison neuve après construction\", cadrage: '45% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '16 / 9' })"
+  },
+  "entree-asphalte": {
+    "nom": "entree-asphalte",
+    "source": "recu/after-2.jpg",
+    "role": "carte-service",
+    "alt": "Entrée d'asphalte en cours de lavage : la bande propre tranche sur le reste",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "5e78ec50b8660ae0",
+    "ratio": "16:9",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "41% 22%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 88.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.35,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1125,
+      "source": [
+        2000,
+        1125
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "entree-asphalte-1168.webp"
+    ],
+    "poids": {
+      "entree-asphalte-1168.webp": 272794
+    },
+    "media": "c.media({ nom: 'entree-asphalte', alt: \"Entrée d'asphalte en cours de lavage : la bande propre tranche sur le reste\", cadrage: '41% 22%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '16 / 9' })"
+  },
+  "lavage-facade": {
+    "nom": "lavage-facade",
+    "source": "recu/pmg-maintenance-pressure-washing-4.jpg",
+    "role": "carte-service",
+    "alt": "Lavage à basse pression d'une façade de pierre",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a1fabb86362d0b7f",
+    "ratio": "4:3",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "39% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.12,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 54,
+      "width": 1000,
+      "height": 750,
+      "source": [
+        1000,
+        953
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1000 px après recadrage)"
+    ],
+    "fichiers": [
+      "lavage-facade-1168.webp"
+    ],
+    "poids": {
+      "lavage-facade-1168.webp": 194280
+    },
+    "media": "c.media({ nom: 'lavage-facade', alt: \"Lavage à basse pression d'une façade de pierre\", cadrage: '39% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "lavage-revetement": {
+    "nom": "lavage-revetement",
+    "source": "recu/after-9.jpg",
+    "role": "carte-service",
+    "alt": "Technicien qui lave un revêtement de vinyle à basse pression",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "ff1fb85a203e263a",
+    "ratio": "4:3",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "54% 36%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 97.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 750,
+      "source": [
+        1000,
+        764
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1000 px après recadrage)"
+    ],
+    "fichiers": [
+      "lavage-revetement-1168.webp"
+    ],
+    "poids": {
+      "lavage-revetement-1168.webp": 116322
+    },
+    "media": "c.media({ nom: 'lavage-revetement', alt: \"Technicien qui lave un revêtement de vinyle à basse pression\", cadrage: '54% 36%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '4 / 3' })"
+  },
+  "gouttiere-feuilles": {
+    "nom": "gouttiere-feuilles",
+    "source": "recu/pmg-maintenance-gutter-cleaning-10.jpg",
+    "role": "carte-service",
+    "alt": "Gouttière remplie de feuilles mortes avant le nettoyage",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "557f256bd157e073",
+    "ratio": "3:4",
+    "largeurs": [
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "41% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 6,
+      "width": 1000,
+      "height": 1333,
+      "source": [
+        1000,
+        1400
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1000 px après recadrage)"
+    ],
+    "fichiers": [
+      "gouttiere-feuilles-1168.webp"
+    ],
+    "poids": {
+      "gouttiere-feuilles-1168.webp": 175694
+    },
+    "media": "c.media({ nom: 'gouttiere-feuilles', alt: \"Gouttière remplie de feuilles mortes avant le nettoyage\", cadrage: '41% 50%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '3 / 4' })"
+  },
+  "gouttiere-debris": {
+    "nom": "gouttiere-debris",
+    "source": "recu/pmg-maintenance-gutter-cleaning-14.jpg",
+    "role": "vignette",
+    "alt": "Débris accumulés dans une gouttière",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "35ddade581a3b0ef",
+    "ratio": "3:4",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "54% 61%",
+    "sujet": {
+      "x": 0,
+      "y": 6.3,
+      "l": 100,
+      "h": 93.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.02,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 1333,
+      "source": [
+        1000,
+        1333
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "gouttiere-debris-640.webp",
+      "gouttiere-debris-800.webp"
+    ],
+    "poids": {
+      "gouttiere-debris-640.webp": 166830,
+      "gouttiere-debris-800.webp": 250236
+    },
+    "media": "c.media({ nom: 'gouttiere-debris', alt: \"Débris accumulés dans une gouttière\", cadrage: '54% 61%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '3 / 4' })"
+  },
+  "aa-facade-avant": {
+    "nom": "aa-facade-avant",
+    "source": "recu/after-14.jpg",
+    "role": "galerie",
+    "alt": "Arrière d'une maison avant le lavage : revêtement taché",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "65a3090ef97d9988",
+    "ratio": "16:10",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "49% 39%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 94.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 936,
+      "height": 585,
+      "source": [
+        1000,
+        585
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600",
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 936 px après recadrage)"
+    ],
+    "fichiers": [
+      "aa-facade-avant-1024.webp",
+      "aa-facade-avant-1168.webp"
+    ],
+    "poids": {
+      "aa-facade-avant-1024.webp": 95608,
+      "aa-facade-avant-1168.webp": 114836
+    },
+    "media": "c.media({ nom: 'aa-facade-avant', alt: \"Arrière d'une maison avant le lavage : revêtement taché\", cadrage: '49% 39%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 10' })"
+  },
+  "aa-facade-apres": {
+    "nom": "aa-facade-apres",
+    "source": "recu/before-7.jpg",
+    "role": "galerie",
+    "alt": "Le même arrière de maison après le lavage à basse pression",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "97018e7572740b54",
+    "ratio": "16:10",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "53% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 97.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 625,
+      "source": [
+        1000,
+        639
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600",
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1000 px après recadrage)"
+    ],
+    "fichiers": [
+      "aa-facade-apres-1024.webp",
+      "aa-facade-apres-1168.webp"
+    ],
+    "poids": {
+      "aa-facade-apres-1024.webp": 102734,
+      "aa-facade-apres-1168.webp": 123750
+    },
+    "media": "c.media({ nom: 'aa-facade-apres', alt: \"Le même arrière de maison après le lavage à basse pression\", cadrage: '53% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 10' })"
+  },
+  "aa-pignon-avant": {
+    "nom": "aa-pignon-avant",
+    "source": "recu/pmg-maintenance-pressure-washing-2.jpg",
+    "role": "galerie",
+    "alt": "Pignon en bardeaux de cèdre taché avant le lavage",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "ac6c0d8e2f54cedc",
+    "ratio": "3:4",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 1333,
+      "source": [
+        1000,
+        1333
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600",
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1000 px après recadrage)"
+    ],
+    "fichiers": [
+      "aa-pignon-avant-1024.webp",
+      "aa-pignon-avant-1168.webp"
+    ],
+    "poids": {
+      "aa-pignon-avant-1024.webp": 117262,
+      "aa-pignon-avant-1168.webp": 138136
+    },
+    "media": "c.media({ nom: 'aa-pignon-avant', alt: \"Pignon en bardeaux de cèdre taché avant le lavage\", cadrage: '50% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "aa-pignon-apres": {
+    "nom": "aa-pignon-apres",
+    "source": "recu/before-2.jpg",
+    "role": "galerie",
+    "alt": "Le même pignon propre après le lavage",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "513f1d5b76bbade6",
+    "ratio": "3:4",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "48% 41%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 93.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 1333,
+      "source": [
+        1000,
+        1333
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600",
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1000 px après recadrage)"
+    ],
+    "fichiers": [
+      "aa-pignon-apres-1024.webp",
+      "aa-pignon-apres-1168.webp"
+    ],
+    "poids": {
+      "aa-pignon-apres-1024.webp": 154670,
+      "aa-pignon-apres-1168.webp": 181964
+    },
+    "media": "c.media({ nom: 'aa-pignon-apres', alt: \"Le même pignon propre après le lavage\", cadrage: '48% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "aa-rouille-avant": {
+    "nom": "aa-rouille-avant",
+    "source": "recu/before-6.jpg",
+    "role": "galerie",
+    "alt": "Coulure de rouille sur un revêtement de vinyle",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "6f88c5cab131f72d",
+    "ratio": "3:4",
+    "largeurs": [
+      1024
+    ],
+    "mobile": null,
+    "cadrage": "69% 35%",
+    "sujet": {
+      "x": 12.5,
+      "y": 0,
+      "l": 87.5,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 720,
+      "height": 960,
+      "source": [
+        720,
+        960
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1168, 1600",
+      "720 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,42 fois (source de 720 px après recadrage)"
+    ],
+    "fichiers": [
+      "aa-rouille-avant-1024.webp"
+    ],
+    "poids": {
+      "aa-rouille-avant-1024.webp": 139634
+    },
+    "media": "c.media({ nom: 'aa-rouille-avant', alt: \"Coulure de rouille sur un revêtement de vinyle\", cadrage: '69% 35%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "aa-rouille-apres": {
+    "nom": "aa-rouille-apres",
+    "source": "recu/avant-4.jpg",
+    "role": "galerie",
+    "alt": "Le même revêtement sans trace de rouille",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "8abe1aca62769026",
+    "ratio": "3:4",
+    "largeurs": [
+      947
+    ],
+    "mobile": null,
+    "cadrage": "61% 24%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.9,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 89,
+      "top": 0,
+      "width": 631,
+      "height": 841,
+      "source": [
+        720,
+        841
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1024, 1168, 1600",
+      "720 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,5 fois (source de 631 px après recadrage)"
+    ],
+    "fichiers": [
+      "aa-rouille-apres-947.webp"
+    ],
+    "poids": {
+      "aa-rouille-apres-947.webp": 128452
+    },
+    "media": "c.media({ nom: 'aa-rouille-apres', alt: \"Le même revêtement sans trace de rouille\", cadrage: '61% 24%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "aa-porte-avant": {
+    "nom": "aa-porte-avant",
+    "source": "recu/after-6.jpg",
+    "role": "galerie",
+    "alt": "Porte de sous-sol couverte de dépôts verts",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "31526d259f937f74",
+    "ratio": "3:4",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "51% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 1333,
+      "source": [
+        1000,
+        1346
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600",
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1000 px après recadrage)"
+    ],
+    "fichiers": [
+      "aa-porte-avant-1024.webp",
+      "aa-porte-avant-1168.webp"
+    ],
+    "poids": {
+      "aa-porte-avant-1024.webp": 275596,
+      "aa-porte-avant-1168.webp": 290936
+    },
+    "media": "c.media({ nom: 'aa-porte-avant', alt: \"Porte de sous-sol couverte de dépôts verts\", cadrage: '51% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "aa-porte-apres": {
+    "nom": "aa-porte-apres",
+    "source": "recu/before-3.jpg",
+    "role": "galerie",
+    "alt": "La même porte de sous-sol, propre",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "017597567565eca6",
+    "ratio": "3:4",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "52% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.15,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 1333,
+      "source": [
+        1000,
+        1333
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600",
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1000 px après recadrage)"
+    ],
+    "fichiers": [
+      "aa-porte-apres-1024.webp",
+      "aa-porte-apres-1168.webp"
+    ],
+    "poids": {
+      "aa-porte-apres-1024.webp": 129634,
+      "aa-porte-apres-1168.webp": 153672
+    },
+    "media": "c.media({ nom: 'aa-porte-apres', alt: \"La même porte de sous-sol, propre\", cadrage: '52% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "aa-toit-avant": {
+    "nom": "aa-toit-avant",
+    "source": "recu/after-5.jpg",
+    "role": "galerie",
+    "alt": "Bardeaux couverts de mousse",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0dba3a05a417d712",
+    "ratio": "3:4",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "47% 31%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.8,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 1333,
+      "source": [
+        1000,
+        1375
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600",
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1000 px après recadrage)"
+    ],
+    "fichiers": [
+      "aa-toit-avant-1024.webp",
+      "aa-toit-avant-1168.webp"
+    ],
+    "poids": {
+      "aa-toit-avant-1024.webp": 306188,
+      "aa-toit-avant-1168.webp": 359208
+    },
+    "media": "c.media({ nom: 'aa-toit-avant', alt: \"Bardeaux couverts de mousse\", cadrage: '47% 31%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "aa-toit-apres": {
+    "nom": "aa-toit-apres",
+    "source": "recu/after-7.jpg",
+    "role": "galerie",
+    "alt": "Bardeaux propres après le lavage de la toiture",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "f798af6bae9c2f37",
+    "ratio": "3:4",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "27% 27%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 90.8,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.41,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 932,
+      "height": 1242,
+      "source": [
+        1000,
+        1242
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600",
+      "1000 px de large"
+    ],
+    "avertissements": [
+      "agrandie 1,25 fois (source de 932 px après recadrage)"
+    ],
+    "fichiers": [
+      "aa-toit-apres-1024.webp",
+      "aa-toit-apres-1168.webp"
+    ],
+    "poids": {
+      "aa-toit-apres-1024.webp": 294364,
+      "aa-toit-apres-1168.webp": 305608
+    },
+    "media": "c.media({ nom: 'aa-toit-apres', alt: \"Bardeaux propres après le lavage de la toiture\", cadrage: '27% 27%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  }
+}

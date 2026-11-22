@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "PMG Maintenance",
+  "description": "Entretien extérieur de bâtiment : déneigement de toiture, déglaçage à la vapeur, installation de lumières de Noël, nettoyage de gouttières, lavage à basse pression et lavage de vitres, Ottawa-Gatineau.",
+  "telephone": "+1-819-661-9294",
+  "email": "info@pmgmaintenance.com",
+  "foundingDate": "2015",
+  "address": { "@type": "PostalAddress", "streetAddress": "16, chemin Gaspard", "addressLocality": "L'Ange-Gardien", "addressRegion": "QC", "postalCode": "J8L 0G7", "addressCountry": "CA" },
+  "areaServed": ["Gatineau", "Ottawa", "Outaouais", "Est ontarien"],
+  "paymentAccepted": "Cheque, Cash, Interac e-Transfer, PayPal, Visa, Mastercard, American Express, Discover"
+}

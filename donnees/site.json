@@ -1,0 +1,23 @@
+{
+  "nom": "PMG Maintenance",
+  "adresse": "https://pmg-maintenance-maquette.vercel.app",
+  "siteActuel": "www.pmgmaintenance.com",
+  "version": 1,
+  "langues": ["fr", "en"],
+  "navigation": ["accueil", "toiture-hiver", "lumieres-de-noel", "lavage-exterieur", "contact"],
+  "actionEntete": { "page": "contact", "ancre": "estimation" },
+  "couleurs": { "fond": "#f3f6f9", "texte": "#0c1a2a", "voile": "#0c1a2a", "theme": "#0c1a2a", "ouverture": "#0c1a2a", "menu": "#0c1a2a" },
+  "formeVoile": "vague",
+  "contact": {
+    "telephone": "819-661-9294",
+    "telephoneLien": "+18196619294",
+    "sansFrais": "1 877 661-9294",
+    "sansFraisLien": "+18776619294",
+    "sms": "sms:+18196619294",
+    "email": "info@pmgmaintenance.com",
+    "adresse": "16, chemin Gaspard, L'Ange-Gardien (QC) J8L 0G7"
+  },
+  "polices": ["/assets/polices/archivo-titres.woff2"],
+  "imagePartage": "grok/accueil-ouverture-1280.webp",
+  "curseur": false
+}

@@ -1,0 +1,260 @@
+{
+ "explication": "Maquettes favorites de l'utilisateur : le niveau et le style visés, sur l'accueil ET les pages intérieures. Jamais à copier (ni leur idée, ni leur mise en page) : même harmonie, même fluidité, même soin.",
+ "activite": [
+  "bâtiment"
+ ],
+ "metier": "entretien extérieur de bâtiment déneigement toiture lavage gouttières",
+ "besoin": [
+  "devis",
+  "zone-d-intervention"
+ ],
+ "ton": [
+  "sobre"
+ ],
+ "univers": [],
+ "ambiance": [],
+ "concept": [],
+ "depot": "pmg-maintenance-maquette",
+ "favorites_dans_la_bibliotheque": 22,
+ "favorites": [
+  {
+   "rang": 1,
+   "maquette": "agence-ae-maquette",
+   "client": "Architecte à Quimper, agence d'architecture environnementale (maisons neuves bois et paille, rénovation, locaux professionnels)",
+   "metier": "architecte",
+   "pourquoi": "Architecte bioclimatique : crème et ocre, Newsreader, un soleil qu'on déplace en WebGL, maison bois en 3D qui se construit.",
+   "proche": [
+    "même activité",
+    "besoin zone-d-intervention",
+    "ambiance sobre"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 87,
+   "en_ligne": "https://agence-ae-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "agence-ae-maquette/debut",
+     "note_section": 5,
+     "titre": "Une architecture humaine, locale et engagée",
+     "capture": "medias/agence-ae-maquette/debut-p1440.jpg",
+     "video": "medias/agence-ae-maquette/debut-p720.mp4",
+     "fiche": "sections/agence-ae-maquette/debut.json",
+     "en_ligne": "https://agence-ae-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "étapes",
+     "id": "agence-ae-maquette/maquette",
+     "note_section": 5,
+     "titre": "Une maison bois se monte en quatre temps",
+     "capture": "medias/agence-ae-maquette/maquette-p1440.jpg",
+     "video": "medias/agence-ae-maquette/maquette-p720.mp4",
+     "fiche": "sections/agence-ae-maquette/maquette.json",
+     "en_ligne": "https://agence-ae-maquette.vercel.app"
+    },
+    {
+     "page": "convictions",
+     "role": "ouverture",
+     "id": "agence-ae-maquette/convictions-debut",
+     "note_section": 5,
+     "titre": "40 % des émissions de gaz à effet de serre viennent du bâtiment",
+     "capture": "medias/agence-ae-maquette/convictions-debut-p1440.jpg",
+     "video": "medias/agence-ae-maquette/convictions-debut-p720.mp4",
+     "fiche": "sections/agence-ae-maquette/convictions-debut.json",
+     "en_ligne": "https://agence-ae-maquette.vercel.app/convictions"
+    },
+    {
+     "page": "realisations",
+     "role": "galerie",
+     "id": "agence-ae-maquette/realisations-tour",
+     "note_section": 5,
+     "titre": "Faites tourner les projets",
+     "capture": "medias/agence-ae-maquette/realisations-tour-p1440.jpg",
+     "video": "medias/agence-ae-maquette/realisations-tour-p720.mp4",
+     "fiche": "sections/agence-ae-maquette/realisations-tour.json",
+     "en_ligne": "https://agence-ae-maquette.vercel.app/realisations"
+    }
+   ]
+  },
+  {
+   "rang": 2,
+   "maquette": "depannage-60-maquette",
+   "client": "dépannage plomberie et électricité, rénovation, autour de Longueil-Sainte-Marie (Oise)",
+   "metier": "plombier électricien dépanneur",
+   "pourquoi": "Plombier électricien : clair, bleu et jaune, prix visibles, grandes photos, estimation.",
+   "proche": [
+    "même activité",
+    "besoin zone-d-intervention"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 87,
+   "en_ligne": "https://depannage-60-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "depannage-60-maquette/debut",
+     "note_section": 5,
+     "titre": "Fuite, panne, WC bouché ? On s’en occupe.",
+     "capture": "medias/depannage-60-maquette/debut-p1440.jpg",
+     "video": "medias/depannage-60-maquette/debut-p720.mp4",
+     "fiche": "sections/depannage-60-maquette/debut.json",
+     "en_ligne": "https://depannage-60-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "outil-interactif",
+     "id": "depannage-60-maquette/probleme",
+     "note_section": 5,
+     "titre": "Rallumez la lumière sur votre panne.",
+     "capture": "medias/depannage-60-maquette/probleme-p1440.jpg",
+     "video": "medias/depannage-60-maquette/probleme-p720.mp4",
+     "fiche": "sections/depannage-60-maquette/probleme.json",
+     "en_ligne": "https://depannage-60-maquette.vercel.app"
+    },
+    {
+     "page": "prestations",
+     "role": "ouverture",
+     "id": "depannage-60-maquette/prestations-tarifs",
+     "note_section": 4,
+     "titre": "69 prestations,tarifs en clair.",
+     "capture": "medias/depannage-60-maquette/prestations-tarifs-p1440.jpg",
+     "video": null,
+     "fiche": "sections/depannage-60-maquette/prestations-tarifs.json",
+     "en_ligne": "https://depannage-60-maquette.vercel.app/prestations"
+    },
+    {
+     "page": "decrivez-votre-besoin",
+     "role": "outil-interactif",
+     "id": "depannage-60-maquette/decrivez-votre-besoin-questionnaire",
+     "note_section": 5,
+     "titre": "Qu’est-ce qui ne va pas ?",
+     "capture": "medias/depannage-60-maquette/decrivez-votre-besoin-questionnaire-p1440.jpg",
+     "video": "medias/depannage-60-maquette/decrivez-votre-besoin-questionnaire-p720.mp4",
+     "fiche": "sections/depannage-60-maquette/decrivez-votre-besoin-questionnaire.json",
+     "en_ligne": "https://depannage-60-maquette.vercel.app/decrivez-votre-besoin"
+    }
+   ]
+  },
+  {
+   "rang": 3,
+   "maquette": "ice-attitude-maquette",
+   "client": "association de team building survie douce, stages de survie, anniversaires et EVG en forêt, à Marly-le-Roi et partout en France",
+   "metier": "stages de survie en forêt",
+   "pourquoi": "Survie en forêt : nuit de forêt et braise orange, feu WebGL qu'on attise, journée où le soleil tourne, équipe autour du feu.",
+   "proche": [
+    "besoin devis, zone-d-intervention"
+   ],
+   "lumiere": "sombre",
+   "note_maquette": 87,
+   "en_ligne": "https://ice-attitude-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "ice-attitude-maquette/ouverture",
+     "note_section": 5,
+     "titre": "ICE Attitude, ICE Attitude",
+     "capture": "medias/ice-attitude-maquette/ouverture-p1440.jpg",
+     "video": "medias/ice-attitude-maquette/ouverture-p720.mp4",
+     "fiche": "sections/ice-attitude-maquette/ouverture.json",
+     "en_ligne": "https://ice-attitude-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "étapes",
+     "id": "ice-attitude-maquette/journee",
+     "note_section": 5,
+     "titre": "Une journée en forêt",
+     "capture": "medias/ice-attitude-maquette/journee-p1440.jpg",
+     "video": "medias/ice-attitude-maquette/journee-p720.mp4",
+     "fiche": "sections/ice-attitude-maquette/journee.json",
+     "en_ligne": "https://ice-attitude-maquette.vercel.app"
+    },
+    {
+     "page": "stage-survie",
+     "role": "ouverture",
+     "id": "ice-attitude-maquette/stage-survie-ouverture",
+     "note_section": 4,
+     "titre": "Les bases de la survie",
+     "capture": "medias/ice-attitude-maquette/stage-survie-ouverture-p1440.jpg",
+     "video": "medias/ice-attitude-maquette/stage-survie-ouverture-p720.mp4",
+     "fiche": "sections/ice-attitude-maquette/stage-survie-ouverture.json",
+     "en_ligne": "https://ice-attitude-maquette.vercel.app/stage-survie"
+    },
+    {
+     "page": "team-building",
+     "role": "manifeste",
+     "id": "ice-attitude-maquette/team-building-objectifs",
+     "note_section": 4,
+     "titre": "Ce que vos équipes y gagnent",
+     "capture": "medias/ice-attitude-maquette/team-building-objectifs-p1440.jpg",
+     "video": "medias/ice-attitude-maquette/team-building-objectifs-p720.mp4",
+     "fiche": "sections/ice-attitude-maquette/team-building-objectifs.json",
+     "en_ligne": "https://ice-attitude-maquette.vercel.app/team-building"
+    }
+   ]
+  },
+  {
+   "rang": 4,
+   "maquette": "nolanis-maquette",
+   "client": "Agence de communication visuelle à Strasbourg : print et web, espaces publicitaires, publipostage, photo et vidéo, objets publicitaires, sauvegarde en ligne, formation photo",
+   "metier": "agence de communication visuelle",
+   "pourquoi": "Agence de communication : beige, éventail de couleurs, cartes nettes, sommaire des métiers.",
+   "proche": [
+    "besoin devis"
+   ],
+   "lumiere": "clair",
+   "note_maquette": 86,
+   "en_ligne": "https://nolanis-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "nolanis-maquette/debut",
+     "note_section": 5,
+     "titre": "Votre agence de communication visuelle à Strasbourg",
+     "capture": "medias/nolanis-maquette/debut-p1440.jpg",
+     "video": "medias/nolanis-maquette/debut-p720.mp4",
+     "fiche": "sections/nolanis-maquette/debut.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "services",
+     "id": "nolanis-maquette/services",
+     "note_section": 4,
+     "titre": "La liasse des épreuves",
+     "capture": "medias/nolanis-maquette/services-p1440.jpg",
+     "video": "medias/nolanis-maquette/services-p720.mp4",
+     "fiche": "sections/nolanis-maquette/services.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app"
+    },
+    {
+     "page": "formations",
+     "role": "ouverture",
+     "id": "nolanis-maquette/formations-debut",
+     "note_section": 4,
+     "titre": "Choisir l’image juste",
+     "capture": "medias/nolanis-maquette/formations-debut-p1440.jpg",
+     "video": "medias/nolanis-maquette/formations-debut-p720.mp4",
+     "fiche": "sections/nolanis-maquette/formations-debut.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app/formations"
+    },
+    {
+     "page": "contact",
+     "role": "outil-interactif",
+     "id": "nolanis-maquette/contact-devis",
+     "note_section": 4,
+     "titre": "Votre demande, en trois étapes",
+     "capture": "medias/nolanis-maquette/contact-devis-p1440.jpg",
+     "video": "medias/nolanis-maquette/contact-devis-p720.mp4",
+     "fiche": "sections/nolanis-maquette/contact-devis.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app/contact"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+  "paires": [
+    { "cle": "revetement", "avant": "aa-facade-avant", "apres": "aa-facade-apres", "ratio": "16 / 10",
+      "titre": { "fr": "Revêtement de vinyle", "en": "Vinyl siding" } },
+    { "cle": "cedre", "avant": "aa-pignon-avant", "apres": "aa-pignon-apres", "ratio": "3 / 4",
+      "titre": { "fr": "Bardeaux de cèdre", "en": "Cedar shakes" } },
+    { "cle": "rouille", "avant": "aa-rouille-avant", "apres": "aa-rouille-apres", "ratio": "3 / 4",
+      "titre": { "fr": "Taches de rouille", "en": "Rust stains" } },
+    { "cle": "porte", "avant": "aa-porte-avant", "apres": "aa-porte-apres", "ratio": "3 / 4",
+      "titre": { "fr": "Porte de sous-sol", "en": "Basement door" } },
+    { "cle": "toiture", "avant": "aa-toit-avant", "apres": "aa-toit-apres", "ratio": "3 / 4",
+      "titre": { "fr": "Toiture", "en": "Roof" } }
+  ],
+  "surfaces": [
+    { "cle": "revetements", "nom": { "fr": "Revêtements", "en": "Siding" },
+      "items": { "fr": ["Vinyle", "Aluminium", "Brique", "Pierre", "Bois et CanExel", "Fibre de verre", "Composite", "PVC"], "en": ["Vinyl", "Aluminum", "Brick", "Stone", "Wood and CanExel", "Fibreglass", "Composite", "PVC"] } },
+    { "cle": "toiture", "nom": { "fr": "Toiture et bordures", "en": "Roofs and trim" },
+      "items": { "fr": ["Soffites", "Fascias", "Gouttières", "Toitures en tuile", "Toitures en métal", "Taches de rouille"], "en": ["Soffits", "Fascia", "Gutters", "Tile roofs", "Metal roofs", "Rust stains"] } },
+    { "cle": "sols", "nom": { "fr": "Sols et béton", "en": "Ground and concrete" },
+      "items": { "fr": ["Béton", "Dalles", "Pavé uni", "Asphalte", "Ciment"], "en": ["Concrete", "Slabs", "Interlocking pavers", "Asphalt", "Cement"] } },
+    { "cle": "commercial", "nom": { "fr": "Commercial", "en": "Commercial" },
+      "items": { "fr": ["Pancartes commerciales", "Monuments", "Stationnements"], "en": ["Commercial signs", "Monuments", "Parking lots"] } }
+  ]
+}

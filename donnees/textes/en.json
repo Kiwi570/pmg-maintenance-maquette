@@ -1,0 +1,399 @@
+{
+  "commun": {
+    "navigation": "Main navigation",
+    "menu": "Menu",
+    "fermer": "Close",
+    "langueAutre": "Version française",
+    "actionEntete": "Free estimate",
+    "appeler": "Call",
+    "texter": "Text",
+    "sommaire": "Site map",
+    "retourHaut": "Back to top",
+    "maquette": "Presentation mock-up: forms are simulated, nothing is sent.",
+    "evitement": "Skip to content",
+    "mentionIa": "AI-generated illustration",
+    "pause": "Pause",
+    "lecture": "Play",
+    "introLigne": "Exterior building maintenance",
+    "slogan": "Exterior building maintenance in Ottawa-Gatineau since 2015.",
+    "mentions": "Legal notice",
+    "confidentialite": "Privacy policy",
+    "aCompleter": "to be completed",
+    "telephone": "Phone",
+    "sansFrais": "Toll-free",
+    "textos": "Texts",
+    "courriel": "Email",
+    "adresse": "Address",
+    "zone": "Ottawa-Gatineau and surrounding areas",
+    "services": "Services",
+    "nousJoindre": "Get in touch",
+    "logoAlt": "PMG Maintenance, home",
+    "glisser": "Drag to compare",
+    "avant": "Before",
+    "apres": "After",
+    "toucherCouleurs": "Tap the colours to design your roofline.",
+    "cliquerCouleurs": "Click the colours to design your roofline.",
+    "decorLigne": "Decorative roofline",
+    "saisons": {
+      "automne": "Fall",
+      "hiver": "Winter",
+      "printemps": "Spring and summer"
+    },
+    "estimationCourt": "Estimate",
+    "avisDefiler": "Client reviews, scroll sideways"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "PMG Maintenance: exterior building maintenance in Ottawa-Gatineau",
+      "description": "Roof snow removal, steam ice dam removal, Christmas lights, gutters, soft washing and windows. Free estimate, insured crew trained for working at heights.",
+      "nav": "Home",
+      "partageAlt": "PMG Maintenance: a snowy house at the roof edge, at blue hour",
+      "accroche": "It all happens at the roof edge"
+    },
+    "toiture-hiver": {
+      "titre": "Roof snow removal and steam ice dam removal: PMG Maintenance",
+      "description": "Manual snow removal with plastic shovels and steam ice dam removal in Ottawa-Gatineau. Written quote, $5,000,000 liability insurance.",
+      "nav": "Winter roofs",
+      "partageAlt": "Winter roof edge with ice dam and steam",
+      "accroche": "A clear roof, shingles intact"
+    },
+    "lumieres-de-noel": {
+      "titre": "Christmas light installation: PMG Maintenance",
+      "description": "Commercial-grade C9 LED bulbs in five colours: design, installation, spring removal and storage, in Ottawa-Gatineau.",
+      "nav": "Christmas lights",
+      "partageAlt": "House facade at dusk with an illuminated roofline",
+      "accroche": "Your home, lit for the holidays"
+    },
+    "lavage-exterieur": {
+      "titre": "Soft washing, gutters and windows: PMG Maintenance",
+      "description": "Low-pressure exterior washing with biodegradable products, gutter cleaning and window cleaning for homes and businesses in Ottawa-Gatineau.",
+      "nav": "Exterior washing",
+      "partageAlt": "Freshly washed siding and a clear gutter",
+      "accroche": "Clean, without high pressure"
+    },
+    "contact": {
+      "titre": "Free estimate: PMG Maintenance",
+      "description": "Ask for your free estimate: snow removal, ice dams, Christmas lights, gutters, washing and windows. We usually reply within minutes.",
+      "nav": "Contact",
+      "partageAlt": "Map of the area served by PMG Maintenance",
+      "accroche": "Your free estimate"
+    },
+    "404": {
+      "titre": "Page not found: PMG Maintenance",
+      "description": "This page does not exist.",
+      "nav": "Page not found",
+      "partageAlt": "Page not found",
+      "accroche": "Page not found"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Exterior building maintenance · Ottawa-Gatineau",
+      "titre1": "It all happens",
+      "titre2": "at the <em>roof edge.</em>",
+      "texte": "Snow, ice, gutters, lights, windows: PMG Maintenance has been looking after the outside of homes and businesses since 2015, with an insured crew trained for working at heights.",
+      "action": "Free estimate",
+      "texter": "Text 819-661-9294",
+      "infoHiver": "Right now: roof snow removal, steam ice dam removal and Christmas lights.",
+      "infoAutomne": "Right now: fall gutter cleaning and Christmas light installation.",
+      "infoPrintemps": "Right now: soft washing, windows and spring gutter cleaning.",
+      "alt": "Snowy house at blue hour, thick snow at the roof edge"
+    },
+    "saison": {
+      "titre": "The right service, <em>in the right season.</em>",
+      "texte": "Your home doesn't need the same care in November as in May. Pick a season: here's what we do for you.",
+      "onglets": "Choose a season",
+      "voir": "Learn more"
+    },
+    "jauge": {
+      "titre": "Your roof: <em>time to call?</em>",
+      "texte": "Enter how much snow is on your roof and what you notice inside: we'll tell you if it's time to call."
+    },
+    "vapeur": {
+      "titre": "Steam, <em>never a hammer.</em>",
+      "texte": "An ice dam traps meltwater at the roof edge, and the water ends up seeping in: stained ceilings, dripping soffits. PMG removes it with commercial-grade steam equipment, without damaging shingles, flashing, gutters or soffits.",
+      "jamais": "What never goes on your roof",
+      "delai": "In peak season, we're often there the same day or within 24 to 48 hours, depending on demand and the weather.",
+      "lien": "All about ice dam removal"
+    },
+    "lumieres": {
+      "titre": "Your Christmas lights, <em>no ladder for you.</em>",
+      "texte": "Commercial-grade C9 LED bulbs on custom-cut wire: PMG designs, installs, removes in spring and stores your lights until next season.",
+      "choix": "Design your roofline",
+      "note": "Change your colour combination every year at no extra cost.",
+      "dispo": "Limited availability",
+      "action": "Book my installation",
+      "lien": "See our work"
+    },
+    "avantApres": {
+      "titre": "Before, after. <em>Real photos.</em>",
+      "texte": "Soft washing: the pressure of a garden hose and non-toxic, biodegradable products. Stains are mostly mould, algae and bacteria, on the north side and in the shade.",
+      "lien": "All about exterior washing"
+    },
+    "securite": {
+      "titre": "Insured and trained <em>for working at heights.</em>",
+      "montantTexte": "in liability insurance"
+    },
+    "avis": {
+      "titre": "What our <em>clients say.</em>",
+      "texte": "Neighbours from Ottawa, Gatineau, Nepean and beyond. A few words, just as they wrote them.",
+      "ruban": "They trusted us with their roof, gutters, windows or lights"
+    },
+    "zone": {
+      "titre": "On both sides <em>of the river.</em>",
+      "texte": "From Shawville to Saint-Jérôme, from Wakefield to Kemptville: 52 communities in Quebec and 45 in Ontario, setting out from L'Ange-Gardien."
+    },
+    "fin": {
+      "titre": "Your estimate, <em>free.</em>",
+      "texte": "Requests sent through the form usually get an answer within minutes; by text, it's often even faster.",
+      "action": "Get my estimate"
+    }
+  },
+  "jauge": {
+    "epaisseur": "Snow depth on the roof",
+    "signes": "What you notice",
+    "pluie": "Rain is forecast after the snow",
+    "unitePo": "in",
+    "ok": "Below the 24-inch benchmark. Keep an eye on the weather, especially if rain follows the snow.",
+    "attention": "Getting close to the benchmark: plan a snow removal, especially before rain.",
+    "depasse": "At the 24-inch benchmark: snow removal is generally recommended.",
+    "pluieConseil": "Rain forecast after a snowfall: clearing the roof is advised before the rain makes the snow heavier.",
+    "alerte": "Warning sign: have your roof checked and cleared right away.",
+    "repere": "Benchmark: 24 in",
+    "note": "Benchmarks from PMG Maintenance's snow removal page. Every roof is different: if in doubt, ask a professional.",
+    "action": "Request snow removal",
+    "coupe": "Cross-section of a roof: the snow layer follows the chosen depth",
+    "verdict": "Our advice"
+  },
+  "securite": {
+    "montant": "$5,000,000",
+    "cnesstTitre": "CNESST and WSIB",
+    "cnesst": "Every worker is covered by the CNESST in Quebec and the WSIB in Ontario.",
+    "hauteurTitre": "Working at heights",
+    "hauteur": "A crew trained and certified in Working at Heights, with safety training.",
+    "soumissionTitre": "In writing",
+    "soumission": "A written quote before the work, an invoice and a receipt after.",
+    "proprioTitre": "The owner on site",
+    "proprio": "An owner-run business, with the owner on site."
+  },
+  "zone": {
+    "recherche": "Do we serve your town?",
+    "exemple": "E.g. Kanata, Orléans, Chelsea",
+    "oui": "Yes: {ville} ({province}) is one of our communities.",
+    "non": "\"{ville}\" isn't on our list. Write to us anyway: we'll tell you if we can come.",
+    "schema": "Diagram of the region, not to scale",
+    "qc": "Quebec",
+    "on": "Ontario",
+    "riviere": "Ottawa River",
+    "depart": "Base: L'Ange-Gardien",
+    "listeQc": "All 52 communities in Quebec",
+    "listeOn": "All 45 communities in Ontario",
+    "carte": "Diagram of the service area on both sides of the Ottawa River"
+  },
+  "offres": {
+    "titre": "Two codes, <em>one good neighbour.</em>",
+    "texte": "Limited-time offers, one code per home or business. Add the code to your estimate request.",
+    "deuxServices": "$25 off when you combine gutter cleaning and window cleaning.",
+    "voisins": "$25 for you and $25 for your neighbour: same service, same day.",
+    "voisinsDetail": "Gutters and downspouts, windows (25 or more) or a complete exterior wash.",
+    "referenceTitre": "Referral",
+    "reference": "$50 off your next service for every client you refer.",
+    "referenceDetail": "The new client enters your name in their request.",
+    "utiliser": "Use this code"
+  },
+  "toiture": {
+    "surtitre": "Roof snow removal and ice dam removal",
+    "titre1": "A clear roof,",
+    "titre2": "<em>shingles intact.</em>",
+    "texte": "Heavy snow, ice dams, icicles above the front door: PMG works on residential and commercial roofs across Ottawa-Gatineau, by hand and with steam.",
+    "chiffre": "24 in",
+    "chiffreTexte": "of build-up: the point at which snow removal is generally recommended.",
+    "info": "In peak season: often the same day or within 24 to 48 hours.",
+    "alt": "Winter roof edge: ice dam, icicles and steam in the sun",
+    "signes": {
+      "titre": "Signs <em>you shouldn't ignore.</em>",
+      "neige": "Too much snow on the roof",
+      "glace": "An ice dam",
+      "note": "An ice dam should come off as soon as it forms: the bigger it gets, the more water seeps in."
+    },
+    "jauge": {
+      "titre": "The <em>24-inch</em> benchmark.",
+      "texte": "Snow removal is generally recommended when build-up approaches 24 inches, and before rain is forecast after a snowfall. Check where you stand."
+    },
+    "deneigement": {
+      "titre": "Snow removal, <em>by hand.</em>",
+      "texte": "Manual, controlled snow removal that takes the weight off without damaging the roof.",
+      "quand": "When should you clear it? When build-up approaches 24 inches, and before rain is forecast after a snowfall.",
+      "eviter": "What we avoid: metal shovels, aggressive scraping, clearing down to the shingles and working without safety equipment.",
+      "alt": "Clearing snow from a roof with a shovel"
+    },
+    "vapeur": {
+      "titre": "Ice dam removal <em>with steam.</em>",
+      "texte": "Commercial-grade steam melts the ice in a controlled way, where a hammer would crack the shingles.",
+      "protege": "Steam spares",
+      "aussi": "Also: flat or sloped roofs, balconies, gates, stairs and skylights, plus concrete slabs and formwork on commercial sites.",
+      "calcium": "Calcium-based products help prevent an ice dam, not remove one.",
+      "alt": "Ice dam melted with steam at the roof edge"
+    },
+    "prix": {
+      "titre": "The price, <em>in writing.</em>",
+      "texte": "It depends on roof access, build-up, safety requirements and the time needed. You get a clear written quote before the work, then an invoice and a receipt."
+    },
+    "faq": "Frequently asked <em>questions</em>",
+    "fin": {
+      "titre": "Roof loaded? <em>Write to us.</em>",
+      "texte": "Text us a photo of your roof or fill in the request: the written quote is free.",
+      "action": "Request a quote"
+    }
+  },
+  "lumieres": {
+    "surtitre": "Christmas light installation",
+    "titre1": "Your home,",
+    "titre2": "<em>lit for the holidays.</em>",
+    "texte": "Pick your colours and the facade lights up. Commercial-grade C9 LED bulbs along your roofline, taken down in spring.",
+    "info": "Limited availability: book early.",
+    "action": "Book my installation",
+    "alt": "Snowy house facade at dusk, roofline lit with the chosen bulbs",
+    "simulation": "Simulation: the bulbs are drawn over the illustration.",
+    "couleurs": {
+      "titre": "Five colours, <em>one roofline.</em>",
+      "texte": "Faceted C9 bulbs: bright, even and energy-efficient. One colour or several; change the combination every year at no extra cost. Other colours and styles are available by special order."
+    },
+    "service": {
+      "titre": "From fall <em>to spring.</em>",
+      "texte": "You buy nothing and climb nothing: the lights and equipment remain the property of PMG Maintenance."
+    },
+    "realisations": {
+      "titre": "Homes and businesses, <em>lit up.</em>",
+      "tout": "All",
+      "residentiel": "Residential",
+      "commercial": "Commercial",
+      "filtres": "Filter our work"
+    },
+    "garantie": {
+      "titre": "A bulb goes out? <em>We come back.</em>",
+      "texte": "During the warranty period, a faulty bulb or an adjustment is fixed at no extra cost, under the terms of the service warranty and weather permitting."
+    },
+    "fin": {
+      "titre": "This year, <em>leave it to us.</em>",
+      "texte": "Availability is limited: ask for your free estimate now.",
+      "action": "Book my installation"
+    }
+  },
+  "lavage": {
+    "surtitre": "Exterior washing, gutters and windows",
+    "titre1": "Clean,",
+    "titre2": "<em>without high pressure.</em>",
+    "texte": "Soft washing cleans siding, soffits, roofs and concrete with the pressure of a garden hose and non-toxic, biodegradable products.",
+    "info": "Residential, commercial and institutional.",
+    "alt": "Freshly washed white vinyl siding with droplets in the spring sun",
+    "bassePression": {
+      "titre": "Why <em>low pressure?</em>",
+      "p1": "Less risk for your surfaces and less water than high-pressure washing.",
+      "p2": "Black and green stains are mostly mould, algae and bacteria, more visible on the north side and in the shade.",
+      "p3": "Equipment that lets us work at heights safely.",
+      "complet": "The complete exterior wash",
+      "c1": "Gutter clean-out",
+      "c2": "Gutters, downspouts, fascia, soffits, siding and doors",
+      "c3": "Exterior windows, frames and screens"
+    },
+    "surfaces": {
+      "titre": "What we <em>wash.</em>",
+      "texte": "Pick a type of surface.",
+      "filtres": "Filter surfaces"
+    },
+    "gouttieres": {
+      "titre": "Gutters <em>that do their job.</em>",
+      "texte": "Full of debris, they overflow, sag, freeze and let water seep into the roof, walls and foundation.",
+      "verifs": "Every cleaning, we check three things",
+      "v1": "Water flows freely",
+      "v2": "Downspouts are clear",
+      "v3": "No standing water",
+      "frequence": "Once a year, in the fall, is usually enough. A second cleaning in spring or summer helps if pines or maples are nearby.",
+      "parefeuilles": "Gutter guards? None truly replace cleaning: debris sticks on top, and shingle granules build up even without trees.",
+      "alt": "Clear gutter, water flowing freely"
+    },
+    "vitres": {
+      "titre": "Windows <em>that let the light in.</em>",
+      "texte": "Residential, commercial and institutional windows, plus post-construction and post-renovation cleaning. Once or twice a year, for a brighter home or a storefront that invites people in.",
+      "alt": "Large clean window reflecting the sky"
+    },
+    "fin": {
+      "titre": "Come spring, <em>everything shines.</em>",
+      "texte": "Ask for your free estimate: gutters, washing, windows or all of the above.",
+      "action": "Get my estimate"
+    }
+  },
+  "contact": {
+    "titre1": "Let's talk about",
+    "titre2": "<em>your home.</em>",
+    "texte": "Quotes are sent by email. Requests usually get an answer within minutes; by text, often even faster.",
+    "info": "Texts welcome at 819-661-9294",
+    "action": "Start my request",
+    "estimation": {
+      "titre": "Your <em>free estimate.</em>",
+      "etapes": "Four steps, two minutes",
+      "e1": "Services",
+      "e2": "Address",
+      "e3": "Your details",
+      "e4": "Last step",
+      "suivant": "Next",
+      "precedent": "Back",
+      "envoyer": "Send my request",
+      "propriete": "Property type",
+      "residentielle": "Residential",
+      "commerciale": "Commercial",
+      "institutionnelle": "Institutional",
+      "servicesLegende": "Services you need",
+      "aucunService": "Choose at least one service.",
+      "rue": "Street number and name",
+      "ville": "Town or city",
+      "codePostal": "Postal code",
+      "desservie": "Served community",
+      "nonListee": "Not on our list: we'll confirm whether we can come.",
+      "nom": "First and last name",
+      "entreprise": "Company name (optional)",
+      "email": "Email (your quote is sent by email)",
+      "tel": "Mobile phone",
+      "preference": "Best way to reach me",
+      "prefCourriel": "Email",
+      "prefTel": "Phone",
+      "prefTexto": "Text",
+      "code": "Promo code",
+      "codeAucun": "None",
+      "referent": "Name of the client who referred you (optional)",
+      "source": "How did you hear about PMG?",
+      "sourceChoisir": "Choose",
+      "sourceRecherche": "Online search",
+      "sourceReference": "Referred by a client",
+      "sourceVoisin": "A neighbour, our crew on a job",
+      "sourceAutre": "Other",
+      "message": "Message (roof access, photos to text us, details)",
+      "recap": "Your request",
+      "recapVide": "No service chosen yet.",
+      "recapVille": "Job location",
+      "recapCode": "Code",
+      "recapRemise": "$25 if conditions are met",
+      "donnees": "Your details are only used to prepare your quote.",
+      "politique": "Privacy policy (to be completed)",
+      "envoye": "Simulated request: nothing was sent. On the final site, it will go to PMG Maintenance, who will reply by email."
+    },
+    "paiement": {
+      "titre": "Payment",
+      "texte": "Cheque payable to PMG Maintenance, cash, Interac e-Transfer to info@pmgmaintenance.com, and PayPal with Visa, Mastercard, American Express or Discover."
+    },
+    "coordonnees": {
+      "titre": "Get <em>in touch.</em>",
+      "texte": "A question about a roof, a gutter or lights? Call, text or write."
+    },
+    "zone": {
+      "titre": "The area <em>we serve.</em>"
+    }
+  },
+  "introuvable": {
+    "titre": "This page got <em>buried in snow.</em>",
+    "texte": "It doesn't exist. The rest of the site is all cleared.",
+    "retour": "Back to home",
+    "alt": "A snow shovel stuck in a snowbank"
+  }
+}

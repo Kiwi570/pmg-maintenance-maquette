@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PMG Maintenance, directions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Unbounded:wght@500;700&family=Figtree:wght@400;600&family=Big+Shoulders+Display:wght@700;900&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* VOICE: planche de travail d'un directeur artistique, sobre, pour choisir
+   IDEA: trois nuanciers de chantier posés côte à côte
+   PICTURE: chaque direction montre son premier écran en miniature
+   COLOUR and TYPE: celles de chaque direction, rien d'autre
+   LAYOUT: une colonne par direction, empilées sur téléphone */
+:root{color-scheme:light;--bg:#eceef1;--ink:#14181d}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Figtree",system-ui,sans-serif;overflow-x:clip}
+header{padding:28px max(4vw,16px) 8px}
+header h1{font:700 30px/1.1 "Archivo",sans-serif;margin:0 0 6px}
+header p{margin:0;max-width:70ch;color:#3b434d}
+.grille{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding:18px max(4vw,16px) 40px}
+@media(max-width:1000px){.grille{grid-template-columns:minmax(0,1fr)}}
+.dir{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 1px 0 #0001,0 10px 30px -18px #0004;display:flex;flex-direction:column}
+.ecran{position:relative;aspect-ratio:16/10;overflow:hidden;padding:22px;display:flex;flex-direction:column;justify-content:flex-end;gap:10px}
+.ecran .nav{position:absolute;top:14px;left:22px;right:22px;display:flex;justify-content:space-between;font-size:12px;opacity:.85}
+.ecran .bt{align-self:flex-start;font-size:13px;font-weight:700;padding:9px 14px;border-radius:999px}
+.corps{padding:18px 20px 22px;display:grid;gap:14px}
+.corps h2{margin:0;font:700 20px/1.2 "Archivo",sans-serif}
+.reco{display:inline-block;font-size:12px;font-weight:700;background:#14181d;color:#fff;border-radius:999px;padding:3px 10px;margin-left:6px;vertical-align:middle}
+.nuancier{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+.nuancier div{height:54px;border-radius:8px;display:flex;align-items:flex-end;padding:5px;font:600 11px/1.1 "Figtree",sans-serif}
+.nuancier small{display:block;font-weight:400}
+.specimen{border-top:1px solid #0001;padding-top:12px}
+.specimen .t{font-size:30px;line-height:1.05;margin:0 0 6px}
+.specimen .p{font-size:15px;margin:0;color:#333}
+.specimen .n{font-size:12px;color:#5b6470;margin-top:6px}
+dl{margin:0;display:grid;gap:8px}
+dt{font-weight:600;font-size:14px}
+dd{margin:0;font-size:14.5px;color:#2b3138}
+ol{margin:4px 0 0;padding-left:20px;font-size:14px;color:#2b3138}
+li{margin:2px 0}
+/* A : Au bord du toit */
+.a .ecran{background:#0c1a2a;color:#f3f6f9}
+.a .ecran::before{content:"";position:absolute;inset:0;background:radial-gradient(1px 1px at 20% 30%,#fff9 50%,transparent),radial-gradient(1.5px 1.5px at 70% 20%,#fffa 50%,transparent),radial-gradient(1px 1px at 45% 60%,#fff8 50%,transparent),radial-gradient(1.5px 1.5px at 85% 55%,#fff9 50%,transparent),radial-gradient(1px 1px at 10% 75%,#fff7 50%,transparent)}
+.a .toit{position:absolute;left:0;right:0;top:38%;height:2px;background:linear-gradient(90deg,transparent,#dce9f2 12%,#dce9f2 88%,transparent)}
+.a .toit i{position:absolute;top:-4px;width:9px;height:12px;border-radius:50% 50% 45% 45%}
+.a .ecran .t{font:800 34px/1 "Archivo",sans-serif;font-stretch:125%;margin:0;position:relative}
+.a .ecran .t em{font-style:normal;color:#ff7a3d}
+.a .bt{background:#ff5b14;color:#0c1a2a}
+.a .specimen .t{font-family:"Archivo",sans-serif;font-weight:800;font-stretch:125%}
+.a .specimen .p{font-family:"Archivo",sans-serif}
+/* B : Maison des quatre saisons */
+.b .ecran{background:#d6ecf7;color:#1a2230}
+.b .maison{position:absolute;right:18px;bottom:0;width:46%}
+.b .ecran .t{font:700 26px/1.1 "Unbounded",sans-serif;margin:0;max-width:58%;position:relative}
+.b .ecran .t em{font-style:normal;color:#c23d24}
+.b .bt{background:#c23d24;color:#fff}
+.b .specimen .t{font-family:"Unbounded",sans-serif;font-weight:700;font-size:26px}
+.b .specimen .p{font-family:"Figtree",sans-serif}
+/* C : Vapeur */
+.c .ecran{background:#111418;color:#eef2f4}
+.c .ecran::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 50% at 70% 70%,#eef2f42e,transparent 70%),radial-gradient(40% 40% at 60% 40%,#eef2f41c,transparent 70%)}
+.c .ecran .t{font:900 46px/.92 "Big Shoulders Display",sans-serif;text-transform:uppercase;margin:0;position:relative}
+.c .ecran .t em{font-style:normal;color:#ffd400}
+.c .bt{background:#ffd400;color:#111418}
+.c .specimen .t{font-family:"Big Shoulders Display",sans-serif;font-weight:900;text-transform:uppercase;font-size:38px}
+.c .specimen .p{font-family:"Barlow",sans-serif}
+footer{padding:0 max(4vw,16px) 40px;font-size:14px;color:#3b434d;max-width:90ch}
+</style>
+</head>
+<body>
+<header>
+  <h1>PMG Maintenance : trois directions</h1>
+  <p>Chaque direction garde la même base : vos vraies photos en premier, la saison du jour qui ouvre le site (aujourd'hui l'hiver : toiture et lumières de Noël), un outil utile, vos 48 vrais avis, votre zone de 97 localités et l'estimation gratuite toujours à portée de main.</p>
+</header>
+
+<main class="grille">
+
+<article class="dir a">
+  <div class="ecran" aria-hidden="true">
+    <div class="nav"><span>PMG Maintenance</span><span>Toiture · Lumières · Lavage · Contact</span></div>
+    <div class="toit"><i style="left:16%;background:#ffc46b"></i><i style="left:30%;background:#e8352b"></i><i style="left:44%;background:#3fae5a"></i><i style="left:58%;background:#4a8ff0"></i><i style="left:72%;background:#fff6e8"></i><i style="left:86%;background:#ffc46b"></i></div>
+    <p class="t">Tout se joue au <em>bord du toit.</em></p>
+    <span class="bt">Estimation gratuite</span>
+  </div>
+  <div class="corps">
+    <h2>A. Au bord du toit <span class="reco">Recommandé</span></h2>
+    <div class="nuancier">
+      <div style="background:#f3f6f9;color:#0c1a2a;outline:1px solid #0001">Neige<small>#F3F6F9</small></div>
+      <div style="background:#dce9f2;color:#0c1a2a">Glace<small>#DCE9F2</small></div>
+      <div style="background:#0c1a2a;color:#f3f6f9">Nuit<small>#0C1A2A</small></div>
+      <div style="background:#ff5b14;color:#0c1a2a">Orange<small>#FF5B14</small></div>
+      <div style="background:#ffc46b;color:#0c1a2a">C9 chaud<small>#FFC46B</small></div>
+    </div>
+    <div class="specimen">
+      <p class="t">Déneigement de toiture</p>
+      <p class="p">Pelles en plastique, 1 à 4 po de neige laissés pour protéger vos bardeaux.</p>
+      <div class="n">Titres : Archivo étendu, 800 · Texte : Archivo, 400</div>
+    </div>
+    <dl>
+      <dt>L'idée</dt>
+      <dd>Tout ce que fait PMG se passe au bord du toit : gouttières, barrages de glace, neige, lumières, soffites. Une fine ligne de toit traverse le site à quelques endroits choisis : des glaçons y pendent dans la section vapeur, les ampoules C9 s'y allument pour Noël, l'eau y coule pour les gouttières. Rien d'autre.</dd>
+      <dt>Ambiance</dt>
+      <dd>Clair et froid comme un matin de neige, nuit bleue pour l'ouverture, les lumières et l'appel final, un seul orange de sécurité pour les boutons.</dd>
+      <dt>Accueil</dt>
+      <dd><ol>
+        <li>Ouverture de nuit d'hiver, neige fine, la ligne de toit s'allume</li>
+        <li>En ce moment : les services de la saison, grandes photos</li>
+        <li>Outil : votre toit est-il trop chargé ? (vos repères : 20 lb/pi², 24 po)</li>
+        <li>La vapeur, jamais le marteau : le barrage de glace fond au défilement</li>
+        <li>Lumières de Noël : choisissez vos couleurs C9, la façade s'allume</li>
+        <li>Avant / après de vos vrais chantiers de lavage</li>
+        <li>5 000 000 $, CNESST/WSIB, travail en hauteur</li>
+        <li>48 avis en rubans · zone de 97 localités avec recherche</li>
+        <li>Appel final de nuit, offres 2SERVICES et VOISINS25</li>
+      </ol></dd>
+      <dt>Favorite la plus proche par le niveau</dt>
+      <dd>Dépannage 60 (clair, utile, grandes photos), avec la nuit d'Agence AE.</dd>
+    </dl>
+  </div>
+</article>
+
+<article class="dir b">
+  <div class="ecran" aria-hidden="true">
+    <div class="nav"><span>PMG Maintenance</span><span>Saisons · Services · Contact</span></div>
+    <svg class="maison" viewBox="0 0 200 150"><path d="M20 70 100 18l80 52v80H20z" fill="#fbfaf6"/><path d="M10 74 100 14l90 60" fill="none" stroke="#1a2230" stroke-width="6" stroke-linejoin="round"/><path d="M14 70 100 13l86 57" fill="none" stroke="#fff" stroke-width="5" stroke-dasharray="1 0" opacity=".95"/><rect x="40" y="88" width="30" height="28" fill="#1f4d3f"/><rect x="128" y="88" width="30" height="28" fill="#1f4d3f"/><rect x="86" y="96" width="28" height="54" fill="#c23d24"/></svg>
+    <p class="t">Une maison, <em>quatre saisons.</em></p>
+    <span class="bt">Estimation gratuite</span>
+  </div>
+  <div class="corps">
+    <h2>B. La maison des quatre saisons</h2>
+    <div class="nuancier">
+      <div style="background:#f7f8f4;color:#1a2230;outline:1px solid #0001">Blanc<small>#F7F8F4</small></div>
+      <div style="background:#d6ecf7;color:#1a2230">Ciel<small>#D6ECF7</small></div>
+      <div style="background:#1f4d3f;color:#f7f8f4">Sapin<small>#1F4D3F</small></div>
+      <div style="background:#c23d24;color:#fff">Brique<small>#C23D24</small></div>
+      <div style="background:#1a2230;color:#f7f8f4">Encre<small>#1A2230</small></div>
+    </div>
+    <div class="specimen">
+      <p class="t">Déneigement de toiture</p>
+      <p class="p">Pelles en plastique, 1 à 4 po de neige laissés pour protéger vos bardeaux.</p>
+      <div class="n">Titres : Unbounded, 700 · Texte : Figtree, 400</div>
+    </div>
+    <dl>
+      <dt>L'idée</dt>
+      <dd>Une maison dessinée en illustration plate reste à l'écran pendant qu'on traverse l'année : feuilles dans les gouttières à l'automne, neige et glace l'hiver, lumières à Noël, façade qui se lave au printemps. Chaque service vit sur la maison ; vos photos arrivent à côté comme preuves.</dd>
+      <dt>Ambiance</dt>
+      <dd>Clair, joyeux et familial, ciel pâle, sapin et brique ; très lisible pour les propriétaires.</dd>
+      <dt>Accueil</dt>
+      <dd><ol>
+        <li>Ouverture : la maison dans la saison du jour</li>
+        <li>L'année sur la maison, épinglée, quatre temps</li>
+        <li>Outil de charge de neige posé sur le toit dessiné</li>
+        <li>Vos photos réelles en galerie, avant / après</li>
+        <li>Sécurité, avis, zone, appel final</li>
+      </ol></dd>
+      <dt>Favorite la plus proche par le niveau</dt>
+      <dd>Cool Canyoning (illustration plate, titres francs, outils).</dd>
+      <dt>Réserve</dt>
+      <dd>L'illustration demande du temps et passe devant vos photos.</dd>
+    </dl>
+  </div>
+</article>
+
+<article class="dir c">
+  <div class="ecran" aria-hidden="true">
+    <div class="nav"><span>PMG Maintenance</span><span>Toiture · Lavage · Lumières · Contact</span></div>
+    <p class="t">La glace part.<br><em>Le toit reste.</em></p>
+    <span class="bt">Estimation gratuite</span>
+  </div>
+  <div class="corps">
+    <h2>C. Vapeur</h2>
+    <div class="nuancier">
+      <div style="background:#111418;color:#eef2f4">Ardoise<small>#111418</small></div>
+      <div style="background:#1c2229;color:#eef2f4">Acier<small>#1C2229</small></div>
+      <div style="background:#eef2f4;color:#111418;outline:1px solid #0001">Vapeur<small>#EEF2F4</small></div>
+      <div style="background:#ffd400;color:#111418">Jaune<small>#FFD400</small></div>
+      <div style="background:#7fc8f8;color:#111418">Glace<small>#7FC8F8</small></div>
+    </div>
+    <div class="specimen">
+      <p class="t">Déneigement de toiture</p>
+      <p class="p">Pelles en plastique, 1 à 4 po de neige laissés pour protéger vos bardeaux.</p>
+      <div class="n">Titres : Big Shoulders Display, 900 · Texte : Barlow, 400</div>
+    </div>
+    <dl>
+      <dt>L'idée</dt>
+      <dd>La vapeur, votre méthode phare : un nuage de vapeur en WebGL qui suit la souris dans l'ouverture et dégage le titre, puis des sections nettes en grand format. Le ton d'une entreprise sérieuse, assurée, équipée.</dd>
+      <dt>Ambiance</dt>
+      <dd>Sombre et industriel, jaune haute visibilité, sections utiles en clair (offres, formulaire, zone).</dd>
+      <dt>Accueil</dt>
+      <dd><ol>
+        <li>Ouverture vapeur, titres géants en capitales</li>
+        <li>Six services en grandes cartes</li>
+        <li>Méthode : vapeur contre marteau, chiffres</li>
+        <li>Lumières de Noël en bande de nuit</li>
+        <li>Sécurité, avis, zone, appel final</li>
+      </ol></dd>
+      <dt>Favorite la plus proche par le niveau</dt>
+      <dd>Ice Attitude (nuit et braise, effet WebGL qu'on attise).</dd>
+      <dt>Réserve</dt>
+      <dd>Moins chaleureux pour les propriétaires et pour Noël.</dd>
+    </dl>
+  </div>
+</article>
+
+</main>
+<footer>Planche de travail, non contractuelle : couleurs et polices réelles, premiers écrans esquissés. La direction choisie sera tenue sur toutes les pages.</footer>
+</body>
+</html>

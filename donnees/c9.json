@@ -1,0 +1,7 @@
+[
+  { "cle": "chaud", "couleur": "#ffc46b", "nom": { "fr": "Blanc chaud", "en": "Warm white" } },
+  { "cle": "pur", "couleur": "#eef4ff", "nom": { "fr": "Blanc pur", "en": "Pure white" } },
+  { "cle": "rouge", "couleur": "#ff3b30", "nom": { "fr": "Rouge", "en": "Red" } },
+  { "cle": "vert", "couleur": "#2fd06a", "nom": { "fr": "Vert", "en": "Green" } },
+  { "cle": "bleu", "couleur": "#4d8dff", "nom": { "fr": "Bleu", "en": "Blue" } }
+]

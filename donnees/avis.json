@@ -1,0 +1,121 @@
+{
+ "fr": [
+  {
+   "nom": "Sophie Thériault",
+   "ville": "Ottawa",
+   "service": "Barrage de glace",
+   "texte": "Ils ont entièrement réglé le problème et laissé le site en bon état."
+  },
+  {
+   "nom": "Daniel Fiset",
+   "ville": "Gatineau",
+   "service": "Lavage extérieur complet",
+   "texte": "La maison est comme neuve!"
+  },
+  {
+   "nom": "Marie-Ève Paré",
+   "ville": "Gatineau",
+   "service": "Déglaçage à la vapeur",
+   "texte": "Les communications sont claires, rapides et professionnelles."
+  },
+  {
+   "nom": "Jocelyne Garneau",
+   "ville": "Gatineau",
+   "service": "Déneigement de toiture",
+   "texte": "Très bon travail pour la deuxième année consécutive."
+  },
+  {
+   "nom": "Guillaume",
+   "ville": "Aylmer",
+   "service": "Gouttières",
+   "texte": "Le service était courtois, professionnel et, surtout, très efficace."
+  },
+  {
+   "nom": "Normand Joseph",
+   "ville": "Gatineau",
+   "service": "Lumières de Noël",
+   "texte": "Le résultat témoigne d'un travail soigné, fait avec attention et professionnalisme"
+  },
+  {
+   "nom": "Alexandre Farley",
+   "ville": "Gatineau",
+   "service": "Lumières de Noël",
+   "texte": "c'était vraiment un travail professionnel!",
+   "seulPage": true
+  }
+ ],
+ "en": [
+  {
+   "nom": "Lois Luke",
+   "ville": "Gatineau",
+   "service": "Gutter cleaning",
+   "texte": "Simply the best gutter cleaning service in Gatineau!"
+  },
+  {
+   "nom": "Ivana Mitrovic",
+   "ville": "Gatineau",
+   "service": "Gutter cleaning",
+   "texte": "Their work was fantastic, fairly priced, and very fast."
+  },
+  {
+   "nom": "Gib Rozon",
+   "ville": "Nepean",
+   "service": "Ice dam removal",
+   "texte": "Pierre and his coworker worked nonstop"
+  },
+  {
+   "nom": "J. Palumbo",
+   "ville": "Ottawa",
+   "service": "Christmas lights",
+   "texte": "Pierre and his crew transformed our front lawn into a magical wonderland"
+  },
+  {
+   "nom": "Melanie Chin",
+   "ville": "Ottawa",
+   "service": "Christmas lights",
+   "texte": "They were professional, enthusiastic and did a beautiful job."
+  },
+  {
+   "nom": "Lucie Dumas",
+   "ville": "Ottawa",
+   "service": "Window cleaning",
+   "texte": "My Windows have never been so clean!"
+  }
+ ],
+ "ruban": [
+  "Lise Paquette · Gatineau",
+  "Jeannine Lafrenière · Rockland",
+  "Diane Drouin · Cantley",
+  "Mélanie Simard Plamondon · Val-des-Monts",
+  "Sylvain Fabi · Ottawa",
+  "Jean-Pierre Lachance · Gatineau",
+  "Simon Cantin · Gatineau",
+  "Vincent Dunn · Val-des-Monts",
+  "Yves Gaudreau · Denholm",
+  "Jacqueline Mondesir · Gatineau",
+  "Jean-Sébastien Roy · Gatineau",
+  "François Houle · Ottawa",
+  "Jean Lalonde · Gatineau",
+  "Claude Latreille · Val-des-Monts",
+  "Daniel Desrochers · Val-des-Monts",
+  "Kevin Grenier · Lochaber",
+  "Alex Naud · Val-des-Monts",
+  "Richard Desjardins · Montpellier",
+  "Suzanne Laurin · Gatineau",
+  "Alexandre Farley · Gatineau",
+  "Benjamin Carrier · Gatineau",
+  "Renee & Eric Parker · Gatineau",
+  "Wendy Desormeaux · Lac-Sainte-Marie",
+  "Line Renaud · La Pêche",
+  "Julie L'Ecuyer · Val-des-Monts",
+  "Marthe Fortin · L'Ange-Gardien",
+  "Nancy Proulx · Val-des-Monts",
+  "Michel Diotte · Gatineau",
+  "Mark Wakim · Ottawa",
+  "Pam Harasym · Ottawa",
+  "Celina Fleury-Gow · Alcove",
+  "Louise Vachon · Gatineau",
+  "D Pham · Ottawa",
+  "Mabel · Ottawa"
+ ]
+}

@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en" data-v="1" data-saison="hiver">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Roof snow removal and steam ice dam removal: PMG Maintenance</title>
+<meta name="description" content="Manual snow removal with plastic shovels and steam ice dam removal in Ottawa-Gatineau. Written quote, $5,000,000 liability insurance.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://pmg-maintenance-maquette.vercel.app/en/toiture-hiver">
+<link rel="alternate" hreflang="fr" href="https://pmg-maintenance-maquette.vercel.app/toiture-hiver">
+<link rel="alternate" hreflang="en" href="https://pmg-maintenance-maquette.vercel.app/en/toiture-hiver">
+<link rel="alternate" hreflang="x-default" href="https://pmg-maintenance-maquette.vercel.app/toiture-hiver">
+<style>:root{--fond:#f3f6f9;--texte:#0c1a2a;--voile-fond:#0c1a2a;--ouverture-fond:#0c1a2a;--menu-fond:#0c1a2a}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+try {
+var ps = new URLSearchParams(location.search).get('saison'), mo = new Date().getMonth() + 1;
+var sa = /^(automne|hiver|printemps)$/.test(ps || '') ? ps : (mo >= 11 || mo <= 3) ? 'hiver' : mo >= 9 ? 'automne' : 'printemps';
+d.setAttribute('data-saison', sa);
+} catch (e) {}
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/archivo-titres.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#0c1a2a">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PMG Maintenance">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Roof snow removal and steam ice dam removal: PMG Maintenance">
+<meta property="og:description" content="Manual snow removal with plastic shovels and steam ice dam removal in Ottawa-Gatineau. Written quote, $5,000,000 liability insurance.">
+<meta property="og:url" content="https://pmg-maintenance-maquette.vercel.app/en/toiture-hiver">
+<meta property="og:image" content="https://pmg-maintenance-maquette.vercel.app/assets/partage/toiture-hiver-en.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Winter roof edge with ice dam and steam">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"PMG Maintenance","description":"Entretien extérieur de bâtiment : déneigement de toiture, déglaçage à la vapeur, installation de lumières de Noël, nettoyage de gouttières, lavage à basse pression et lavage de vitres, Ottawa-Gatineau.","telephone":"+1-819-661-9294","email":"info@pmgmaintenance.com","foundingDate":"2015","address":{"@type":"PostalAddress","streetAddress":"16, chemin Gaspard","addressLocality":"L'Ange-Gardien","addressRegion":"QC","postalCode":"J8L 0G7","addressCountry":"CA"},"areaServed":["Gatineau","Ottawa","Outaouais","Est ontarien"],"paymentAccepted":"Cheque, Cash, Interac e-Transfer, PayPal, Visa, Mastercard, American Express, Discover"}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C 240 20 480 20 720 70 S 1200 130 1440 40 V 120 H 0 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 C 240 100 480 100 720 50 S 1200 -10 1440 80 V 0 H 0 Z"/></svg><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="56" height="56"><span data-voile-libelle>Winter roofs</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-clair.svg" alt="" width="64" height="64" data-ouverture-objet>
+  <p class="ouverture-nom">PMG Maintenance</p>
+  <div class="toit toit--ampoules ouverture-toit" aria-hidden="true">
+  <svg class="toit-trait" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false"><path d="M0 82 L34 82 L50 14 L66 82 L100 82" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+  <span class="c9" style="--x:3.45%;--y:82%;--i:0;--c:#ffc46b"></span><span class="c9" style="--x:10.34%;--y:82%;--i:1;--c:#ff3b30"></span><span class="c9" style="--x:17.23%;--y:82%;--i:2;--c:#2fd06a"></span><span class="c9" style="--x:24.12%;--y:82%;--i:3;--c:#4d8dff"></span><span class="c9" style="--x:31.02%;--y:82%;--i:4;--c:#eef4ff"></span><span class="c9" style="--x:37.53%;--y:66.98%;--i:5;--c:#ffc46b"></span><span class="c9" style="--x:43.77%;--y:40.49%;--i:6;--c:#ff3b30"></span><span class="c9" style="--x:50%;--y:14%;--i:7;--c:#2fd06a"></span><span class="c9" style="--x:56.23%;--y:40.49%;--i:8;--c:#4d8dff"></span><span class="c9" style="--x:62.47%;--y:66.98%;--i:9;--c:#eef4ff"></span><span class="c9" style="--x:68.98%;--y:82%;--i:10;--c:#ffc46b"></span><span class="c9" style="--x:75.88%;--y:82%;--i:11;--c:#ff3b30"></span><span class="c9" style="--x:82.77%;--y:82%;--i:12;--c:#2fd06a"></span><span class="c9" style="--x:89.66%;--y:82%;--i:13;--c:#4d8dff"></span><span class="c9" style="--x:96.55%;--y:82%;--i:14;--c:#eef4ff"></span>
+</div>
+  <p class="ouverture-ligne">Exterior building maintenance</p>
+</div>
+<a class="evitement" href="#contenu">Skip to content</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/en" data-libelle="Home" aria-label="PMG Maintenance, home">
+      <img src="/assets/images/logo.svg" alt="" width="36" height="36"><span class="entete-nom">PMG <span>Maintenance</span></span>
+    </a>
+    <nav data-nav aria-label="Main navigation">
+      <ul><li><a href="/en/toiture-hiver" data-libelle="Winter roofs" aria-current="page">Winter roofs</a></li><li><a href="/en/lumieres-de-noel" data-libelle="Christmas lights">Christmas lights</a></li><li><a href="/en/lavage-exterieur" data-libelle="Exterior washing">Exterior washing</a></li><li><a href="/en/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="entete-langue" href="/toiture-hiver" hreflang="fr" lang="fr" data-langue="fr" aria-label="Version française">fr</a>
+      <a class="bouton" href="/en/contact#estimation" data-libelle="Contact">Free estimate</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Close"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Close</a></p>
+  <ul><li style="--i:0"><a href="/en" class="menu-lien" data-libelle="Home">Home</a></li><li style="--i:1"><a href="/en/toiture-hiver" class="menu-lien" data-libelle="Winter roofs" aria-current="page">Winter roofs</a></li><li style="--i:2"><a href="/en/lumieres-de-noel" class="menu-lien" data-libelle="Christmas lights">Christmas lights</a></li><li style="--i:3"><a href="/en/lavage-exterieur" class="menu-lien" data-libelle="Exterior washing">Exterior washing</a></li><li style="--i:4"><a href="/en/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+18196619294">Call 819-661-9294</a></p>
+  <p><a class="entete-langue" href="/toiture-hiver" hreflang="fr" lang="fr" data-langue="fr">Version française</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="page-tete page-tete--toiture" id="debut">
+  <div class="conteneur page-tete-grille">
+    <div>
+      <p class="surtitre" data-anime="gsap">Roof snow removal and ice dam removal</p>
+      <h1 data-grille="typo"><span class="ligne-masque"><span class="page-ligne">A clear roof,</span></span><span class="ligne-masque"><span class="page-ligne"><em>shingles intact.</em></span></span></h1>
+      <p class="page-intro masque-ecran-tres-bas" data-anime="gsap">Heavy snow, ice dams, icicles above the front door: PMG works on residential and commercial roofs across Ottawa-Gatineau, by hand and with steam.</p>
+      <div class="hero-actions" data-anime="gsap">
+        <a href="/en/contact?service=deneigement#estimation" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Free estimate</a>
+        <a class="bouton bouton--contour" href="sms:+18196619294">Text 819-661-9294</a>
+      </div>
+      <p class="hero-info" data-info-cle data-anime="gsap"><span class="pastille-saison" aria-hidden="true"></span>In peak season: often the same day or within 24 to 48 hours.</p>
+    </div>
+    <div class="toiture-visuel">
+      <figure class="media page-tete-media toiture-media" data-iris-centre data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 30%;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA4KCw0LCQ4NDA0QDw4RFiQXFhQUFiwgIRokNC43NjMuMjI6QVNGOj1OPjIySGJJTlZYXV5dOEVmbWVabFNbXVn/2wBDAQ8QEBYTFioXFypZOzI7WVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVn/wAARCAAYABIDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDSSSK4UtEwIAyfUUi25lBI4461kgbSGjJVvUVbh1OSNAkw3L0yK6I176MwlRtqif7J9KKZ9rjPPmrRW/N5mNvIyUuI3Hyup+hpWfKkZ7UUV5x3Ee5fSiiimI//2Q==);background-size:cover;background-position:50% 30%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/vapeur-bord-toit-mobile-640.webp 640w, /assets/images/vapeur-bord-toit-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 44vw">
+    <img src="/assets/images/vapeur-bord-toit-1500.webp" srcset="/assets/images/vapeur-bord-toit-640.webp 640w, /assets/images/vapeur-bord-toit-1024.webp 1024w, /assets/images/vapeur-bord-toit-1500.webp 1500w" sizes="(max-width: 760px) 100vw, 44vw" alt="Technician at the roof edge, steam and icicles in the sun" width="1500" height="2000" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+      <p class="toiture-chiffre" data-anime="gsap"><strong>24 in</strong><span class="masque-ecran-bas">of build-up: the point at which snow removal is generally recommended.</span></p>
+    </div>
+  </div>
+</section>
+<section class="section section--glace signes" id="signes">
+  <div class="conteneur">
+    <h2 data-anime="lignes">Signs <em>you shouldn't ignore.</em></h2>
+    <div class="signes-grille">
+      <article class="signe-carte">
+        <figure class="media signe-media" data-fx="zoom" style="--cadrage:50% 40%;aspect-ratio:16 / 9">
+  <picture>
+    <img src="/assets/images/deneigement-maison-1168.webp" srcset="/assets/images/deneigement-maison-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 40vw" alt="House with a snow-loaded roof" width="1168" height="876" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <h3>Too much snow on the roof</h3>
+        <ul class="liste-coches" data-anime="cascade"><li>Doors that are hard to open or close</li><li>Unusual creaking in the structure</li><li>A ceiling that sags</li><li>Cracks on interior walls</li></ul>
+      </article>
+      <article class="signe-carte">
+        <figure class="media signe-media" data-fx="zoom" style="--cadrage:50% 35%;aspect-ratio:16 / 9">
+  <picture>
+    <img src="/assets/images/glacons-1168.webp" srcset="/assets/images/glacons-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 40vw" alt="A curtain of icicles in front of the windows" width="1168" height="876" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <h3>An ice dam</h3>
+        <ul class="liste-coches" data-anime="cascade"><li>Large icicles at the roof edge</li><li>Water dripping from soffits or siding</li><li>Ice in the gutters</li><li>Stains or bulging on the ceiling</li><li>Water coming in</li></ul>
+      </article>
+    </div>
+    <p class="signes-note" data-anime>An ice dam should come off as soon as it forms: the bigger it gets, the more water seeps in.</p>
+  </div>
+</section>
+<section class="section section--fond jauge" id="repere">
+  <div class="conteneur jauge-grille">
+    <div class="jauge-texte">
+      <h2 data-anime="lignes">The <em>24-inch</em> benchmark.</h2>
+      <p data-anime>Snow removal is generally recommended when build-up approaches 24 inches, and before rain is forecast after a snowfall. Check where you stand.</p>
+      <div class="jauge-controles" data-jauge data-anime>
+        <label class="jauge-label" for="repere-ep">Snow depth on the roof <output for="repere-ep" data-jauge-sortie>14 in</output></label>
+        <input type="range" id="repere-ep" min="0" max="36" step="1" value="14" data-jauge-ep data-unite="in">
+        <fieldset class="jauge-signes">
+          <legend>What you notice</legend>
+          <label class="case"><input type="checkbox" name="signe" value="0" data-jauge-signe> <span>Doors that are hard to open or close</span></label><label class="case"><input type="checkbox" name="signe" value="1" data-jauge-signe> <span>Unusual creaking in the structure</span></label><label class="case"><input type="checkbox" name="signe" value="2" data-jauge-signe> <span>A ceiling that sags</span></label><label class="case"><input type="checkbox" name="signe" value="3" data-jauge-signe> <span>Cracks on interior walls</span></label>
+          <label class="case"><input type="checkbox" name="pluie" data-jauge-pluie> <span>Rain is forecast after the snow</span></label>
+        </fieldset>
+      </div>
+    </div>
+    <div class="jauge-visuel" data-visuel data-effet="jauge-neige">
+      <svg class="jauge-coupe" viewBox="0 0 640 360" role="img" aria-label="Cross-section of a roof: the snow layer follows the chosen depth">
+        <defs><linearGradient id="repere-ciel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c1a2a"/><stop offset="1" stop-color="#1d3550"/></linearGradient></defs>
+        <rect x="0" y="0" width="640" height="360" rx="18" fill="url(#repere-ciel)"/>
+        <g class="jauge-flocons" fill="#f3f6f9" data-boucle-css><circle cx="60" cy="40" r="2" style="--i:0"/><circle cx="140" cy="90" r="3" style="--i:1"/><circle cx="210" cy="30" r="4" style="--i:2"/><circle cx="420" cy="50" r="2" style="--i:3"/><circle cx="520" cy="100" r="3" style="--i:4"/><circle cx="590" cy="40" r="4" style="--i:5"/><circle cx="470" cy="20" r="2" style="--i:6"/><circle cx="300" cy="22" r="3" style="--i:7"/><circle cx="90" cy="150" r="4" style="--i:8"/><circle cx="560" cy="170" r="2" style="--i:9"/></g>
+        <rect x="150" y="232" width="340" height="128" fill="#13263b"/>
+        <rect x="200" y="262" width="56" height="52" rx="3" fill="#ffc46b" opacity=".85"/>
+        <rect x="384" y="262" width="56" height="52" rx="3" fill="#ffc46b" opacity=".85"/>
+        <polygon class="jauge-neige" data-jauge-neige points="110,212 320,72 530,212 530,235 320,95 110,235" fill="#f3f6f9"/>
+        <path d="M100 240 L320 92 L540 240" fill="none" stroke="#ff5b14" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+        <polyline class="jauge-repere" points="110,195 320,55 530,195" fill="none" stroke="#ffc46b" stroke-width="2" stroke-dasharray="8 7"/>
+        <text x="336" y="44" class="jauge-repere-texte" fill="#ffc46b">Benchmark: 24 in</text>
+      </svg>
+      <div class="jauge-verdict" data-jauge-niveau="ok">
+        <p class="jauge-verdict-titre">Our advice</p>
+        <p class="jauge-etat" data-jauge-etat aria-live="polite" data-ok="Below the 24-inch benchmark. Keep an eye on the weather, especially if rain follows the snow." data-attention="Getting close to the benchmark: plan a snow removal, especially before rain." data-depasse="At the 24-inch benchmark: snow removal is generally recommended." data-pluie="Rain forecast after a snowfall: clearing the roof is advised before the rain makes the snow heavier." data-alerte="Warning sign: have your roof checked and cleared right away.">Below the 24-inch benchmark. Keep an eye on the weather, especially if rain follows the snow.</p>
+        <a href="/en/contact?service=deneigement#estimation" class="bouton" data-libelle="Contact">Request snow removal</a>
+      </div>
+    </div>
+  </div>
+  <p class="conteneur jauge-note">Benchmarks from PMG Maintenance&#39;s snow removal page. Every roof is different: if in doubt, ask a professional.</p>
+</section>
+<section class="section section--glace deneigement" id="deneigement">
+  <div class="conteneur">
+    <div class="deneigement-tete">
+      <h2 data-anime="lignes">Snow removal, <em>by hand.</em></h2>
+      <p data-anime>Manual, controlled snow removal that takes the weight off without damaging the roof.</p>
+    </div>
+    <ol class="etapes" data-anime="cascade"><li class="etape"><span class="etape-num" aria-hidden="true">1</span><h3>Plastic shovels</h3><p>Never metal on your shingles.</p></li><li class="etape"><span class="etape-num" aria-hidden="true">2</span><h3>1 to 4 inches left on the roof</h3><p>A layer of snow protects the shingles from the shovel.</p></li><li class="etape"><span class="etape-num" aria-hidden="true">3</span><h3>Vents and drainage cleared</h3><p>Roof and plumbing vents, and the paths water drains through.</p></li><li class="etape"><span class="etape-num" aria-hidden="true">4</span><h3>Secured perimeter</h3><p>When needed, and any decks, stairs and walkways affected are cleared.</p></li></ol>
+    <div class="deneigement-bas">
+      <figure class="media deneigement-media" data-anime="rideau" style="--cadrage:62% 50%;aspect-ratio:16 / 9">
+  <picture>
+    <img src="/assets/images/deneigement-lucarnes-1168.webp" srcset="/assets/images/deneigement-lucarnes-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 50vw" alt="Clearing deep snow between two dormers" width="1168" height="658" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <div class="encadres">
+        <p class="encadre" data-anime>When should you clear it? When build-up approaches 24 inches, and before rain is forecast after a snowfall.</p>
+        <p class="encadre encadre--attention" data-anime>What we avoid: metal shovels, aggressive scraping, clearing down to the shingles and working without safety equipment.</p>
+        <figure class="media perimetre-media" data-fx="vitesse" style="--cadrage:30% 55%;aspect-ratio:16 / 9">
+  <picture>
+    <img src="/assets/images/perimetre-securise-1168.webp" srcset="/assets/images/perimetre-securise-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 30vw" alt="Danger sign and wood protection under a roof being de-iced" width="1168" height="876" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section--nuit vapeur vapeur--page" id="vapeur">
+  <div class="toit toit--glacons vapeur-toit" aria-hidden="true" data-effet="barrage-vapeur" data-visuel data-grille="fil">
+  <svg class="toit-trait" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false"><path d="M0 82 L34 82 L50 14 L66 82 L100 82" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+  <span class="glacon" style="--x:1.5%;--y:82%;--l:62%;--i:0"></span><span class="glacon" style="--x:4.1%;--y:82%;--l:38%;--i:1"></span><span class="glacon" style="--x:6.7%;--y:82%;--l:80%;--i:2"></span><span class="glacon" style="--x:9.3%;--y:82%;--l:48%;--i:3"></span><span class="glacon" style="--x:11.9%;--y:82%;--l:30%;--i:4"></span><span class="glacon" style="--x:14.5%;--y:82%;--l:70%;--i:5"></span><span class="glacon" style="--x:17.1%;--y:82%;--l:44%;--i:6"></span><span class="glacon" style="--x:19.7%;--y:82%;--l:90%;--i:7"></span><span class="glacon" style="--x:22.3%;--y:82%;--l:36%;--i:8"></span><span class="glacon" style="--x:24.9%;--y:82%;--l:58%;--i:9"></span><span class="glacon" style="--x:27.5%;--y:82%;--l:28%;--i:10"></span><span class="glacon" style="--x:30.1%;--y:82%;--l:74%;--i:11"></span><span class="glacon" style="--x:32.7%;--y:82%;--l:50%;--i:12"></span><span class="glacon" style="--x:67.5%;--y:82%;--l:40%;--i:13"></span><span class="glacon" style="--x:70.1%;--y:82%;--l:84%;--i:14"></span><span class="glacon" style="--x:72.7%;--y:82%;--l:34%;--i:15"></span><span class="glacon" style="--x:75.3%;--y:82%;--l:62%;--i:16"></span><span class="glacon" style="--x:77.9%;--y:82%;--l:38%;--i:17"></span><span class="glacon" style="--x:80.5%;--y:82%;--l:80%;--i:18"></span><span class="glacon" style="--x:83.1%;--y:82%;--l:48%;--i:19"></span><span class="glacon" style="--x:85.7%;--y:82%;--l:30%;--i:20"></span><span class="glacon" style="--x:88.3%;--y:82%;--l:70%;--i:21"></span><span class="glacon" style="--x:90.9%;--y:82%;--l:44%;--i:22"></span><span class="glacon" style="--x:93.5%;--y:82%;--l:90%;--i:23"></span><span class="glacon" style="--x:96.1%;--y:82%;--l:36%;--i:24"></span><span class="glacon" style="--x:98.7%;--y:82%;--l:58%;--i:25"></span>
+</div>
+  <div class="conteneur vapeur-grille">
+    <div class="vapeur-texte">
+      <h2 data-anime="lignes">Ice dam removal <em>with steam.</em></h2>
+      <p data-anime>Commercial-grade steam melts the ice in a controlled way, where a hammer would crack the shingles.</p>
+      <p class="vapeur-jamais-titre" data-anime>Steam spares</p>
+      <ul class="pastilles" data-anime="cascade"><li>Shingles</li><li>Flashing</li><li>Vents</li><li>Drip edges</li><li>Gutters</li><li>Downspouts</li><li>Soffits</li><li>Fascia</li><li>Siding</li></ul>
+      <p class="vapeur-jamais-titre" data-anime>What never goes on your roof</p>
+      <ul class="liste-rayee" data-rature><li><span>Hammers, axes or impact tools</span></li><li><span>Saws or cutting tools</span></li><li><span>Hot water poured on the roof</span></li><li><span>Salt-based products</span></li></ul>
+      <p data-anime>Also: flat or sloped roofs, balconies, gates, stairs and skylights, plus concrete slabs and formwork on commercial sites. Calcium-based products help prevent an ice dam, not remove one.</p>
+    </div>
+    <div class="vapeur-mosaique">
+      <figure class="media vm-1" data-anime="rideau" style="--cadrage:60% 40%;aspect-ratio:4 / 3">
+  <picture>
+    <img src="/assets/images/vapeur-maison-1168.webp" srcset="/assets/images/vapeur-maison-1168.webp 1168w" sizes="(max-width: 760px) 92vw, 40vw" alt="Two technicians removing ice with steam on a house" width="1168" height="876" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media vm-2" data-fx="vitesse" style="--cadrage:70% 50%;aspect-ratio:1 / 1">
+  <picture>
+    <img src="/assets/images/vapeur-toit-plat-1168.webp" srcset="/assets/images/vapeur-toit-plat-1168.webp 1168w" sizes="(max-width: 760px) 45vw, 20vw" alt="Steam ice removal on a commercial flat roof" width="1168" height="876" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media vm-3" data-fx="vitesse" style="--cadrage:55% 35%;aspect-ratio:1 / 1">
+  <picture>
+    <img src="/assets/images/vapeur-immeuble-1168.webp" srcset="/assets/images/vapeur-immeuble-1168.webp 1168w" sizes="(max-width: 760px) 45vw, 20vw" alt="Steam ice removal on a condo building under a blue sky" width="1168" height="876" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+  </div>
+</section>
+<section class="section section--fond securite" id="securite">
+  <div class="conteneur securite-grille">
+    <div class="securite-texte">
+      <h2 data-anime="lignes">Insured and trained <em>for working at heights.</em></h2>
+      <p class="securite-montant"><strong>$<span data-compteur="5000000">5,000,000</span></strong> <span>in liability insurance</span></p>
+      <ul class="securite-liste" data-anime="cascade"><li>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20 L12 4 L20 20 Z M12 10 V15 M12 17.5 V18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div><h3>CNESST and WSIB</h3><p>Every worker is covered by the CNESST in Quebec and the WSIB in Ontario.</p></div>
+      </li><li>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 21 V4 M18 21 V4 M6 8 H18 M6 13 H18 M6 18 H18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div><h3>Working at heights</h3><p>A crew trained and certified in Working at Heights, with safety training.</p></div>
+      </li><li>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3 H15 L19 7 V21 H6 Z M9 11 H16 M9 15 H16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div><h3>In writing</h3><p>A written quote before the work, an invoice and a receipt after.</p></div>
+      </li><li>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12 A4 4 0 1 0 12 4 A4 4 0 1 0 12 12 Z M4 21 C4 16 8 14 12 14 C16 14 20 16 20 21" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div><h3>The owner on site</h3><p>An owner-run business, with the owner on site.</p></div>
+      </li></ul>
+    </div>
+    <figure class="media securite-media" data-fx="parallaxe" style="--cadrage:55% 40%;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA4KCw0LCQ4NDA0QDw4RFiQXFhQUFiwgIRokNC43NjMuMjI6QVNGOj1OPjIySGJJTlZYXV5dOEVmbWVabFNbXVn/2wBDAQ8QEBYTFioXFypZOzI7WVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVn/wAARCAASABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC6ds8j7CMp94CmwXtqOGOxhwQ1VY5rlbJGFs5D878fepPMm2ul1bKgb5vmGDit3iZPYxjh4rc3tPuba4JEcqvzjFFcjLe/ZmR4JTF1wFoodbuCpdjrbYD+yLMY/hFZPiEncvJ6D+YoorlR0HNuPlY9xu5ooopsS2P/2Q==);background-size:cover;background-position:55% 40%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/equipe-hauteur-mobile-640.webp 640w, /assets/images/equipe-hauteur-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 45vw">
+    <img src="/assets/images/equipe-hauteur-1280.webp" srcset="/assets/images/equipe-hauteur-640.webp 640w, /assets/images/equipe-hauteur-1280.webp 1280w, /assets/images/equipe-hauteur-1800.webp 1800w" sizes="(max-width: 760px) 100vw, 45vw" alt="Two technicians on ladders at the gable of a brick house" width="1280" height="960" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="section section--glace faq" id="faq">
+  <div class="conteneur faq-grille">
+    <div class="faq-tete">
+      <h2 data-anime="lignes">Frequently asked <em>questions</em></h2>
+      <div class="encadre encadre--prix" data-anime>
+        <h3>The price, <em>in writing.</em></h3>
+        <p>It depends on roof access, build-up, safety requirements and the time needed. You get a clear written quote before the work, then an invoice and a receipt.</p>
+      </div>
+      <figure class="media faq-media" data-fx="zoom" style="--cadrage:50% 50%;aspect-ratio:16 / 9;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA4KCw0LCQ4NDA0QDw4RFiQXFhQUFiwgIRokNC43NjMuMjI6QVNGOj1OPjIySGJJTlZYXV5dOEVmbWVabFNbXVn/2wBDAQ8QEBYTFioXFypZOzI7WVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVn/wAARCAASABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDMR7QqWZncD+FFyTWnYjzLdmbTs27HHT5vrWWkxlQWVkAoxkt0P1rqdNkS0sooJpg0nf8AAVtVqzk9WZwpxSMK50tQDJbEvH3U/eWirMmvW8tzLGkZIbhGwBg0VtHEyStJGbopvRnGqzI2VYqcdjitfRmZ4rtmJYhDgk57UUVzdTYo2/8ArBRRRWxB/9k=);background-size:cover;background-position:50% 50%">
+  <picture>
+    <img src="/assets/images/glacons-soleil-800.webp" srcset="/assets/images/glacons-soleil-640.webp 640w, /assets/images/glacons-soleil-800.webp 800w" sizes="(max-width: 760px) 92vw, 30vw" alt="Icicles at the edge of a snowy roof, blue sky" width="800" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="faq-liste" data-anime="cascade"><details class="faq-item"><summary>How quickly can you come?</summary><p>In peak season, often the same day or within 24 to 48 hours, depending on demand and the weather. Texts usually get a faster reply.</p></details><details class="faq-item"><summary>How much does snow or ice dam removal cost?</summary><p>The price depends on roof access, build-up, safety requirements and the time needed. The written quote is free.</p></details><details class="faq-item"><summary>Why not clear down to the shingles?</summary><p>A 1 to 4 inch layer protects the shingles from the shovel. We clear the rest, the vents and the drainage paths.</p></details><details class="faq-item"><summary>When should I have my roof cleared?</summary><p>When build-up approaches 24 inches, or before rain is forecast after a snowfall. Sticking doors, creaking or a sagging ceiling: call right away.</p></details><details class="faq-item"><summary>Do salt or hot water work?</summary><p>No. Hot water and salt-based products should stay off a roof; calcium-based products only help prevent ice dams.</p></details><details class="faq-item"><summary>Which payment methods do you accept?</summary><p>Cheque payable to PMG Maintenance, cash, Interac e-Transfer and PayPal (Visa, Mastercard, American Express, Discover).</p></details></div>
+  </div>
+</section>
+<section class="section section--nuit fin" id="fin">
+  <div class="toit toit--ampoules fin-toit" aria-hidden="true" data-effet="ligne-de-toit" data-visuel data-grille="fil" data-scintille data-boucle-css>
+  <svg class="toit-trait" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false"><path d="M0 82 L34 82 L50 14 L66 82 L100 82" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+  <span class="c9" style="--x:1.4%;--y:82%;--i:0;--c:#ffc46b"></span><span class="c9" style="--x:4.19%;--y:82%;--i:1;--c:#eef4ff"></span><span class="c9" style="--x:6.99%;--y:82%;--i:2;--c:#ffc46b"></span><span class="c9" style="--x:9.78%;--y:82%;--i:3;--c:#eef4ff"></span><span class="c9" style="--x:12.57%;--y:82%;--i:4;--c:#ffc46b"></span><span class="c9" style="--x:15.37%;--y:82%;--i:5;--c:#eef4ff"></span><span class="c9" style="--x:18.16%;--y:82%;--i:6;--c:#ffc46b"></span><span class="c9" style="--x:20.96%;--y:82%;--i:7;--c:#eef4ff"></span><span class="c9" style="--x:23.75%;--y:82%;--i:8;--c:#ffc46b"></span><span class="c9" style="--x:26.55%;--y:82%;--i:9;--c:#eef4ff"></span><span class="c9" style="--x:29.34%;--y:82%;--i:10;--c:#ffc46b"></span><span class="c9" style="--x:32.13%;--y:82%;--i:11;--c:#eef4ff"></span><span class="c9" style="--x:34.84%;--y:78.43%;--i:12;--c:#ffc46b"></span><span class="c9" style="--x:37.37%;--y:67.69%;--i:13;--c:#eef4ff"></span><span class="c9" style="--x:39.89%;--y:56.95%;--i:14;--c:#ffc46b"></span><span class="c9" style="--x:42.42%;--y:46.22%;--i:15;--c:#eef4ff"></span><span class="c9" style="--x:44.95%;--y:35.48%;--i:16;--c:#ffc46b"></span><span class="c9" style="--x:47.47%;--y:24.74%;--i:17;--c:#eef4ff"></span><span class="c9" style="--x:50%;--y:14%;--i:18;--c:#ffc46b"></span><span class="c9" style="--x:52.53%;--y:24.74%;--i:19;--c:#eef4ff"></span><span class="c9" style="--x:55.05%;--y:35.48%;--i:20;--c:#ffc46b"></span><span class="c9" style="--x:57.58%;--y:46.22%;--i:21;--c:#eef4ff"></span><span class="c9" style="--x:60.11%;--y:56.95%;--i:22;--c:#ffc46b"></span><span class="c9" style="--x:62.63%;--y:67.69%;--i:23;--c:#eef4ff"></span><span class="c9" style="--x:65.16%;--y:78.43%;--i:24;--c:#ffc46b"></span><span class="c9" style="--x:67.87%;--y:82%;--i:25;--c:#eef4ff"></span><span class="c9" style="--x:70.66%;--y:82%;--i:26;--c:#ffc46b"></span><span class="c9" style="--x:73.45%;--y:82%;--i:27;--c:#eef4ff"></span><span class="c9" style="--x:76.25%;--y:82%;--i:28;--c:#ffc46b"></span><span class="c9" style="--x:79.04%;--y:82%;--i:29;--c:#eef4ff"></span><span class="c9" style="--x:81.84%;--y:82%;--i:30;--c:#ffc46b"></span><span class="c9" style="--x:84.63%;--y:82%;--i:31;--c:#eef4ff"></span><span class="c9" style="--x:87.43%;--y:82%;--i:32;--c:#ffc46b"></span><span class="c9" style="--x:90.22%;--y:82%;--i:33;--c:#eef4ff"></span><span class="c9" style="--x:93.01%;--y:82%;--i:34;--c:#ffc46b"></span><span class="c9" style="--x:95.81%;--y:82%;--i:35;--c:#eef4ff"></span><span class="c9" style="--x:98.6%;--y:82%;--i:36;--c:#ffc46b"></span>
+</div>
+  <div class="conteneur fin-grille">
+    <div>
+      <h2 data-anime="lignes">Roof loaded? <em>Write to us.</em></h2>
+      <p data-anime>Text us a photo of your roof or fill in the request: the written quote is free.</p>
+      <p class="fin-actions" data-anime>
+        <a href="/en/contact?service=deneigement#estimation" class="bouton" data-libelle="Contact" data-survol="magnetique">Request a quote</a>
+        <a class="bouton bouton--contour" href="sms:+18196619294">Text 819-661-9294</a>
+      </p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-nom"><img src="/assets/images/logo-clair.svg" alt="" width="40" height="40"> PMG Maintenance</p>
+      <p>Exterior building maintenance in Ottawa-Gatineau since 2015.</p>
+      <p>16, chemin Gaspard, L&#39;Ange-Gardien (QC) J8L 0G7</p>
+    </div>
+    <div>
+      <p class="pied-titre">Get in touch</p>
+      <ul>
+        <li><span class="pied-libelle">Phone</span> <a href="tel:+18196619294">819-661-9294</a></li>
+        <li><span class="pied-libelle">Toll-free</span> <a href="tel:+18776619294">1 877 661-9294</a></li>
+        <li><span class="pied-libelle">Texts</span> <a href="sms:+18196619294">819-661-9294</a></li>
+        <li><span class="pied-libelle">Email</span> <span class="selectionnable">info@pmgmaintenance.com</span></li>
+      </ul>
+    </div>
+    <nav aria-label="Site map">
+      <p class="pied-titre">Site map</p>
+      <ul><li><a href="/en" data-libelle="Home">Home</a></li><li><a href="/en/toiture-hiver" data-libelle="Winter roofs" aria-current="page">Winter roofs</a></li><li><a href="/en/lumieres-de-noel" data-libelle="Christmas lights">Christmas lights</a></li><li><a href="/en/lavage-exterieur" data-libelle="Exterior washing">Exterior washing</a></li><li><a href="/en/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas" id="pied-legal">
+    <p>Legal notice · to be completed</p>
+    <p>Privacy policy · to be completed</p>
+    <p>Presentation mock-up: forms are simulated, nothing is sent.</p>
+    <p><a href="#haut" data-sans-transition>Back to top</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+18196619294">Call</a>
+  <a class="bouton bouton--contour" href="sms:+18196619294">Text</a>
+  <a class="bouton" href="/en/contact#estimation" data-libelle="Contact">Estimate</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "signesNeige": [
+    { "fr": "Portes difficiles à ouvrir ou à fermer", "en": "Doors that are hard to open or close" },
+    { "fr": "Craquements inhabituels de la structure", "en": "Unusual creaking in the structure" },
+    { "fr": "Plafond qui se déforme", "en": "A ceiling that sags" },
+    { "fr": "Fissures sur les murs intérieurs", "en": "Cracks on interior walls" }
+  ],
+  "signesGlace": [
+    { "fr": "Gros glaçons au bord du toit", "en": "Large icicles at the roof edge" },
+    { "fr": "Eau qui coule des soffites ou du revêtement", "en": "Water dripping from soffits or siding" },
+    { "fr": "Glace dans les gouttières", "en": "Ice in the gutters" },
+    { "fr": "Taches ou gonflement au plafond", "en": "Stains or bulging on the ceiling" },
+    { "fr": "Infiltration d'eau", "en": "Water coming in" }
+  ],
+  "jamais": [
+    { "fr": "Marteau, hache ou outil à impact", "en": "Hammers, axes or impact tools" },
+    { "fr": "Scie ou outil coupant", "en": "Saws or cutting tools" },
+    { "fr": "Eau chaude versée sur le toit", "en": "Hot water poured on the roof" },
+    { "fr": "Produits à base de sel", "en": "Salt-based products" }
+  ],
+  "protege": [
+    { "fr": "Bardeaux", "en": "Shingles" }, { "fr": "Solins", "en": "Flashing" }, { "fr": "Évents", "en": "Vents" },
+    { "fr": "Rebords", "en": "Drip edges" }, { "fr": "Gouttières", "en": "Gutters" }, { "fr": "Descentes pluviales", "en": "Downspouts" },
+    { "fr": "Soffites", "en": "Soffits" }, { "fr": "Fascias", "en": "Fascia" }, { "fr": "Revêtements", "en": "Siding" }
+  ],
+  "etapes": [
+    { "titre": { "fr": "Pelles en plastique", "en": "Plastic shovels" }, "texte": { "fr": "Jamais de métal sur vos bardeaux.", "en": "Never metal on your shingles." } },
+    { "titre": { "fr": "1 à 4 po laissés sur le toit", "en": "1 to 4 inches left on the roof" }, "texte": { "fr": "Une couche de neige protège les bardeaux des coups de pelle.", "en": "A layer of snow protects the shingles from the shovel." } },
+    { "titre": { "fr": "Évents et écoulements dégagés", "en": "Vents and drainage cleared" }, "texte": { "fr": "Évents de toiture et de plomberie, voies d'écoulement de l'eau.", "en": "Roof and plumbing vents, and the paths water drains through." } },
+    { "titre": { "fr": "Périmètre sécurisé", "en": "Secured perimeter" }, "texte": { "fr": "Au besoin, et les terrasses, escaliers et passages touchés sont dégagés.", "en": "When needed, and any decks, stairs and walkways affected are cleared." } }
+  ],
+  "faq": [
+    { "q": { "fr": "En combien de temps intervenez-vous ?", "en": "How quickly can you come?" },
+      "r": { "fr": "En haute saison, souvent le jour même ou dans les 24 à 48 h, selon la demande et la météo. Les textos reçoivent généralement une réponse plus rapide.", "en": "In peak season, often the same day or within 24 to 48 hours, depending on demand and the weather. Texts usually get a faster reply." } },
+    { "q": { "fr": "Combien coûte un déneigement ou un déglaçage ?", "en": "How much does snow or ice dam removal cost?" },
+      "r": { "fr": "Le prix dépend de l'accès au toit, de l'accumulation, des exigences de sécurité et du temps requis. La soumission écrite est gratuite.", "en": "The price depends on roof access, build-up, safety requirements and the time needed. The written quote is free." } },
+    { "q": { "fr": "Pourquoi ne pas déneiger jusqu'aux bardeaux ?", "en": "Why not clear down to the shingles?" },
+      "r": { "fr": "Une couche de 1 à 4 po protège les bardeaux des coups de pelle. On dégage le reste, les évents et les voies d'écoulement.", "en": "A 1 to 4 inch layer protects the shingles from the shovel. We clear the rest, the vents and the drainage paths." } },
+    { "q": { "fr": "Quand faut-il faire déneiger son toit ?", "en": "When should I have my roof cleared?" },
+      "r": { "fr": "Quand l'accumulation approche 24 po, ou avant une pluie annoncée après une chute de neige. Portes qui coincent, craquements ou plafond qui se déforme : appelez sans attendre.", "en": "When build-up approaches 24 inches, or before rain is forecast after a snowfall. Sticking doors, creaking or a sagging ceiling: call right away." } },
+    { "q": { "fr": "Le sel ou l'eau chaude, ça marche ?", "en": "Do salt or hot water work?" },
+      "r": { "fr": "Non. L'eau chaude et les produits à base de sel sont à éviter sur une toiture ; les produits à base de calcium servent seulement à prévenir.", "en": "No. Hot water and salt-based products should stay off a roof; calcium-based products only help prevent ice dams." } },
+    { "q": { "fr": "Quels modes de paiement acceptez-vous ?", "en": "Which payment methods do you accept?" },
+      "r": { "fr": "Chèque à l'ordre de PMG Maintenance, argent comptant, virement Interac et PayPal (Visa, Mastercard, American Express, Discover).", "en": "Cheque payable to PMG Maintenance, cash, Interac e-Transfer and PayPal (Visa, Mastercard, American Express, Discover)." } }
+  ]
+}

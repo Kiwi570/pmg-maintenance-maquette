@@ -1,0 +1,487 @@
+[
+ {
+  "nom": "grok/accueil-ouverture",
+  "page": "Accueil",
+  "emplacement": "ouverture (grand fond de nuit d'hiver)",
+  "role": "ouverture",
+  "priorite": "Indispensable",
+  "source": "recu/grok/accueil-ouverture.jpg",
+  "source_mobile": "recu/grok/accueil-ouverture-mobile.jpg",
+  "mobile": "9:16",
+  "zone_texte": "gauche",
+  "ratio": "16:9",
+  "consigne_scene": "A two-storey suburban house with a steep pitched asphalt-shingle roof at blue hour on a still winter evening, a thick even layer of fresh snow on the roof with a clean overhanging edge and a few clear icicles along the white gutter, warm amber light glowing in two windows, a snowy front yard and a shovelled path, light snowflakes drifting in the air, deep night-blue sky, quiet and cinematic, nobody",
+  "alt": "Maison enneigée à l'heure bleue, neige épaisse au bord du toit",
+  "beaute": null
+ },
+ {
+  "nom": "grok/toiture-ouverture",
+  "page": "Toiture l'hiver",
+  "emplacement": "ouverture (bord de toit et barrage de glace)",
+  "role": "ouverture",
+  "priorite": "Indispensable",
+  "source": "recu/grok/toiture-ouverture.jpg",
+  "source_mobile": "recu/grok/toiture-ouverture-mobile.jpg",
+  "mobile": "9:16",
+  "zone_texte": "gauche",
+  "ratio": "16:9",
+  "consigne_scene": "Close view from a low angle of the lower edge of a snowy asphalt-shingle roof on a cold sunny winter morning, a thick ridge of clear ice along the eave and a row of long glassy icicles hanging from the white aluminum gutter, soft white steam rising and drifting in the sunlight where part of the ice has already been melted cleanly away, crisp blue sky, sparkling snow, the roof edge running diagonally across the frame, nobody, no tools",
+  "alt": "Bord de toit en hiver : barrage de glace, glaçons et vapeur dans le soleil",
+  "beaute": null
+ },
+ {
+  "nom": "grok/lumieres-facade",
+  "page": "Lumières de Noël",
+  "emplacement": "ouverture : façade où le visiteur allume ses ampoules C9",
+  "role": "ouverture",
+  "priorite": "Indispensable",
+  "source": "recu/grok/lumieres-facade.jpg",
+  "source_mobile": "recu/grok/lumieres-facade-mobile.jpg",
+  "mobile": "9:16",
+  "zone_texte": "gauche",
+  "ratio": "16:9",
+  "consigne_scene": "Front view, straight on and perfectly level, of a simple two-storey suburban house with one large symmetrical gable roof at dusk on a snowy evening, the whole roofline and white gutter clearly visible as clean straight lines against the deep blue sky, no Christmas lights and no decorations at all, warm amber glow in a few windows, fresh snow on the roof and in the yard, two small snowy evergreen shrubs by the door, plenty of sky above the roof, calm and festive mood, nobody",
+  "alt": "Façade de maison enneigée au crépuscule, ligne de toit encore sans lumières",
+  "beaute": null
+ },
+ {
+  "nom": "grok/lavage-ouverture",
+  "page": "Lavage extérieur",
+  "emplacement": "ouverture (façade propre au printemps)",
+  "role": "ouverture",
+  "priorite": "Conseillée",
+  "source": "recu/grok/lavage-ouverture.jpg",
+  "source_mobile": "recu/grok/lavage-ouverture-mobile.jpg",
+  "mobile": "9:16",
+  "zone_texte": "gauche",
+  "ratio": "16:9",
+  "consigne_scene": "Three-quarter view of the bright white vinyl siding and white soffit of a suburban house on a fresh spring morning just after a gentle wash, clean siding glistening with fine water droplets, a white aluminum gutter and downspout, a clean window reflecting a blue sky with small clouds, young green maple leaves at the edge of the frame, sunlight and crisp shadows, nobody, no tools, no hose",
+  "alt": "Revêtement de vinyle blanc fraîchement lavé, gouttelettes au soleil de printemps",
+  "beaute": null
+ },
+ {
+  "nom": "grok/deneigement",
+  "page": "Accueil",
+  "emplacement": "carte « Déneigement de toiture » (si vos photos ne conviennent pas)",
+  "role": "carte-service",
+  "priorite": "Conseillée",
+  "ratio": "4:3",
+  "source": "recu/grok/deneigement.jpg",
+  "consigne_scene": "A worker seen strictly from behind on a snowy pitched roof on a bright winter day, wearing a red safety helmet, a full-body safety harness clipped to a rope anchored at the ridge and winter work clothes, pushing a large plastic snow shovel that slides a neat block of snow off the roof edge, a protective layer of snow left on the shingles, blue sky, face never visible",
+  "alt": "Déneigement d'un toit en pente, harnais et pelle en plastique",
+  "beaute": null
+ },
+ {
+  "nom": "grok/vapeur",
+  "page": "Accueil",
+  "emplacement": "section « La vapeur, jamais le marteau » (si vos photos ne conviennent pas)",
+  "role": "carte-service",
+  "priorite": "Conseillée",
+  "ratio": "4:3",
+  "source": "recu/grok/vapeur.jpg",
+  "consigne_scene": "Close-up of a thick ridge of clear ice on the edge of a snowy shingle roof being melted by a jet of white steam coming from a slim metal steam wand that enters the frame from the bottom edge, a work-gloved hand at the very edge of the frame only, dense white steam clouds lit by the low winter sun, water dripping cleanly into the gutter, nobody visible",
+  "alt": "Barrage de glace fondu à la vapeur au bord d'un toit",
+  "beaute": null
+ },
+ {
+  "nom": "grok/gouttiere",
+  "page": "Lavage extérieur",
+  "emplacement": "section Gouttières (si vos photos ne conviennent pas)",
+  "role": "carte-service",
+  "priorite": "Conseillée",
+  "ratio": "4:3",
+  "source": "recu/grok/gouttiere.jpg",
+  "consigne_scene": "Close-up along a clean white aluminum gutter on a crisp autumn afternoon, clear rainwater flowing freely toward the downspout, a few red and orange maple leaves resting on the roof shingles above it, golden low sun, shallow depth of field, nobody, no tools",
+  "alt": "Gouttière dégagée, l'eau s'écoule librement vers la descente",
+  "beaute": null
+ },
+ {
+  "nom": "grok/vitres",
+  "page": "Lavage extérieur",
+  "emplacement": "section Vitres (si vos photos ne conviennent pas)",
+  "role": "carte-service",
+  "priorite": "Conseillée",
+  "ratio": "4:3",
+  "source": "recu/grok/vitres.jpg",
+  "consigne_scene": "A large spotless window in a white frame on a house facade in spring, the glass so clean it perfectly reflects a blue sky, small white clouds and fresh green maple branches, a few water droplets on the white sill, sunlight, nobody, no tools",
+  "alt": "Grande fenêtre impeccable qui reflète le ciel de printemps",
+  "beaute": null
+ },
+ {
+  "nom": "grok/page-404",
+  "page": "404",
+  "emplacement": "image de la page introuvable",
+  "role": "404",
+  "priorite": "Conseillée",
+  "ratio": "16:9",
+  "zone_texte": "gauche",
+  "source": "recu/grok/page-404.jpg",
+  "consigne_scene": "A single red plastic snow shovel standing upright, half buried in a deep fresh snowbank on a quiet winter evening, snow gently falling, soft blue hour light with a warm amber window glow far in the background, playful and calm, nobody",
+  "alt": "Une pelle à neige plantée dans un banc de neige",
+  "beaute": null
+ },
+ {
+  "source": "recu/pmg-maintenancechristmas-light-4.jpg",
+  "nom": "noel-blanc-chaud",
+  "role": "section-fond",
+  "alt": "Maison illuminée d'ampoules blanc chaud le long de la ligne de toit",
+  "beaute": 5,
+  "ratio": "4:3",
+  "mobile": "4:5",
+  "largeurs": [
+   640,
+   1280,
+   1920
+  ]
+ },
+ {
+  "source": "recu/pmg-maintenancechristmas-light.jpg",
+  "nom": "noel-multicolore",
+  "role": "galerie",
+  "alt": "Maison de deux étages aux arches illuminées de couleurs",
+  "beaute": 4,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/pmg-maintenancechristmas-light-2.jpg",
+  "nom": "noel-pignon",
+  "role": "galerie",
+  "alt": "Pignon et fenêtres soulignés d'ampoules multicolores",
+  "beaute": 4,
+  "ratio": "3:4"
+ },
+ {
+  "source": "recu/pmg-maintenancechristmas-light-6.jpg",
+  "nom": "noel-heure-bleue",
+  "role": "galerie",
+  "alt": "Maison de brique à l'heure bleue, arbres et ligne de toit illuminés",
+  "beaute": 4,
+  "ratio": "16:9"
+ },
+ {
+  "source": "recu/pmg-maintenancechristmas-light-7.jpg",
+  "nom": "noel-plain-pied",
+  "role": "galerie",
+  "alt": "Maison de plain-pied illuminée de couleurs",
+  "beaute": 3,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/pmg-maintenance-5.jpg",
+  "nom": "noel-bungalow",
+  "role": "galerie",
+  "alt": "Bungalow illuminé en rouge, vert et blanc",
+  "beaute": 3,
+  "ratio": "16:10"
+ },
+ {
+  "source": "recu/pmg-maintenancechristmas-light-3.jpg",
+  "nom": "noel-immeuble",
+  "role": "galerie",
+  "alt": "Immeuble résidentiel décoré pour les Fêtes",
+  "beaute": 3,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/pmg-maintenance-installation-lumieres.jpg",
+  "nom": "noel-commercial",
+  "role": "galerie",
+  "alt": "Bâtiment commercial et grand arbre illuminés",
+  "beaute": 3,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/pmg-maintenancechristmas-light-10.jpg",
+  "nom": "noel-restaurant",
+  "role": "galerie",
+  "alt": "Façade de restaurant soulignée d'ampoules",
+  "beaute": 3,
+  "ratio": "16:9"
+ },
+ {
+  "source": "recu/testimonials-14.webp",
+  "nom": "ampoule-c9-blanc-chaud",
+  "role": "vignette",
+  "alt": "Ampoule C9 à facettes, blanc chaud",
+  "beaute": 3,
+  "ratio": "1:1"
+ },
+ {
+  "source": "recu/pmg-maintenance-2.jpg",
+  "nom": "vapeur-toit",
+  "role": "section-fond",
+  "alt": "Déglaçage à la vapeur sur un toit enneigé, nuage de vapeur au soleil",
+  "beaute": 4,
+  "ratio": "4:5",
+  "cadrage": [
+   50,
+   40
+  ],
+  "largeurs": [
+   640,
+   1024,
+   1600
+  ]
+ },
+ {
+  "source": "recu/how-we-remove-ice-8.jpg",
+  "nom": "vapeur-bord-toit",
+  "role": "section-fond",
+  "alt": "Technicien sur le bord du toit, vapeur et glaçons au soleil",
+  "beaute": 4,
+  "ratio": "3:4",
+  "mobile": "4:5",
+  "largeurs": [
+   640,
+   1024,
+   1500
+  ]
+ },
+ {
+  "source": "recu/how-we-remove-ice-5.jpg",
+  "nom": "vapeur-immeuble",
+  "role": "carte-service",
+  "alt": "Déglaçage à la vapeur d'un immeuble de condos sous le ciel bleu",
+  "beaute": 4,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/how-we-remove-ice-6.jpg",
+  "nom": "vapeur-maison",
+  "role": "carte-service",
+  "alt": "Deux techniciens retirent la glace à la vapeur sur une maison",
+  "beaute": 4,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/how-we-remove-ice-4.jpg",
+  "nom": "vapeur-toit-plat",
+  "role": "carte-service",
+  "alt": "Déglaçage à la vapeur d'un toit plat commercial",
+  "beaute": 4,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/icing-concrete-slabs-formwork.jpg",
+  "nom": "vapeur-chantier-nuit",
+  "role": "carte-service",
+  "alt": "Dégel de coffrages de béton à la vapeur, de nuit",
+  "beaute": 4,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/how-we-remove-ice.jpg",
+  "nom": "perimetre-securise",
+  "role": "carte-service",
+  "alt": "Panneau de danger et protection de bois sous un toit en déglaçage",
+  "beaute": 3,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/pmg-maintenance-ice-dam-4.jpg",
+  "nom": "glacons",
+  "role": "carte-service",
+  "alt": "Rideau de glaçons devant les fenêtres",
+  "beaute": 4,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/signs-you-may-have-3.jpg",
+  "nom": "glacons-soleil",
+  "role": "vignette",
+  "alt": "Glaçons au bord d'un toit enneigé, ciel bleu",
+  "beaute": 3,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/infiltration-eau-2.jpg",
+  "nom": "infiltration",
+  "role": "vignette",
+  "alt": "Tache d'infiltration d'eau au plafond",
+  "beaute": 3,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/pmg-maintenance-7.jpg",
+  "nom": "deneigement-lucarnes",
+  "role": "carte-service",
+  "alt": "Déneigement d'un toit entre deux lucarnes, neige profonde",
+  "beaute": 3,
+  "ratio": "16:9"
+ },
+ {
+  "source": "recu/pmg-maintenance-roof-snow-13.jpg",
+  "nom": "deneigement-maison",
+  "role": "carte-service",
+  "alt": "Maison rouge au toit chargé de neige",
+  "beaute": 3,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/pmg-maintenance-4.jpg",
+  "nom": "equipe-hauteur",
+  "role": "section-fond",
+  "alt": "Deux techniciens sur échelles au pignon d'une maison de brique",
+  "beaute": 4,
+  "ratio": "4:3",
+  "cadrage": [
+   55,
+   40
+  ],
+  "largeurs": [
+   640,
+   1280,
+   1800
+  ]
+ },
+ {
+  "source": "recu/pmg-maintenance-window-cleaning-2.jpg",
+  "nom": "vitres-perche",
+  "role": "section-fond",
+  "alt": "Lavage de vitres à la perche sur une maison au revêtement noir",
+  "beaute": 4,
+  "ratio": "4:5",
+  "largeurs": [
+   640,
+   1024,
+   1500
+  ],
+  "mobile": false
+ },
+ {
+  "source": "recu/pmg-maintenance-window-cleaning.jpg",
+  "nom": "vitres-immeuble",
+  "role": "carte-service",
+  "alt": "Lavage des vitres d'un immeuble de quatre étages",
+  "beaute": 3,
+  "ratio": "4:5"
+ },
+ {
+  "source": "recu/pmg-maintenance-post-construction.jpg",
+  "nom": "vitres-apres-construction",
+  "role": "vignette",
+  "alt": "Grandes vitres d'une maison neuve après construction",
+  "beaute": 3,
+  "ratio": "16:9"
+ },
+ {
+  "source": "recu/after-2.jpg",
+  "nom": "entree-asphalte",
+  "role": "carte-service",
+  "alt": "Entrée d'asphalte en cours de lavage : la bande propre tranche sur le reste",
+  "beaute": 3,
+  "ratio": "16:9"
+ },
+ {
+  "source": "recu/pmg-maintenance-pressure-washing-4.jpg",
+  "nom": "lavage-facade",
+  "role": "carte-service",
+  "alt": "Lavage à basse pression d'une façade de pierre",
+  "beaute": 3,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/after-9.jpg",
+  "nom": "lavage-revetement",
+  "role": "carte-service",
+  "alt": "Technicien qui lave un revêtement de vinyle à basse pression",
+  "beaute": 3,
+  "ratio": "4:3"
+ },
+ {
+  "source": "recu/pmg-maintenance-gutter-cleaning-10.jpg",
+  "nom": "gouttiere-feuilles",
+  "role": "carte-service",
+  "alt": "Gouttière remplie de feuilles mortes avant le nettoyage",
+  "beaute": 3,
+  "ratio": "3:4"
+ },
+ {
+  "source": "recu/pmg-maintenance-gutter-cleaning-14.jpg",
+  "nom": "gouttiere-debris",
+  "role": "vignette",
+  "alt": "Débris accumulés dans une gouttière",
+  "beaute": 3,
+  "ratio": "3:4"
+ },
+ {
+  "source": "recu/after-14.jpg",
+  "nom": "aa-facade-avant",
+  "role": "galerie",
+  "alt": "Arrière d'une maison avant le lavage : revêtement taché",
+  "beaute": 3,
+  "ratio": "16:10"
+ },
+ {
+  "source": "recu/before-7.jpg",
+  "nom": "aa-facade-apres",
+  "role": "galerie",
+  "alt": "Le même arrière de maison après le lavage à basse pression",
+  "beaute": 3,
+  "ratio": "16:10"
+ },
+ {
+  "source": "recu/pmg-maintenance-pressure-washing-2.jpg",
+  "nom": "aa-pignon-avant",
+  "role": "galerie",
+  "alt": "Pignon en bardeaux de cèdre taché avant le lavage",
+  "beaute": 3,
+  "ratio": "3:4"
+ },
+ {
+  "source": "recu/before-2.jpg",
+  "nom": "aa-pignon-apres",
+  "role": "galerie",
+  "alt": "Le même pignon propre après le lavage",
+  "beaute": 3,
+  "ratio": "3:4"
+ },
+ {
+  "source": "recu/before-6.jpg",
+  "nom": "aa-rouille-avant",
+  "role": "galerie",
+  "alt": "Coulure de rouille sur un revêtement de vinyle",
+  "beaute": 3,
+  "ratio": "3:4"
+ },
+ {
+  "source": "recu/avant-4.jpg",
+  "nom": "aa-rouille-apres",
+  "role": "galerie",
+  "alt": "Le même revêtement sans trace de rouille",
+  "beaute": 3,
+  "ratio": "3:4"
+ },
+ {
+  "source": "recu/after-6.jpg",
+  "nom": "aa-porte-avant",
+  "role": "galerie",
+  "alt": "Porte de sous-sol couverte de dépôts verts",
+  "beaute": 3,
+  "ratio": "3:4"
+ },
+ {
+  "source": "recu/before-3.jpg",
+  "nom": "aa-porte-apres",
+  "role": "galerie",
+  "alt": "La même porte de sous-sol, propre",
+  "beaute": 3,
+  "ratio": "3:4"
+ },
+ {
+  "source": "recu/after-5.jpg",
+  "nom": "aa-toit-avant",
+  "role": "galerie",
+  "alt": "Bardeaux couverts de mousse",
+  "beaute": 3,
+  "ratio": "3:4"
+ },
+ {
+  "source": "recu/after-7.jpg",
+  "nom": "aa-toit-apres",
+  "role": "galerie",
+  "alt": "Bardeaux propres après le lavage de la toiture",
+  "beaute": 3,
+  "ratio": "3:4"
+ }
+]
