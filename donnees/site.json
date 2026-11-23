@@ -2,7 +2,7 @@
   "nom": "PMG Maintenance",
   "adresse": "https://pmg-maintenance-maquette.vercel.app",
   "siteActuel": "www.pmgmaintenance.com",
-  "version": 1,
+  "version": 2,
   "langues": ["fr", "en"],
   "navigation": ["accueil", "toiture-hiver", "lumieres-de-noel", "lavage-exterieur", "contact"],
   "actionEntete": { "page": "contact", "ancre": "estimation" },

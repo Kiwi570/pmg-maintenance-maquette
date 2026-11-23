@@ -25,7 +25,10 @@ export default (c) => html`
       <p class="hero-info" data-info-cle data-anime="gsap"><span class="pastille-saison" aria-hidden="true"></span>${c.t('lavage.info')}</p>
     </div>
   </div>
-  ${c.media({ nom: BANDEAU, alt: imageAlt(c, BANDEAU), cadrage: BANDEAU === 'equipe-hauteur' ? '55% 42%' : '50% 55%', priorite: true, classe: 'lavage-bandeau', sizes: '100vw', attrs: 'data-iris-centre data-fx="parallaxe" data-fx-force="8"' })}
+  <div class="lavage-bandeau-cadre" data-raclette>
+    ${c.media({ nom: BANDEAU, alt: imageAlt(c, BANDEAU), cadrage: BANDEAU === 'equipe-hauteur' ? '55% 42%' : '50% 55%', priorite: true, classe: 'lavage-bandeau', sizes: '100vw', attrs: 'data-iris-centre data-fx="parallaxe" data-fx-force="8"' })}
+    <span class="lavage-voile" aria-hidden="true" data-audit-ignorer></span><span class="lavage-raclette" aria-hidden="true" data-audit-ignorer></span>
+  </div>
 </section>
 
 <section class="section basse-pression" id="basse-pression">

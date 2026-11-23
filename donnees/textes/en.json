@@ -40,7 +40,24 @@
       "printemps": "Spring and summer"
     },
     "estimationCourt": "Estimate",
-    "avisDefiler": "Client reviews, scroll sideways"
+    "avisDefiler": "Client reviews, scroll sideways",
+    "facade": {
+      "note": "Illustration: your colours on a typical house.",
+      "eteindre": "Turn off",
+      "allumer": "Turn on"
+    },
+    "vapeur": {
+      "bouton": "Run the steam",
+      "encore": "Start over",
+      "astuceSouris": "or hover over the icicles",
+      "astuceToucher": "or slide a finger along the icicles",
+      "fini": "Ice gone, shingles intact."
+    },
+    "finCarte": {
+      "titre": "Call or text",
+      "textos": "Texts welcome",
+      "zone": "{qc} communities in Quebec and {on} in Ontario, from L'Ange-Gardien."
+    }
   },
   "pages": {
     "accueil": {
@@ -375,7 +392,7 @@
       "recapCode": "Code",
       "recapRemise": "$25 if conditions are met",
       "donnees": "Your details are only used to prepare your quote.",
-      "politique": "Privacy policy (to be completed)",
+      "politique": "Privacy policy",
       "envoye": "Simulated request: nothing was sent. On the final site, it will go to PMG Maintenance, who will reply by email."
     },
     "paiement": {

@@ -1,6 +1,7 @@
 /* Contact : la zone desservie en ouverture (carte animée et recherche), l'estimation gratuite en quatre étapes
    avec récapitulatif en direct (simulée), puis coordonnées et paiement. */
 import { html } from '../../outils/gabarit.mjs';
+import { ligneToit } from '../gabarits/toit.mjs';
 import { carteZone, rechercheZone } from '../gabarits/blocs.mjs';
 
 export const page = { cle: 'contact', fichier: 'contact', imagePartage: 'noel-multicolore-1600.webp' };
@@ -94,7 +95,7 @@ export default (c) => html`
       </form>
     </div>
     <aside class="recap" data-recap data-vide="${c.s('contact.estimation.recapVide')}" data-desservie="${c.s('contact.estimation.desservie')}" data-nonlistee="${c.s('contact.estimation.nonListee')}" data-remise="${c.s('contact.estimation.recapRemise')}" aria-live="polite">
-      <svg class="recap-toit" viewBox="0 0 100 24" preserveAspectRatio="none" aria-hidden="true" data-visuel data-grille="fil"><path d="M0 22 H34 L50 3 L66 22 H100" fill="none" stroke="currentColor" stroke-width="3" vector-effect="non-scaling-stroke"/></svg>
+      ${ligneToit({ variante: 'ampoules', n: SERVICES.length, classe: 'recap-toit', couleurs: ['#ffc46b', '#ff3b30', '#2fd06a', '#4d8dff', '#eef4ff'], attrs: 'data-manuel data-visuel data-grille="fil"' })}
       <h3>${c.t('contact.estimation.recap')}</h3>
       <ul class="recap-services" data-recap-services><li class="vide">${c.t('contact.estimation.recapVide')}</li></ul>
       <p><span class="recap-libelle">${c.t('contact.estimation.recapVille')}</span> <span data-recap-ville>—</span></p>

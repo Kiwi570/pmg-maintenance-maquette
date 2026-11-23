@@ -1,15 +1,18 @@
 {
- "id": "20261121-022802-standard-cible-partiel",
- "date": "2026-11-21T02:28:53.760Z",
- "niveau": "standard",
- "pages": "/toiture-hiver,/en/toiture-hiver",
+ "id": "20261123-150701-complet-cible-partiel",
+ "date": "2026-11-23T15:21:36.557Z",
+ "niveau": "complet",
+ "pages": "/,/en,/404,/lumieres-de-noel,/en/lumieres-de-noel,/toiture-hiver,/en/toiture-hiver",
  "etapes": [
   "fichiers",
-  "mesures"
+  "mesures",
+  "ecran",
+  "fluidite",
+  "mouvement"
  ],
- "version": "1",
+ "version": "2",
  "echecs": 0,
- "aRegarder": 5,
+ "aRegarder": 12,
  "nonLances": 0,
  "manquants": 0,
  "statut": "complet"

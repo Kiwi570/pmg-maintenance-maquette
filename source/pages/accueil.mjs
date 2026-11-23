@@ -3,8 +3,9 @@
    la nuit d'hiver et l'appel final. */
 import { html, brut } from '../../outils/gabarit.mjs';
 import { ligneToit } from '../gabarits/toit.mjs';
-import { jauge, securite, avis, carteZone, rechercheZone, fin, avantApres, choixC9, imageAlt } from '../gabarits/blocs.mjs';
+import { jauge, securite, avis, carteZone, rechercheZone, fin, avantApres, choixC9, imageAlt, vapeurJeu } from '../gabarits/blocs.mjs';
 import { existsSync } from 'node:fs';
+import { facadeMaison } from '../gabarits/facade.mjs';
 
 /* Ouverture : l'illustration de la maison enneigée si elle est arrivée, sinon une vraie photo de PMG. */
 const HERO = existsSync(new URL('../../assets/images/grok/accueil-ouverture-1280.webp', import.meta.url)) ? 'grok/accueil-ouverture' : 'noel-blanc-chaud';
@@ -50,7 +51,7 @@ export default (c) => html`
 ${jauge(c, { titre: 'accueil.jauge.titre', texte: 'accueil.jauge.texte', id: 'repere' })}
 
 <section class="section section--nuit vapeur" id="vapeur">
-  ${ligneToit({ variante: 'glacons', classe: 'vapeur-toit', attrs: 'data-effet="barrage-vapeur" data-visuel' })}
+  ${vapeurJeu(c)}
   <div class="conteneur vapeur-grille">
     <div class="vapeur-texte">
       <h2 data-anime="lignes">${c.tb('accueil.vapeur.titre')}</h2>
@@ -80,8 +81,7 @@ ${jauge(c, { titre: 'accueil.jauge.titre', texte: 'accueil.jauge.texte', id: 're
       </p>
     </div>
     <div class="lumieres-photo">
-      ${c.media({ nom: 'noel-blanc-chaud', alt: imageAlt(c, 'noel-blanc-chaud'), cadrage: '50% 45%', classe: 'lumieres-media', sizes: '(max-width: 760px) 92vw, 50vw', attrs: 'data-fx="parallaxe"' })}
-      ${ligneToit({ variante: 'ampoules', n: 25, classe: 'lumieres-toit', couleurs: ['#ffc46b', '#ff3b30', '#2fd06a'], attrs: 'data-effet="ampoules-c9" data-c9-cible data-grille="manipuler retour"' })}
+      ${facadeMaison(c, { id: 'facade' })}
     </div>
   </div>
 </section>

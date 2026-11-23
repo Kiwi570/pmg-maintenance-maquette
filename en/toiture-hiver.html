@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-v="1" data-saison="hiver">
+<html lang="en" data-v="2" data-saison="hiver">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -42,14 +42,14 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/polices/archivo-titres.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#0c1a2a">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -135,7 +135,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/vapeur-bord-toit-1500.webp" srcset="/assets/images/vapeur-bord-toit-640.webp 640w, /assets/images/vapeur-bord-toit-1024.webp 1024w, /assets/images/vapeur-bord-toit-1500.webp 1500w" sizes="(max-width: 760px) 100vw, 44vw" alt="Technician at the roof edge, steam and icicles in the sun" width="1500" height="2000" fetchpriority="high" loading="eager" decoding="async">
   </picture>
 </figure>
-      <p class="toiture-chiffre" data-anime="gsap"><strong>24 in</strong><span class="masque-ecran-bas">of build-up: the point at which snow removal is generally recommended.</span></p>
+      <p class="toiture-chiffre" data-anime="gsap"><strong><span data-compte-arrivee="24">24</span> in</strong><span class="masque-ecran-bas">of build-up: the point at which snow removal is generally recommended.</span></p>
     </div>
   </div>
 </section>
@@ -181,18 +181,31 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       </div>
     </div>
     <div class="jauge-visuel" data-visuel data-effet="jauge-neige">
+      <div class="jauge-scene" data-niveau="ok" data-pluie="non">
       <svg class="jauge-coupe" viewBox="0 0 640 360" role="img" aria-label="Cross-section of a roof: the snow layer follows the chosen depth">
-        <defs><linearGradient id="repere-ciel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c1a2a"/><stop offset="1" stop-color="#1d3550"/></linearGradient></defs>
+        <defs><linearGradient id="repere-ciel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c1a2a"/><stop offset="1" stop-color="#22406a"/></linearGradient>
+        <pattern id="repere-bardeau" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#1b3048"/><path d="M0 9.5 H10" stroke="#152639" stroke-width="1.5"/></pattern>
+        <radialGradient id="repere-fen" cx=".5" cy=".55" r=".75"><stop offset="0" stop-color="#ffe4ac"/><stop offset="1" stop-color="#f0a64a"/></radialGradient></defs>
         <rect x="0" y="0" width="640" height="360" rx="18" fill="url(#repere-ciel)"/>
-        <g class="jauge-flocons" fill="#f3f6f9" data-boucle-css><circle cx="60" cy="40" r="2" style="--i:0"/><circle cx="140" cy="90" r="3" style="--i:1"/><circle cx="210" cy="30" r="4" style="--i:2"/><circle cx="420" cy="50" r="2" style="--i:3"/><circle cx="520" cy="100" r="3" style="--i:4"/><circle cx="590" cy="40" r="4" style="--i:5"/><circle cx="470" cy="20" r="2" style="--i:6"/><circle cx="300" cy="22" r="3" style="--i:7"/><circle cx="90" cy="150" r="4" style="--i:8"/><circle cx="560" cy="170" r="2" style="--i:9"/></g>
-        <rect x="150" y="232" width="340" height="128" fill="#13263b"/>
-        <rect x="200" y="262" width="56" height="52" rx="3" fill="#ffc46b" opacity=".85"/>
-        <rect x="384" y="262" width="56" height="52" rx="3" fill="#ffc46b" opacity=".85"/>
+        <rect x="414" y="112" width="34" height="80" fill="#5a3b35"/><rect x="409" y="104" width="44" height="12" rx="6" fill="#f3f6f9"/>
+        <polygon points="128,232 320,104 512,232" fill="url(#repere-bardeau)"/>
+        <circle cx="320" cy="186" r="15" fill="#e6edf5"/><circle cx="320" cy="186" r="11" fill="url(#repere-fen)" opacity=".75"/>
+        <rect x="150" y="232" width="340" height="128" fill="url(#repere-bardeau)"/>
+        <g class="jauge-fenetres"><rect x="182" y="258" width="64" height="58" rx="2" fill="#e6edf5"/><rect x="186" y="262" width="56" height="50" fill="url(#repere-fen)"/><path d="M214 262 V312 M186 287 H242" stroke="#e6edf5" stroke-width="3"/><rect x="394" y="258" width="64" height="58" rx="2" fill="#e6edf5"/><rect x="398" y="262" width="56" height="50" fill="url(#repere-fen)"/><path d="M426 262 V312 M398 287 H454" stroke="#e6edf5" stroke-width="3"/></g>
+        <rect x="296" y="276" width="48" height="70" rx="2" fill="#e6edf5"/><rect x="300" y="280" width="40" height="66" fill="#5a3b35"/><circle cx="332" cy="314" r="2.4" fill="#e8c27a"/>
+        <g class="jauge-regle"><rect x="196" y="108" width="9" height="69" rx="2" fill="#e6edf5"/><path d="M205 175 h-7" stroke="#0c1a2a" stroke-width="1.6"/><path d="M205 165 h-4" stroke="#0c1a2a" stroke-width="1.6"/><path d="M205 155 h-7" stroke="#0c1a2a" stroke-width="1.6"/><path d="M205 145 h-4" stroke="#0c1a2a" stroke-width="1.6"/><path d="M205 135 h-16" stroke="#ff5b14" stroke-width="3"/><path d="M205 125 h-4" stroke="#0c1a2a" stroke-width="1.6"/><path d="M205 115 h-7" stroke="#0c1a2a" stroke-width="1.6"/></g>
         <polygon class="jauge-neige" data-jauge-neige points="110,212 320,72 530,212 530,235 320,95 110,235" fill="#f3f6f9"/>
-        <path d="M100 240 L320 92 L540 240" fill="none" stroke="#ff5b14" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+        <path class="jauge-toit" d="M100 240 L320 92 L540 240" fill="none" stroke="#ff5b14" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
         <polyline class="jauge-repere" points="110,195 320,55 530,195" fill="none" stroke="#ffc46b" stroke-width="2" stroke-dasharray="8 7"/>
         <text x="336" y="44" class="jauge-repere-texte" fill="#ffc46b">Benchmark: 24 in</text>
+        <path d="M0 340 Q 160 330 320 338 T 640 334 V342 Q640 360 622 360 H18 Q0 360 0 342 Z" fill="#dfe8f2"/>
+        <g class="jauge-alerte" transform="translate(40 36)"><path d="M0 -20 L20 16 H-20 Z" fill="#ff5b14" stroke="#ff5b14" stroke-width="6" stroke-linejoin="round"/><path d="M0 -6 V4 M0 9 V10" stroke="#0c1a2a" stroke-width="4" stroke-linecap="round"/></g>
       </svg>
+      <svg class="jauge-meteo" viewBox="0 0 640 360" aria-hidden="true" focusable="false">
+        <g class="jauge-flocons" fill="#f3f6f9" data-boucle-css><circle cx="60" cy="40" r="2" style="--i:0"/><circle cx="140" cy="90" r="3" style="--i:1"/><circle cx="210" cy="30" r="4" style="--i:2"/><circle cx="420" cy="50" r="2" style="--i:3"/><circle cx="520" cy="100" r="3" style="--i:4"/><circle cx="590" cy="40" r="4" style="--i:5"/><circle cx="470" cy="20" r="2" style="--i:6"/><circle cx="300" cy="22" r="3" style="--i:7"/><circle cx="90" cy="150" r="4" style="--i:8"/><circle cx="560" cy="170" r="2" style="--i:9"/><circle cx="30" cy="200" r="3" style="--i:10"/><circle cx="610" cy="210" r="4" style="--i:11"/></g>
+        <g class="jauge-pluie" data-boucle-css><line x1="40" y1="30" x2="34" y2="46" style="--i:0"/><line x1="110" y1="70" x2="104" y2="86" style="--i:1"/><line x1="170" y1="20" x2="164" y2="36" style="--i:2"/><line x1="240" y1="60" x2="234" y2="76" style="--i:3"/><line x1="300" y1="15" x2="294" y2="31" style="--i:4"/><line x1="370" y1="48" x2="364" y2="64" style="--i:5"/><line x1="430" y1="22" x2="424" y2="38" style="--i:6"/><line x1="500" y1="64" x2="494" y2="80" style="--i:7"/><line x1="560" y1="26" x2="554" y2="42" style="--i:8"/><line x1="610" y1="70" x2="604" y2="86" style="--i:9"/><line x1="80" y1="120" x2="74" y2="136" style="--i:10"/><line x1="590" y1="140" x2="584" y2="156" style="--i:11"/><line x1="200" y1="110" x2="194" y2="126" style="--i:12"/><line x1="470" y1="120" x2="464" y2="136" style="--i:13"/></g>
+      </svg>
+      </div>
       <div class="jauge-verdict" data-jauge-niveau="ok">
         <p class="jauge-verdict-titre">Our advice</p>
         <p class="jauge-etat" data-jauge-etat aria-live="polite" data-ok="Below the 24-inch benchmark. Keep an eye on the weather, especially if rain follows the snow." data-attention="Getting close to the benchmark: plan a snow removal, especially before rain." data-depasse="At the 24-inch benchmark: snow removal is generally recommended." data-pluie="Rain forecast after a snowfall: clearing the roof is advised before the rain makes the snow heavier." data-alerte="Warning sign: have your roof checked and cleared right away.">Below the 24-inch benchmark. Keep an eye on the weather, especially if rain follows the snow.</p>
@@ -228,9 +241,16 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="section section--nuit vapeur vapeur--page" id="vapeur">
-  <div class="toit toit--glacons vapeur-toit" aria-hidden="true" data-effet="barrage-vapeur" data-visuel data-grille="fil">
+  <div class="vapeur-jeu" data-vapeur-jeu data-effet="barrage-vapeur" data-visuel>
+  <div class="toit toit--glacons vapeur-toit" aria-hidden="true">
   <svg class="toit-trait" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false"><path d="M0 82 L34 82 L50 14 L66 82 L100 82" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
   <span class="glacon" style="--x:1.5%;--y:82%;--l:62%;--i:0"></span><span class="glacon" style="--x:4.1%;--y:82%;--l:38%;--i:1"></span><span class="glacon" style="--x:6.7%;--y:82%;--l:80%;--i:2"></span><span class="glacon" style="--x:9.3%;--y:82%;--l:48%;--i:3"></span><span class="glacon" style="--x:11.9%;--y:82%;--l:30%;--i:4"></span><span class="glacon" style="--x:14.5%;--y:82%;--l:70%;--i:5"></span><span class="glacon" style="--x:17.1%;--y:82%;--l:44%;--i:6"></span><span class="glacon" style="--x:19.7%;--y:82%;--l:90%;--i:7"></span><span class="glacon" style="--x:22.3%;--y:82%;--l:36%;--i:8"></span><span class="glacon" style="--x:24.9%;--y:82%;--l:58%;--i:9"></span><span class="glacon" style="--x:27.5%;--y:82%;--l:28%;--i:10"></span><span class="glacon" style="--x:30.1%;--y:82%;--l:74%;--i:11"></span><span class="glacon" style="--x:32.7%;--y:82%;--l:50%;--i:12"></span><span class="glacon" style="--x:67.5%;--y:82%;--l:40%;--i:13"></span><span class="glacon" style="--x:70.1%;--y:82%;--l:84%;--i:14"></span><span class="glacon" style="--x:72.7%;--y:82%;--l:34%;--i:15"></span><span class="glacon" style="--x:75.3%;--y:82%;--l:62%;--i:16"></span><span class="glacon" style="--x:77.9%;--y:82%;--l:38%;--i:17"></span><span class="glacon" style="--x:80.5%;--y:82%;--l:80%;--i:18"></span><span class="glacon" style="--x:83.1%;--y:82%;--l:48%;--i:19"></span><span class="glacon" style="--x:85.7%;--y:82%;--l:30%;--i:20"></span><span class="glacon" style="--x:88.3%;--y:82%;--l:70%;--i:21"></span><span class="glacon" style="--x:90.9%;--y:82%;--l:44%;--i:22"></span><span class="glacon" style="--x:93.5%;--y:82%;--l:90%;--i:23"></span><span class="glacon" style="--x:96.1%;--y:82%;--l:36%;--i:24"></span><span class="glacon" style="--x:98.7%;--y:82%;--l:58%;--i:25"></span>
+</div>
+  <canvas class="vapeur-canvas" aria-hidden="true" data-audit-ignorer></canvas>
+  <div class="vapeur-commande">
+    <button type="button" class="bouton-vapeur" data-vapeur-bouton data-etat="pret"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 20c-2-2 2-4 0-6s2-4 0-6M12 20c-2-2 2-4 0-6s2-4 0-6M17 20c-2-2 2-4 0-6s2-4 0-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="si-pret">Run the steam</span><span class="si-fini">Start over</span></button>
+    <p class="vapeur-astuce" aria-live="polite"><span class="si-pret"><span class="si-souris">or hover over the icicles</span><span class="si-toucher">or slide a finger along the icicles</span></span><span class="si-fini">Ice gone, shingles intact.</span></p>
+  </div>
 </div>
   <div class="conteneur vapeur-grille">
     <div class="vapeur-texte">
@@ -318,6 +338,17 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         <a class="bouton bouton--contour" href="sms:+18196619294">Text 819-661-9294</a>
       </p>
     </div>
+    <div class="fin-carte" data-anime>
+  <svg class="fin-carte-toit" viewBox="0 0 120 40" aria-hidden="true"><path d="M2 36 H38 L60 6 L82 36 H118" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></svg>
+  <p class="fin-carte-titre">Call or text</p>
+  <a class="fin-carte-tel" href="tel:+18196619294">819-661-9294</a>
+  <ul class="fin-carte-liste">
+    <li><span>Toll-free</span> <a href="tel:+18776619294">1 877 661-9294</a></li>
+    <li><span>Texts</span> <a href="sms:+18196619294">Texts welcome</a></li>
+    <li><span>Email</span> <span class="selectionnable">info@pmgmaintenance.com</span></li>
+  </ul>
+  <p class="fin-carte-zone">52 communities in Quebec and 45 in Ontario, from L&#39;Ange-Gardien.</p>
+</div>
   </div>
 </section>
 </main>

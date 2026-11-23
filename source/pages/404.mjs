@@ -1,7 +1,6 @@
-/* Page 404 aux couleurs du client, avec son image. Une seule version (langue par défaut). */
+/* Page 404 aux couleurs du client, avec son image et le barrage de glace à faire fondre. Une seule version (langue par défaut). */
 import { html } from '../../outils/gabarit.mjs';
-import { ligneToit } from '../gabarits/toit.mjs';
-import { imageAlt } from '../gabarits/blocs.mjs';
+import { imageAlt, vapeurJeu } from '../gabarits/blocs.mjs';
 import { existsSync } from 'node:fs';
 
 const IMAGE = existsSync(new URL('../../assets/images/grok/page-404-1280.webp', import.meta.url)) ? 'grok/page-404' : 'glacons-soleil';
@@ -19,6 +18,6 @@ export default (c) => html`
     </div>
     ${c.media({ nom: IMAGE, alt: imageAlt(c, IMAGE), priorite: true, classe: 'page-tete-media', sizes: '(max-width: 760px) 100vw, 45vw', attrs: 'data-iris-centre' })}
   </div>
-  ${ligneToit({ variante: 'glacons', classe: 'page-toit', attrs: 'data-effet="barrage-vapeur"' })}
+  ${vapeurJeu(c)}
 </section>
 `;

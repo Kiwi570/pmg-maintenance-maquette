@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1" data-saison="hiver">
+<html lang="fr" data-v="2" data-saison="hiver">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -42,14 +42,14 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/polices/archivo-titres.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#0c1a2a">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -245,18 +245,31 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       </div>
     </div>
     <div class="jauge-visuel" data-visuel data-effet="jauge-neige">
+      <div class="jauge-scene" data-niveau="ok" data-pluie="non">
       <svg class="jauge-coupe" viewBox="0 0 640 360" role="img" aria-label="Coupe d&#39;un toit : la couche de neige suit l&#39;épaisseur choisie">
-        <defs><linearGradient id="repere-ciel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c1a2a"/><stop offset="1" stop-color="#1d3550"/></linearGradient></defs>
+        <defs><linearGradient id="repere-ciel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c1a2a"/><stop offset="1" stop-color="#22406a"/></linearGradient>
+        <pattern id="repere-bardeau" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#1b3048"/><path d="M0 9.5 H10" stroke="#152639" stroke-width="1.5"/></pattern>
+        <radialGradient id="repere-fen" cx=".5" cy=".55" r=".75"><stop offset="0" stop-color="#ffe4ac"/><stop offset="1" stop-color="#f0a64a"/></radialGradient></defs>
         <rect x="0" y="0" width="640" height="360" rx="18" fill="url(#repere-ciel)"/>
-        <g class="jauge-flocons" fill="#f3f6f9" data-boucle-css><circle cx="60" cy="40" r="2" style="--i:0"/><circle cx="140" cy="90" r="3" style="--i:1"/><circle cx="210" cy="30" r="4" style="--i:2"/><circle cx="420" cy="50" r="2" style="--i:3"/><circle cx="520" cy="100" r="3" style="--i:4"/><circle cx="590" cy="40" r="4" style="--i:5"/><circle cx="470" cy="20" r="2" style="--i:6"/><circle cx="300" cy="22" r="3" style="--i:7"/><circle cx="90" cy="150" r="4" style="--i:8"/><circle cx="560" cy="170" r="2" style="--i:9"/></g>
-        <rect x="150" y="232" width="340" height="128" fill="#13263b"/>
-        <rect x="200" y="262" width="56" height="52" rx="3" fill="#ffc46b" opacity=".85"/>
-        <rect x="384" y="262" width="56" height="52" rx="3" fill="#ffc46b" opacity=".85"/>
+        <rect x="414" y="112" width="34" height="80" fill="#5a3b35"/><rect x="409" y="104" width="44" height="12" rx="6" fill="#f3f6f9"/>
+        <polygon points="128,232 320,104 512,232" fill="url(#repere-bardeau)"/>
+        <circle cx="320" cy="186" r="15" fill="#e6edf5"/><circle cx="320" cy="186" r="11" fill="url(#repere-fen)" opacity=".75"/>
+        <rect x="150" y="232" width="340" height="128" fill="url(#repere-bardeau)"/>
+        <g class="jauge-fenetres"><rect x="182" y="258" width="64" height="58" rx="2" fill="#e6edf5"/><rect x="186" y="262" width="56" height="50" fill="url(#repere-fen)"/><path d="M214 262 V312 M186 287 H242" stroke="#e6edf5" stroke-width="3"/><rect x="394" y="258" width="64" height="58" rx="2" fill="#e6edf5"/><rect x="398" y="262" width="56" height="50" fill="url(#repere-fen)"/><path d="M426 262 V312 M398 287 H454" stroke="#e6edf5" stroke-width="3"/></g>
+        <rect x="296" y="276" width="48" height="70" rx="2" fill="#e6edf5"/><rect x="300" y="280" width="40" height="66" fill="#5a3b35"/><circle cx="332" cy="314" r="2.4" fill="#e8c27a"/>
+        <g class="jauge-regle"><rect x="196" y="108" width="9" height="69" rx="2" fill="#e6edf5"/><path d="M205 175 h-7" stroke="#0c1a2a" stroke-width="1.6"/><path d="M205 165 h-4" stroke="#0c1a2a" stroke-width="1.6"/><path d="M205 155 h-7" stroke="#0c1a2a" stroke-width="1.6"/><path d="M205 145 h-4" stroke="#0c1a2a" stroke-width="1.6"/><path d="M205 135 h-16" stroke="#ff5b14" stroke-width="3"/><path d="M205 125 h-4" stroke="#0c1a2a" stroke-width="1.6"/><path d="M205 115 h-7" stroke="#0c1a2a" stroke-width="1.6"/></g>
         <polygon class="jauge-neige" data-jauge-neige points="110,212 320,72 530,212 530,235 320,95 110,235" fill="#f3f6f9"/>
-        <path d="M100 240 L320 92 L540 240" fill="none" stroke="#ff5b14" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+        <path class="jauge-toit" d="M100 240 L320 92 L540 240" fill="none" stroke="#ff5b14" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
         <polyline class="jauge-repere" points="110,195 320,55 530,195" fill="none" stroke="#ffc46b" stroke-width="2" stroke-dasharray="8 7"/>
         <text x="336" y="44" class="jauge-repere-texte" fill="#ffc46b">Repère : 24 po</text>
+        <path d="M0 340 Q 160 330 320 338 T 640 334 V342 Q640 360 622 360 H18 Q0 360 0 342 Z" fill="#dfe8f2"/>
+        <g class="jauge-alerte" transform="translate(40 36)"><path d="M0 -20 L20 16 H-20 Z" fill="#ff5b14" stroke="#ff5b14" stroke-width="6" stroke-linejoin="round"/><path d="M0 -6 V4 M0 9 V10" stroke="#0c1a2a" stroke-width="4" stroke-linecap="round"/></g>
       </svg>
+      <svg class="jauge-meteo" viewBox="0 0 640 360" aria-hidden="true" focusable="false">
+        <g class="jauge-flocons" fill="#f3f6f9" data-boucle-css><circle cx="60" cy="40" r="2" style="--i:0"/><circle cx="140" cy="90" r="3" style="--i:1"/><circle cx="210" cy="30" r="4" style="--i:2"/><circle cx="420" cy="50" r="2" style="--i:3"/><circle cx="520" cy="100" r="3" style="--i:4"/><circle cx="590" cy="40" r="4" style="--i:5"/><circle cx="470" cy="20" r="2" style="--i:6"/><circle cx="300" cy="22" r="3" style="--i:7"/><circle cx="90" cy="150" r="4" style="--i:8"/><circle cx="560" cy="170" r="2" style="--i:9"/><circle cx="30" cy="200" r="3" style="--i:10"/><circle cx="610" cy="210" r="4" style="--i:11"/></g>
+        <g class="jauge-pluie" data-boucle-css><line x1="40" y1="30" x2="34" y2="46" style="--i:0"/><line x1="110" y1="70" x2="104" y2="86" style="--i:1"/><line x1="170" y1="20" x2="164" y2="36" style="--i:2"/><line x1="240" y1="60" x2="234" y2="76" style="--i:3"/><line x1="300" y1="15" x2="294" y2="31" style="--i:4"/><line x1="370" y1="48" x2="364" y2="64" style="--i:5"/><line x1="430" y1="22" x2="424" y2="38" style="--i:6"/><line x1="500" y1="64" x2="494" y2="80" style="--i:7"/><line x1="560" y1="26" x2="554" y2="42" style="--i:8"/><line x1="610" y1="70" x2="604" y2="86" style="--i:9"/><line x1="80" y1="120" x2="74" y2="136" style="--i:10"/><line x1="590" y1="140" x2="584" y2="156" style="--i:11"/><line x1="200" y1="110" x2="194" y2="126" style="--i:12"/><line x1="470" y1="120" x2="464" y2="136" style="--i:13"/></g>
+      </svg>
+      </div>
       <div class="jauge-verdict" data-jauge-niveau="ok">
         <p class="jauge-verdict-titre">Notre avis</p>
         <p class="jauge-etat" data-jauge-etat aria-live="polite" data-ok="Sous le repère des 24 po. Surveillez la météo, surtout si de la pluie suit la neige." data-attention="On approche du repère : planifiez un déneigement, surtout avant une pluie." data-depasse="Au repère des 24 po : le déneigement est généralement recommandé." data-pluie="Pluie annoncée après une chute de neige : le déneigement est conseillé avant qu&#39;elle n&#39;alourdisse la neige." data-alerte="Signe d&#39;alerte : faites vérifier et déneiger votre toit sans attendre.">Sous le repère des 24 po. Surveillez la météo, surtout si de la pluie suit la neige.</p>
@@ -267,9 +280,16 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <p class="conteneur jauge-note">Repères tirés de la page Déneigement de PMG Maintenance. Chaque toit est différent : en cas de doute, demandez l&#39;avis d&#39;un professionnel.</p>
 </section>
 <section class="section section--nuit vapeur" id="vapeur">
-  <div class="toit toit--glacons vapeur-toit" aria-hidden="true" data-effet="barrage-vapeur" data-visuel>
+  <div class="vapeur-jeu" data-vapeur-jeu data-effet="barrage-vapeur" data-visuel>
+  <div class="toit toit--glacons vapeur-toit" aria-hidden="true">
   <svg class="toit-trait" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false"><path d="M0 82 L34 82 L50 14 L66 82 L100 82" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
   <span class="glacon" style="--x:1.5%;--y:82%;--l:62%;--i:0"></span><span class="glacon" style="--x:4.1%;--y:82%;--l:38%;--i:1"></span><span class="glacon" style="--x:6.7%;--y:82%;--l:80%;--i:2"></span><span class="glacon" style="--x:9.3%;--y:82%;--l:48%;--i:3"></span><span class="glacon" style="--x:11.9%;--y:82%;--l:30%;--i:4"></span><span class="glacon" style="--x:14.5%;--y:82%;--l:70%;--i:5"></span><span class="glacon" style="--x:17.1%;--y:82%;--l:44%;--i:6"></span><span class="glacon" style="--x:19.7%;--y:82%;--l:90%;--i:7"></span><span class="glacon" style="--x:22.3%;--y:82%;--l:36%;--i:8"></span><span class="glacon" style="--x:24.9%;--y:82%;--l:58%;--i:9"></span><span class="glacon" style="--x:27.5%;--y:82%;--l:28%;--i:10"></span><span class="glacon" style="--x:30.1%;--y:82%;--l:74%;--i:11"></span><span class="glacon" style="--x:32.7%;--y:82%;--l:50%;--i:12"></span><span class="glacon" style="--x:67.5%;--y:82%;--l:40%;--i:13"></span><span class="glacon" style="--x:70.1%;--y:82%;--l:84%;--i:14"></span><span class="glacon" style="--x:72.7%;--y:82%;--l:34%;--i:15"></span><span class="glacon" style="--x:75.3%;--y:82%;--l:62%;--i:16"></span><span class="glacon" style="--x:77.9%;--y:82%;--l:38%;--i:17"></span><span class="glacon" style="--x:80.5%;--y:82%;--l:80%;--i:18"></span><span class="glacon" style="--x:83.1%;--y:82%;--l:48%;--i:19"></span><span class="glacon" style="--x:85.7%;--y:82%;--l:30%;--i:20"></span><span class="glacon" style="--x:88.3%;--y:82%;--l:70%;--i:21"></span><span class="glacon" style="--x:90.9%;--y:82%;--l:44%;--i:22"></span><span class="glacon" style="--x:93.5%;--y:82%;--l:90%;--i:23"></span><span class="glacon" style="--x:96.1%;--y:82%;--l:36%;--i:24"></span><span class="glacon" style="--x:98.7%;--y:82%;--l:58%;--i:25"></span>
+</div>
+  <canvas class="vapeur-canvas" aria-hidden="true" data-audit-ignorer></canvas>
+  <div class="vapeur-commande">
+    <button type="button" class="bouton-vapeur" data-vapeur-bouton data-etat="pret"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 20c-2-2 2-4 0-6s2-4 0-6M12 20c-2-2 2-4 0-6s2-4 0-6M17 20c-2-2 2-4 0-6s2-4 0-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="si-pret">Passer la vapeur</span><span class="si-fini">Recommencer</span></button>
+    <p class="vapeur-astuce" aria-live="polite"><span class="si-pret"><span class="si-souris">ou survolez les glaçons</span><span class="si-toucher">ou glissez le doigt sur les glaçons</span></span><span class="si-fini">Glace partie, bardeaux intacts.</span></p>
+  </div>
 </div>
   <div class="conteneur vapeur-grille">
     <div class="vapeur-texte">
@@ -311,15 +331,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       </p>
     </div>
     <div class="lumieres-photo">
-      <figure class="media lumieres-media" data-fx="parallaxe" style="--cadrage:50% 45%;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA4KCw0LCQ4NDA0QDw4RFiQXFhQUFiwgIRokNC43NjMuMjI6QVNGOj1OPjIySGJJTlZYXV5dOEVmbWVabFNbXVn/2wBDAQ8QEBYTFioXFypZOzI7WVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVn/wAARCAASABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDl4bC3ksoYMYuJTu80/dX2oHhm8MpUuhUfxLkimWE8sKo43YB49BUz38/nM73RIIPGam7KsGoaQlrp7In72eM72ZR29KKgivJOUj3ncCCwFFCYWKQY9MnFaFnGhIJRc/SiigC8wAHAAoooqCz/2Q==);background-size:cover;background-position:50% 45%">
-  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/noel-blanc-chaud-mobile-640.webp 640w, /assets/images/noel-blanc-chaud-mobile-1080.webp 1080w" sizes="(max-width: 760px) 92vw, 50vw">
-    <img src="/assets/images/noel-blanc-chaud-1280.webp" srcset="/assets/images/noel-blanc-chaud-640.webp 640w, /assets/images/noel-blanc-chaud-1280.webp 1280w, /assets/images/noel-blanc-chaud-1920.webp 1920w" sizes="(max-width: 760px) 92vw, 50vw" alt="Maison illuminée d&#39;ampoules blanc chaud le long de la ligne de toit, une réalisation de PMG" width="1280" height="960" loading="lazy" decoding="async">
-  </picture>
+      <figure class="facade-maison " data-c9-cible data-effet="ampoules-c9" data-grille="manipuler retour" data-visuel data-boucle-css data-facade>
+  <img class="facade-fond" src="/assets/images/facade-maison.svg?v=2" alt="" width="960" height="600" decoding="async" loading="lazy"><svg class="facade-svg" viewBox="0 0 960 600" focusable="false" aria-hidden="true">
+  <defs><radialGradient id="halo-ffc46b"><stop offset="0" stop-color="#ffc46b" stop-opacity=".95"/><stop offset=".4" stop-color="#ffc46b" stop-opacity=".55"/><stop offset="1" stop-color="#ffc46b" stop-opacity="0"/></radialGradient><radialGradient id="halo-eef4ff"><stop offset="0" stop-color="#eef4ff" stop-opacity=".95"/><stop offset=".4" stop-color="#eef4ff" stop-opacity=".55"/><stop offset="1" stop-color="#eef4ff" stop-opacity="0"/></radialGradient><radialGradient id="halo-ff3b30"><stop offset="0" stop-color="#ff3b30" stop-opacity=".95"/><stop offset=".4" stop-color="#ff3b30" stop-opacity=".55"/><stop offset="1" stop-color="#ff3b30" stop-opacity="0"/></radialGradient><radialGradient id="halo-2fd06a"><stop offset="0" stop-color="#2fd06a" stop-opacity=".95"/><stop offset=".4" stop-color="#2fd06a" stop-opacity=".55"/><stop offset="1" stop-color="#2fd06a" stop-opacity="0"/></radialGradient><radialGradient id="halo-4d8dff"><stop offset="0" stop-color="#4d8dff" stop-opacity=".95"/><stop offset=".4" stop-color="#4d8dff" stop-opacity=".55"/><stop offset="1" stop-color="#4d8dff" stop-opacity="0"/></radialGradient></defs>
+  <g class="f-fils"><polyline class="f-fil" points="182,297 318,297 430,141 542,297 678,297"/><polyline class="f-fil" points="644,379 896,379"/></g>
+  <g class="f-ampoules"><g class="c9-svg" style="--c:#ffc46b;--i:0" transform="translate(182 297)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ffc46b)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ff3b30;--i:1" transform="translate(209.2 297)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ff3b30)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#2fd06a;--i:2" transform="translate(236.4 297)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-2fd06a)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ffc46b;--i:3" transform="translate(263.6 297)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ffc46b)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ff3b30;--i:4" transform="translate(290.8 297)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ff3b30)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#2fd06a;--i:5" transform="translate(318 297)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-2fd06a)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ffc46b;--i:6" transform="translate(334 274.7)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ffc46b)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ff3b30;--i:7" transform="translate(350 252.4)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ff3b30)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#2fd06a;--i:8" transform="translate(366 230.1)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-2fd06a)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ffc46b;--i:9" transform="translate(382 207.9)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ffc46b)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ff3b30;--i:10" transform="translate(398 185.6)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ff3b30)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#2fd06a;--i:11" transform="translate(414 163.3)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-2fd06a)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ffc46b;--i:12" transform="translate(430 141)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ffc46b)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ff3b30;--i:13" transform="translate(446 163.3)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ff3b30)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#2fd06a;--i:14" transform="translate(462 185.6)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-2fd06a)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ffc46b;--i:15" transform="translate(478 207.9)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ffc46b)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ff3b30;--i:16" transform="translate(494 230.1)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ff3b30)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#2fd06a;--i:17" transform="translate(510 252.4)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-2fd06a)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ffc46b;--i:18" transform="translate(526 274.7)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ffc46b)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ff3b30;--i:19" transform="translate(542 297)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ff3b30)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#2fd06a;--i:20" transform="translate(569.2 297)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-2fd06a)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ffc46b;--i:21" transform="translate(596.4 297)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ffc46b)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ff3b30;--i:22" transform="translate(623.6 297)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ff3b30)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#2fd06a;--i:23" transform="translate(650.8 297)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-2fd06a)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ffc46b;--i:24" transform="translate(678 297)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ffc46b)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ff3b30;--i:25" transform="translate(644 379)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ff3b30)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#2fd06a;--i:26" transform="translate(672 379)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-2fd06a)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ffc46b;--i:27" transform="translate(700 379)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ffc46b)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ff3b30;--i:28" transform="translate(728 379)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ff3b30)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#2fd06a;--i:29" transform="translate(756 379)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-2fd06a)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ffc46b;--i:30" transform="translate(784 379)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ffc46b)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ff3b30;--i:31" transform="translate(812 379)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ff3b30)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#2fd06a;--i:32" transform="translate(840 379)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-2fd06a)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ffc46b;--i:33" transform="translate(868 379)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ffc46b)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g><g class="c9-svg" style="--c:#ff3b30;--i:34" transform="translate(896 379)"><circle class="c9-halo" cy="11.9" r="29.4" fill="url(#halo-ff3b30)"/><rect class="c9-douille" x="-2.7" y="0" width="5.3" height="4.9" rx="1"/><path class="c9-verre" d="M0 4.2 C 7 6.3 6.3 15.4 0 18.9 C -6.3 15.4 -7 6.3 0 4.2 Z"/><path class="c9-reflet" d="M-2.1 7.7 Q -3.1 11.2 -1.4 14.7"/></g></g>
+</svg><span class="facade-fumee" aria-hidden="true"><i></i><i></i><i></i></span><span class="facade-neige" aria-hidden="true"></span>
+  <figcaption class="facade-note">Illustration : vos couleurs sur une maison type.</figcaption>
+  <button type="button" class="facade-interrupteur" data-interrupteur data-allume="oui"><span class="interrupteur-piste" aria-hidden="true"><span></span></span><span class="si-allume">Éteindre</span><span class="si-eteint">Allumer</span></button>
 </figure>
-      <div class="toit toit--ampoules lumieres-toit" aria-hidden="true" data-effet="ampoules-c9" data-c9-cible data-grille="manipuler retour">
-  <svg class="toit-trait" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false"><path d="M0 82 L34 82 L50 14 L66 82 L100 82" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
-  <span class="c9" style="--x:2.07%;--y:82%;--i:0;--c:#ffc46b"></span><span class="c9" style="--x:6.2%;--y:82%;--i:1;--c:#ff3b30"></span><span class="c9" style="--x:10.34%;--y:82%;--i:2;--c:#2fd06a"></span><span class="c9" style="--x:14.47%;--y:82%;--i:3;--c:#ffc46b"></span><span class="c9" style="--x:18.61%;--y:82%;--i:4;--c:#ff3b30"></span><span class="c9" style="--x:22.75%;--y:82%;--i:5;--c:#2fd06a"></span><span class="c9" style="--x:26.88%;--y:82%;--i:6;--c:#ffc46b"></span><span class="c9" style="--x:31.02%;--y:82%;--i:7;--c:#ff3b30"></span><span class="c9" style="--x:35.04%;--y:77.57%;--i:8;--c:#2fd06a"></span><span class="c9" style="--x:38.78%;--y:61.68%;--i:9;--c:#ffc46b"></span><span class="c9" style="--x:42.52%;--y:45.79%;--i:10;--c:#ff3b30"></span><span class="c9" style="--x:46.26%;--y:29.89%;--i:11;--c:#2fd06a"></span><span class="c9" style="--x:50%;--y:14%;--i:12;--c:#ffc46b"></span><span class="c9" style="--x:53.74%;--y:29.89%;--i:13;--c:#ff3b30"></span><span class="c9" style="--x:57.48%;--y:45.79%;--i:14;--c:#2fd06a"></span><span class="c9" style="--x:61.22%;--y:61.68%;--i:15;--c:#ffc46b"></span><span class="c9" style="--x:64.96%;--y:77.57%;--i:16;--c:#ff3b30"></span><span class="c9" style="--x:68.98%;--y:82%;--i:17;--c:#2fd06a"></span><span class="c9" style="--x:73.12%;--y:82%;--i:18;--c:#ffc46b"></span><span class="c9" style="--x:77.25%;--y:82%;--i:19;--c:#ff3b30"></span><span class="c9" style="--x:81.39%;--y:82%;--i:20;--c:#2fd06a"></span><span class="c9" style="--x:85.53%;--y:82%;--i:21;--c:#ffc46b"></span><span class="c9" style="--x:89.66%;--y:82%;--i:22;--c:#ff3b30"></span><span class="c9" style="--x:93.8%;--y:82%;--i:23;--c:#2fd06a"></span><span class="c9" style="--x:97.93%;--y:82%;--i:24;--c:#ffc46b"></span>
-</div>
     </div>
   </div>
 </section>
@@ -465,109 +485,158 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </details>
 </div>
     </div>
-    <div class="zone-carte" data-visuel data-effet="carte-zone">
+    <div class="zone-carte" data-visuel data-effet="carte-zone" data-boucle-css>
+  <div class="zone-plan">
   <svg viewBox="0 0 1200 546" role="img" aria-label="Carte schématique de la zone desservie, de part et d&#39;autre de la rivière des Outaouais">
-    <rect x="0" y="0" width="1200" height="546" rx="22" class="zone-fond"/>
+    <defs><clipPath id="carte-cadre"><rect x="0" y="0" width="1200" height="546" rx="22"/></clipPath></defs>
+    <g clip-path="url(#carte-cadre)">
+      <rect x="0" y="0" width="1200" height="546" class="zone-fond"/>
+      <path class="zone-rive zone-rive--qc" d="M0 240.9 L103.4 252.7 L206.9 223.3 L281.4 240.9 L364.1 287.9 L405.5 282 L446.9 267.4 L488.3 252.7 L529.7 229.2 L579.3 205.7 L629 182.2 L682.8 170.4 L765.5 158.6 L869 146.9 L972.4 164.5 L1096.6 211.5 L1200 235 L1220 235 L1220 -20 L-20 -20 L-20 240.9 Z"/>
+      <path class="zone-rive zone-rive--on" d="M0 240.9 L103.4 252.7 L206.9 223.3 L281.4 240.9 L364.1 287.9 L405.5 282 L446.9 267.4 L488.3 252.7 L529.7 229.2 L579.3 205.7 L629 182.2 L682.8 170.4 L765.5 158.6 L869 146.9 L972.4 164.5 L1096.6 211.5 L1200 235 L1220 235 L1220 566 L-20 566 L-20 240.9 Z"/>
+    </g>
     <path class="zone-riviere" d="M0 240.9 L103.4 252.7 L206.9 223.3 L281.4 240.9 L364.1 287.9 L405.5 282 L446.9 267.4 L488.3 252.7 L529.7 229.2 L579.3 205.7 L629 182.2 L682.8 170.4 L765.5 158.6 L869 146.9 L972.4 164.5 L1096.6 211.5 L1200 235" pathLength="1" fill="none"/>
     <text class="zone-province" x="40" y="60">Québec</text>
     <text class="zone-province" x="40" y="506">Ontario</text>
     <g class="zone-point zone-point--qc" style="--i:0" data-ville="Gatineau">
+      <title>Gatineau</title>
       <circle cx="455.2" cy="235" r="6"/>
-      <text x="443.2" y="223" text-anchor="end">Gatineau</text>
+      <text x="467.2" y="227" text-anchor="start">Gatineau</text>
     </g><g class="zone-point zone-point--on" style="--i:1" data-ville="Ottawa">
+      <title>Ottawa</title>
       <circle cx="455.2" cy="270.3" r="6"/>
       <text x="467.2" y="288.3" text-anchor="start">Ottawa</text>
     </g><g class="zone-point zone-point--qc zone-point--siege" style="--i:2" data-ville="L&#39;Ange-Gardien">
+      <title>L&#39;Ange-Gardien</title>
       <circle cx="558.6" cy="176.3" r="11"/>
       <text x="552.6" y="158.3" text-anchor="middle">L&#39;Ange-Gardien</text>
     </g><g class="zone-point zone-point--qc" style="--i:3" data-ville="Aylmer">
+      <title>Aylmer</title>
       <circle cx="393.1" cy="282" r="6"/>
     </g><g class="zone-point zone-point--qc" style="--i:4" data-ville="Hull">
+      <title>Hull</title>
       <circle cx="446.9" cy="264.4" r="6"/>
     </g><g class="zone-point zone-point--qc" style="--i:5" data-ville="Buckingham">
+      <title>Buckingham</title>
       <circle cx="571" cy="170.4" r="6"/>
     </g><g class="zone-point zone-point--qc" style="--i:6" data-ville="Masson-Angers">
+      <title>Masson-Angers</title>
       <circle cx="575.2" cy="199.8" r="6"/>
     </g><g class="zone-point zone-point--qc" style="--i:7" data-ville="Val-des-Monts">
+      <title>Val-des-Monts</title>
       <circle cx="467.6" cy="135.1" r="6"/>
       <text x="479.6" y="127.1" text-anchor="start">Val-des-Monts</text>
     </g><g class="zone-point zone-point--qc" style="--i:8" data-ville="Cantley">
+      <title>Cantley</title>
       <circle cx="422.1" cy="182.2" r="6"/>
     </g><g class="zone-point zone-point--qc" style="--i:9" data-ville="Chelsea">
+      <title>Chelsea</title>
       <circle cx="413.8" cy="223.3" r="6"/>
     </g><g class="zone-point zone-point--qc" style="--i:10" data-ville="Wakefield">
+      <title>Wakefield</title>
       <circle cx="360" cy="141" r="6"/>
       <text x="350" y="131" text-anchor="end">Wakefield</text>
     </g><g class="zone-point zone-point--qc" style="--i:11" data-ville="La Pêche">
+      <title>La Pêche</title>
       <circle cx="331" cy="152.8" r="6"/>
     </g><g class="zone-point zone-point--qc" style="--i:12" data-ville="Thurso">
+      <title>Thurso</title>
       <circle cx="641.4" cy="164.5" r="6"/>
     </g><g class="zone-point zone-point--qc" style="--i:13" data-ville="Papineauville">
+      <title>Papineauville</title>
       <circle cx="736.6" cy="152.8" r="6"/>
     </g><g class="zone-point zone-point--qc" style="--i:14" data-ville="Montebello">
+      <title>Montebello</title>
       <circle cx="769.7" cy="135.1" r="6"/>
       <text x="769.7" y="121.1" text-anchor="middle">Montebello</text>
     </g><g class="zone-point zone-point--qc" style="--i:15" data-ville="Shawville">
+      <title>Shawville</title>
       <circle cx="128.3" cy="164.5" r="6"/>
       <text x="140.3" y="169.5" text-anchor="start">Shawville</text>
     </g><g class="zone-point zone-point--qc" style="--i:16" data-ville="Quyon">
+      <title>Quyon</title>
       <circle cx="235.9" cy="211.5" r="6"/>
     </g><g class="zone-point zone-point--qc" style="--i:17" data-ville="Luskville">
+      <title>Luskville</title>
       <circle cx="322.8" cy="205.7" r="6"/>
     </g><g class="zone-point zone-point--qc" style="--i:18" data-ville="Lachute">
+      <title>Lachute</title>
       <circle cx="1022.1" cy="135.1" r="6"/>
     </g><g class="zone-point zone-point--qc" style="--i:19" data-ville="Mirabel">
+      <title>Mirabel</title>
       <circle cx="1125.5" cy="135.1" r="6"/>
     </g><g class="zone-point zone-point--qc" style="--i:20" data-ville="Saint-Jérôme">
+      <title>Saint-Jérôme</title>
       <circle cx="1158.6" cy="58.8" r="6"/>
       <text x="1146.6" y="63.8" text-anchor="end">Saint-Jérôme</text>
     </g><g class="zone-point zone-point--qc" style="--i:21" data-ville="Grenville">
+      <title>Grenville</title>
       <circle cx="910.3" cy="146.9" r="6"/>
     </g><g class="zone-point zone-point--qc" style="--i:22" data-ville="Low">
+      <title>Low</title>
       <circle cx="351.7" cy="47" r="6"/>
     </g><g class="zone-point zone-point--on" style="--i:23" data-ville="Kanata">
+      <title>Kanata</title>
       <circle cx="368.3" cy="334.9" r="6"/>
       <text x="356.3" y="339.9" text-anchor="end">Kanata</text>
     </g><g class="zone-point zone-point--on" style="--i:24" data-ville="Nepean">
+      <title>Nepean</title>
       <circle cx="446.9" cy="323.2" r="6"/>
     </g><g class="zone-point zone-point--on" style="--i:25" data-ville="Orléans">
+      <title>Orléans</title>
       <circle cx="533.8" cy="240.9" r="6"/>
       <text x="545.8" y="260.9" text-anchor="start">Orléans</text>
     </g><g class="zone-point zone-point--on" style="--i:26" data-ville="Barrhaven">
+      <title>Barrhaven</title>
       <circle cx="438.6" cy="358.4" r="6"/>
     </g><g class="zone-point zone-point--on" style="--i:27" data-ville="Clarence-Rockland">
+      <title>Clarence-Rockland</title>
       <circle cx="624.8" cy="193.9" r="6"/>
     </g><g class="zone-point zone-point--on" style="--i:28" data-ville="Cumberland">
+      <title>Cumberland</title>
       <circle cx="579.3" cy="211.5" r="6"/>
     </g><g class="zone-point zone-point--on" style="--i:29" data-ville="Arnprior">
+      <title>Arnprior</title>
       <circle cx="186.2" cy="264.4" r="6"/>
       <text x="198.2" y="269.4" text-anchor="start">Arnprior</text>
     </g><g class="zone-point zone-point--on" style="--i:30" data-ville="Carleton Place">
+      <title>Carleton Place</title>
       <circle cx="273.1" cy="434.8" r="6"/>
     </g><g class="zone-point zone-point--on" style="--i:31" data-ville="Kemptville">
+      <title>Kemptville</title>
       <circle cx="475.9" cy="505.3" r="6"/>
       <text x="487.9" y="510.3" text-anchor="start">Kemptville</text>
     </g><g class="zone-point zone-point--on" style="--i:32" data-ville="Manotick">
+      <title>Manotick</title>
       <circle cx="463.4" cy="381.9" r="6"/>
     </g><g class="zone-point zone-point--on" style="--i:33" data-ville="Russell">
+      <title>Russell</title>
       <circle cx="595.9" cy="364.3" r="6"/>
     </g><g class="zone-point zone-point--on" style="--i:34" data-ville="Embrun">
+      <title>Embrun</title>
       <circle cx="629" cy="358.4" r="6"/>
     </g><g class="zone-point zone-point--on" style="--i:35" data-ville="Casselman">
+      <title>Casselman</title>
       <circle cx="707.6" cy="334.9" r="6"/>
     </g><g class="zone-point zone-point--on" style="--i:36" data-ville="Hawkesbury">
+      <title>Hawkesbury</title>
       <circle cx="906.2" cy="158.6" r="6"/>
       <text x="906.2" y="184.6" text-anchor="middle">Hawkesbury</text>
     </g><g class="zone-point zone-point--on" style="--i:37" data-ville="Renfrew">
+      <title>Renfrew</title>
       <circle cx="49.7" cy="240.9" r="6"/>
     </g><g class="zone-point zone-point--on" style="--i:38" data-ville="Stittsville">
+      <title>Stittsville</title>
       <circle cx="364.1" cy="364.3" r="6"/>
     </g><g class="zone-point zone-point--on" style="--i:39" data-ville="Winchester">
+      <title>Winchester</title>
       <circle cx="600" cy="464.2" r="6"/>
     </g><g class="zone-point zone-point--on" style="--i:40" data-ville="Maxville">
+      <title>Maxville</title>
       <circle cx="802.8" cy="346.7" r="6"/>
     </g>
   </svg>
+  <span class="zone-onde" aria-hidden="true" style="left:46.55%;top:32.29%"></span>
+  </div>
   <p class="zone-schema">Schéma de la région, pas à l&#39;échelle · Départ : L&#39;Ange-Gardien</p>
 </div>
   </div>

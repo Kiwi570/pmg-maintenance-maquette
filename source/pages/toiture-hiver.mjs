@@ -2,7 +2,7 @@
    Ouverture scindée, claire, avec le repère « 24 po » en très grand sur la photo d'un vrai chantier. */
 import { html, brut } from '../../outils/gabarit.mjs';
 import { ligneToit } from '../gabarits/toit.mjs';
-import { jauge, securite, fin, imageAlt } from '../gabarits/blocs.mjs';
+import { jauge, securite, fin, imageAlt, vapeurJeu } from '../gabarits/blocs.mjs';
 
 export const page = { cle: 'toiture-hiver', fichier: 'toiture-hiver', imagePartage: 'vapeur-bord-toit-1500.webp' };
 
@@ -21,7 +21,7 @@ export default (c) => html`
     </div>
     <div class="toiture-visuel">
       ${c.media({ nom: 'vapeur-bord-toit', alt: imageAlt(c, 'vapeur-bord-toit'), cadrage: '50% 30%', priorite: true, classe: 'page-tete-media toiture-media', sizes: '(max-width: 760px) 100vw, 44vw', attrs: 'data-iris-centre data-fx="parallaxe" data-fx-force="6"' })}
-      <p class="toiture-chiffre" data-anime="gsap"><strong>${c.t('toiture.chiffre')}</strong><span class="masque-ecran-bas">${c.t('toiture.chiffreTexte')}</span></p>
+      <p class="toiture-chiffre" data-anime="gsap"><strong><span data-compte-arrivee="${c.s('toiture.chiffre').split(/\s/)[0]}">${c.s('toiture.chiffre').split(/\s/)[0]}</span> ${c.s('toiture.chiffre').split(/\s/).slice(1).join(' ')}</strong><span class="masque-ecran-bas">${c.t('toiture.chiffreTexte')}</span></p>
     </div>
   </div>
 </section>
@@ -66,7 +66,7 @@ ${jauge(c, { titre: 'toiture.jauge.titre', texte: 'toiture.jauge.texte', id: 're
 </section>
 
 <section class="section section--nuit vapeur vapeur--page" id="vapeur">
-  ${ligneToit({ variante: 'glacons', classe: 'vapeur-toit', attrs: 'data-effet="barrage-vapeur" data-visuel data-grille="fil"' })}
+  ${vapeurJeu(c)}
   <div class="conteneur vapeur-grille">
     <div class="vapeur-texte">
       <h2 data-anime="lignes">${c.tb('toiture.vapeur.titre')}</h2>

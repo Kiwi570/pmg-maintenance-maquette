@@ -40,7 +40,24 @@
       "printemps": "Printemps et été"
     },
     "estimationCourt": "Estimation",
-    "avisDefiler": "Avis de nos clients, faites défiler"
+    "avisDefiler": "Avis de nos clients, faites défiler",
+    "facade": {
+      "note": "Illustration : vos couleurs sur une maison type.",
+      "eteindre": "Éteindre",
+      "allumer": "Allumer"
+    },
+    "vapeur": {
+      "bouton": "Passer la vapeur",
+      "encore": "Recommencer",
+      "astuceSouris": "ou survolez les glaçons",
+      "astuceToucher": "ou glissez le doigt sur les glaçons",
+      "fini": "Glace partie, bardeaux intacts."
+    },
+    "finCarte": {
+      "titre": "Appelez ou textez",
+      "textos": "Textos bienvenus",
+      "zone": "{qc} localités au Québec et {on} en Ontario, au départ de L'Ange-Gardien."
+    }
   },
   "pages": {
     "accueil": {
@@ -375,7 +392,7 @@
       "recapCode": "Code",
       "recapRemise": "25 $ si les conditions sont remplies",
       "donnees": "Vos coordonnées servent seulement à préparer votre soumission.",
-      "politique": "Politique de confidentialité (à compléter)",
+      "politique": "Politique de confidentialité",
       "envoye": "Demande simulée : rien n'a été envoyé. Sur le site final, elle partira vers PMG Maintenance, qui vous répondra par courriel."
     },
     "paiement": {

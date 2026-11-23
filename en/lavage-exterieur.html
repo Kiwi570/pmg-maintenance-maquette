@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-v="1" data-saison="hiver">
+<html lang="en" data-v="2" data-saison="hiver">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -42,14 +42,14 @@ if (alt) location.replace(new URL(alt.href).pathname + location.search + locatio
 setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
 })();</script>
 <link rel="preload" href="/assets/polices/archivo-titres.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#0c1a2a">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -129,11 +129,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="hero-info" data-info-cle data-anime="gsap"><span class="pastille-saison" aria-hidden="true"></span>Residential, commercial and institutional.</p>
     </div>
   </div>
-  <figure class="media lavage-bandeau" data-iris-centre data-fx="parallaxe" data-fx-force="8" style="--cadrage:55% 42%;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA4KCw0LCQ4NDA0QDw4RFiQXFhQUFiwgIRokNC43NjMuMjI6QVNGOj1OPjIySGJJTlZYXV5dOEVmbWVabFNbXVn/2wBDAQ8QEBYTFioXFypZOzI7WVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVn/wAARCAASABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC6ds8j7CMp94CmwXtqOGOxhwQ1VY5rlbJGFs5D878fepPMm2ul1bKgb5vmGDit3iZPYxjh4rc3tPuba4JEcqvzjFFcjLe/ZmR4JTF1wFoodbuCpdjrbYD+yLMY/hFZPiEncvJ6D+YoorlR0HNuPlY9xu5ooopsS2P/2Q==);background-size:cover;background-position:55% 42%">
+  <div class="lavage-bandeau-cadre" data-raclette>
+    <figure class="media lavage-bandeau" data-iris-centre data-fx="parallaxe" data-fx-force="8" style="--cadrage:55% 42%;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAA4KCw0LCQ4NDA0QDw4RFiQXFhQUFiwgIRokNC43NjMuMjI6QVNGOj1OPjIySGJJTlZYXV5dOEVmbWVabFNbXVn/2wBDAQ8QEBYTFioXFypZOzI7WVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVn/wAARCAASABgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC6ds8j7CMp94CmwXtqOGOxhwQ1VY5rlbJGFs5D878fepPMm2ul1bKgb5vmGDit3iZPYxjh4rc3tPuba4JEcqvzjFFcjLe/ZmR4JTF1wFoodbuCpdjrbYD+yLMY/hFZPiEncvJ6D+YoorlR0HNuPlY9xu5ooopsS2P/2Q==);background-size:cover;background-position:55% 42%">
   <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/equipe-hauteur-mobile-640.webp 640w, /assets/images/equipe-hauteur-mobile-1080.webp 1080w" sizes="100vw">
     <img src="/assets/images/equipe-hauteur-1280.webp" srcset="/assets/images/equipe-hauteur-640.webp 640w, /assets/images/equipe-hauteur-1280.webp 1280w, /assets/images/equipe-hauteur-1800.webp 1800w" sizes="100vw" alt="Two technicians on ladders at the gable of a brick house" width="1280" height="960" fetchpriority="high" loading="eager" decoding="async">
   </picture>
 </figure>
+    <span class="lavage-voile" aria-hidden="true" data-audit-ignorer></span><span class="lavage-raclette" aria-hidden="true" data-audit-ignorer></span>
+  </div>
 </section>
 <section class="section basse-pression" id="basse-pression">
   <div class="conteneur bp-grille">
